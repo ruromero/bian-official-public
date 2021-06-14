@@ -168,7 +168,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/configuration": {
+    "/it-standards-and-guidelines/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDITStandardsAndGuidelines Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/feedback": {
+    "/it-standards-and-guidelines/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDITStandardsAndGuidelines Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}": {
+    "/it-standards-and-guidelines/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDITStandardsAndGuidelines Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
@@ -765,7 +765,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -778,14 +778,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -906,7 +906,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/control": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -919,14 +919,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1196,7 +1196,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1209,14 +1209,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1348,7 +1348,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1361,14 +1361,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1500,7 +1500,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1513,14 +1513,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1642,14 +1642,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -1780,7 +1780,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/{bq-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1793,21 +1793,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITPoliciesandGuidelines Instance Reference",
             "required": true,
@@ -1943,7 +1943,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/{bq-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1956,21 +1956,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITPoliciesandGuidelines Instance Reference",
             "required": true,
@@ -2114,7 +2114,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/{bq-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2127,21 +2127,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITPoliciesandGuidelines Instance Reference",
             "required": true,
@@ -2288,7 +2288,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/{bq-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2301,21 +2301,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITPoliciesandGuidelines Instance Reference",
             "required": true,
@@ -2462,7 +2462,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/itpoliciesandguidelines/{bq-reference-id}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/itpoliciesandguidelines/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2475,21 +2475,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITPoliciesandGuidelines Instance Reference",
             "required": true,
@@ -2611,7 +2611,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2624,14 +2624,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -2762,7 +2762,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/{bq-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2775,21 +2775,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DevelopmentToolingandEnvironment Instance Reference",
             "required": true,
@@ -2925,7 +2925,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/{bq-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2938,21 +2938,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DevelopmentToolingandEnvironment Instance Reference",
             "required": true,
@@ -3096,7 +3096,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/{bq-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3109,21 +3109,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DevelopmentToolingandEnvironment Instance Reference",
             "required": true,
@@ -3270,7 +3270,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/{bq-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3283,21 +3283,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DevelopmentToolingandEnvironment Instance Reference",
             "required": true,
@@ -3444,7 +3444,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/developmenttoolingandenvironment/{bq-reference-id}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/developmenttoolingandenvironment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3457,21 +3457,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DevelopmentToolingandEnvironment Instance Reference",
             "required": true,
@@ -3593,7 +3593,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3606,14 +3606,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -3744,7 +3744,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/{bq-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3757,21 +3757,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionPlatformsandInfrastructure Instance Reference",
             "required": true,
@@ -3907,7 +3907,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/{bq-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3920,21 +3920,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionPlatformsandInfrastructure Instance Reference",
             "required": true,
@@ -4078,7 +4078,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/{bq-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4091,21 +4091,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionPlatformsandInfrastructure Instance Reference",
             "required": true,
@@ -4252,7 +4252,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/{bq-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4265,21 +4265,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionPlatformsandInfrastructure Instance Reference",
             "required": true,
@@ -4426,7 +4426,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionplatformsandinfrastructure/{bq-reference-id}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionplatformsandinfrastructure/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4439,21 +4439,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionPlatformsandInfrastructure Instance Reference",
             "required": true,
@@ -4575,7 +4575,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4588,14 +4588,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -4726,7 +4726,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/{bq-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4739,21 +4739,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductTestingandDeploymentMechanisms Instance Reference",
             "required": true,
@@ -4889,7 +4889,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/{bq-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4902,21 +4902,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductTestingandDeploymentMechanisms Instance Reference",
             "required": true,
@@ -5060,7 +5060,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/{bq-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -5073,21 +5073,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductTestingandDeploymentMechanisms Instance Reference",
             "required": true,
@@ -5234,7 +5234,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/{bq-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5247,21 +5247,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductTestingandDeploymentMechanisms Instance Reference",
             "required": true,
@@ -5408,7 +5408,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/producttestinganddeploymentmechanisms/{bq-reference-id}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/producttestinganddeploymentmechanisms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5421,21 +5421,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductTestingandDeploymentMechanisms Instance Reference",
             "required": true,
@@ -5557,7 +5557,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/initiation": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5570,14 +5570,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
@@ -5700,7 +5700,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/{bq-reference-id}/update": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5713,21 +5713,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionEnvironmentandSupportServices Instance Reference",
             "required": true,
@@ -5855,7 +5855,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/{bq-reference-id}/exchange": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5868,21 +5868,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionEnvironmentandSupportServices Instance Reference",
             "required": true,
@@ -6018,7 +6018,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/{bq-reference-id}/capture": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -6031,21 +6031,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionEnvironmentandSupportServices Instance Reference",
             "required": true,
@@ -6184,7 +6184,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/{bq-reference-id}/requisition": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -6197,21 +6197,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionEnvironmentandSupportServices Instance Reference",
             "required": true,
@@ -6350,7 +6350,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/productionenvironmentandsupportservices/{bq-reference-id}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/productionenvironmentandsupportservices/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6363,21 +6363,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionEnvironmentandSupportServices Instance Reference",
             "required": true,
@@ -6495,7 +6495,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -6507,7 +6507,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
@@ -6569,7 +6569,7 @@
         }
       }
     },
-    "/it-standards-and-guidelines/{sd-reference-id}/technology-standards-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/it-standards-and-guidelines/{sdReferenceId}/technology-standards-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6581,21 +6581,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "IT Standards And Guidelines Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Technology Standards Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ITPoliciesandGuidelines",
             "required": true,

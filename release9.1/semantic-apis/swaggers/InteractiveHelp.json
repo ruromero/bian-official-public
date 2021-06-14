@@ -162,7 +162,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/configuration": {
+    "/interactive-help/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInteractiveHelp Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/feedback": {
+    "/interactive-help/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInteractiveHelp Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}": {
+    "/interactive-help/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInteractiveHelp Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/initiation": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
@@ -695,7 +695,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/control": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -708,14 +708,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
@@ -782,7 +782,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -795,14 +795,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
@@ -881,7 +881,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/serviceselection/initiation": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/serviceselection/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -894,14 +894,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
@@ -970,7 +970,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/serviceselection/{bq-reference-id}/capture": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/serviceselection/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -983,21 +983,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceSelection Instance Reference",
             "required": true,
@@ -1071,7 +1071,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/serviceselection/{bq-reference-id}/execution": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/serviceselection/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1084,21 +1084,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceSelection Instance Reference",
             "required": true,
@@ -1172,7 +1172,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/serviceselection/{bq-reference-id}/": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/serviceselection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1185,21 +1185,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceSelection Instance Reference",
             "required": true,
@@ -1283,7 +1283,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -1295,7 +1295,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
@@ -1353,7 +1353,7 @@
         }
       }
     },
-    "/interactive-help/{sd-reference-id}/interactive-help-service-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/interactive-help/{sdReferenceId}/interactive-help-service-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1365,21 +1365,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interactive Help Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Interactive Help Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ServiceSelection",
             "required": true,

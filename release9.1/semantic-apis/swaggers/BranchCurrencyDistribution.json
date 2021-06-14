@@ -168,7 +168,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/configuration": {
+    "/branch-currency-distribution/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyDistribution Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/feedback": {
+    "/branch-currency-distribution/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyDistribution Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}": {
+    "/branch-currency-distribution/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyDistribution Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/initiation": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
@@ -811,7 +811,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/update": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -824,14 +824,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/control": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -1189,7 +1189,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/exchange": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1202,14 +1202,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/execution": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/requisition": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1591,14 +1591,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -1776,7 +1776,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1789,14 +1789,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
@@ -1955,7 +1955,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionplanning/{bq-reference-id}/update": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1968,21 +1968,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionPlanning Instance Reference",
             "required": true,
@@ -2120,7 +2120,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionplanning/{bq-reference-id}/exchange": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionplanning/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2133,21 +2133,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionPlanning Instance Reference",
             "required": true,
@@ -2293,7 +2293,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionplanning/{bq-reference-id}/requisition": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2306,21 +2306,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionPlanning Instance Reference",
             "required": true,
@@ -2469,7 +2469,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionplanning/{bq-reference-id}/": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2482,21 +2482,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionPlanning Instance Reference",
             "required": true,
@@ -2619,7 +2619,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventorydistributionoversight/{bq-reference-id}/update": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventorydistributionoversight/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2632,21 +2632,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryDistributionOversight Instance Reference",
             "required": true,
@@ -2784,7 +2784,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventorydistributionoversight/{bq-reference-id}/requisition": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventorydistributionoversight/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2797,21 +2797,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryDistributionOversight Instance Reference",
             "required": true,
@@ -2960,7 +2960,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventorydistributionoversight/{bq-reference-id}/": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventorydistributionoversight/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2973,21 +2973,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryDistributionOversight Instance Reference",
             "required": true,
@@ -3110,7 +3110,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventoryprovisioning/{bq-reference-id}/update": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventoryprovisioning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3123,21 +3123,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryProvisioning Instance Reference",
             "required": true,
@@ -3275,7 +3275,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventoryprovisioning/{bq-reference-id}/exchange": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventoryprovisioning/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3288,21 +3288,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryProvisioning Instance Reference",
             "required": true,
@@ -3448,7 +3448,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventoryprovisioning/{bq-reference-id}/requisition": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventoryprovisioning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3461,21 +3461,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryProvisioning Instance Reference",
             "required": true,
@@ -3587,7 +3587,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/inventoryprovisioning/{bq-reference-id}/": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/inventoryprovisioning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3600,21 +3600,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryProvisioning Instance Reference",
             "required": true,
@@ -3733,7 +3733,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionvehicleadministration/{bq-reference-id}/update": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionvehicleadministration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3746,21 +3746,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionVehicleAdministration Instance Reference",
             "required": true,
@@ -3890,7 +3890,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionvehicleadministration/{bq-reference-id}/requisition": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionvehicleadministration/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3903,21 +3903,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionVehicleAdministration Instance Reference",
             "required": true,
@@ -4058,7 +4058,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/distributionvehicleadministration/{bq-reference-id}/": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/distributionvehicleadministration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4071,21 +4071,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DistributionVehicleAdministration Instance Reference",
             "required": true,
@@ -4204,7 +4204,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -4216,7 +4216,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
@@ -4277,7 +4277,7 @@
         }
       }
     },
-    "/branch-currency-distribution/{sd-reference-id}/cash-distribution-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/branch-currency-distribution/{sdReferenceId}/cash-distribution-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4289,21 +4289,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Distribution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- InventoryDistributionOversight",
             "required": true,

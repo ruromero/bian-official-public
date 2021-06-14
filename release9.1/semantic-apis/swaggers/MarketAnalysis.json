@@ -162,7 +162,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/configuration": {
+    "/market-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/feedback": {
+    "/market-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}": {
+    "/market-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/evaluation": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/{cr-reference-id}/execution": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "General Market Research Analysis Instance Reference",
             "required": true,
@@ -907,7 +907,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/{cr-reference-id}/requisition": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -920,14 +920,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "General Market Research Analysis Instance Reference",
             "required": true,
@@ -1046,7 +1046,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/{cr-reference-id}": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1059,14 +1059,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "General Market Research Analysis Instance Reference",
             "required": true,
@@ -1194,7 +1194,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/{cr-reference-id}/analysisalgorithm/{bq-reference-id}/": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/{crReferenceId}/analysisalgorithm/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1207,21 +1207,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "General Market Research Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AnalysisAlgorithm Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -1435,7 +1435,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
@@ -1493,7 +1493,7 @@
         }
       }
     },
-    "/market-analysis/{sd-reference-id}/general-market-research-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/market-analysis/{sdReferenceId}/general-market-research-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1505,21 +1505,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "General Market Research Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- AnalysisAlgorithm",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/configuration": {
+    "/card-terminal-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalAdministration Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/feedback": {
+    "/card-terminal-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalAdministration Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}": {
+    "/card-terminal-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalAdministration Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/initiation": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
@@ -739,7 +739,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/update": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -752,14 +752,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
@@ -915,7 +915,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/requisition": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -928,14 +928,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
@@ -1070,7 +1070,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1083,14 +1083,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
@@ -1210,7 +1210,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/initiation": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1223,14 +1223,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
@@ -1347,7 +1347,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/update": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1360,21 +1360,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1480,7 +1480,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/control": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1493,21 +1493,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/exchange": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1591,21 +1591,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1676,7 +1676,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/capture": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1689,21 +1689,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1793,7 +1793,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/grant": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1806,21 +1806,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1913,7 +1913,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/allocation/{bq-reference-id}/": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/allocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1926,21 +1926,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -2074,7 +2074,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -2086,7 +2086,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
@@ -2144,7 +2144,7 @@
         }
       }
     },
-    "/card-terminal-administration/{sd-reference-id}/card-pos-device-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-terminal-administration/{sdReferenceId}/card-pos-device-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2156,21 +2156,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Allocation",
             "required": true,

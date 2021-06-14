@@ -162,7 +162,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/configuration": {
+    "/issued-device-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceAdministration Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/feedback": {
+    "/issued-device-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceAdministration Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}": {
+    "/issued-device-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceAdministration Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/provision": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/provision": {
       "post": {
         "tags": [
           "provide"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
@@ -735,7 +735,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -748,14 +748,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -883,7 +883,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -896,14 +896,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -970,7 +970,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/exchange": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -983,14 +983,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -1057,7 +1057,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1070,14 +1070,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -1183,7 +1183,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/provision": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/provision": {
       "post": {
         "tags": [
           "provide"
@@ -1196,14 +1196,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -1342,7 +1342,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/{bq-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1355,21 +1355,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PasswordAssignment Instance Reference",
             "required": true,
@@ -1511,7 +1511,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1524,21 +1524,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PasswordAssignment Instance Reference",
             "required": true,
@@ -1609,7 +1609,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/{bq-reference-id}/exchange": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1622,21 +1622,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PasswordAssignment Instance Reference",
             "required": true,
@@ -1707,7 +1707,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/{bq-reference-id}/capture": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1720,21 +1720,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PasswordAssignment Instance Reference",
             "required": true,
@@ -1824,7 +1824,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/passwordassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/passwordassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1837,21 +1837,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PasswordAssignment Instance Reference",
             "required": true,
@@ -1987,7 +1987,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/provision": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/provision": {
       "post": {
         "tags": [
           "provide"
@@ -2000,14 +2000,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -2150,7 +2150,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/{bq-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2163,21 +2163,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "QuestionAssignment Instance Reference",
             "required": true,
@@ -2319,7 +2319,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2332,21 +2332,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "QuestionAssignment Instance Reference",
             "required": true,
@@ -2417,7 +2417,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/{bq-reference-id}/exchange": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2430,21 +2430,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "QuestionAssignment Instance Reference",
             "required": true,
@@ -2515,7 +2515,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/{bq-reference-id}/capture": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2528,21 +2528,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "QuestionAssignment Instance Reference",
             "required": true,
@@ -2632,7 +2632,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/questionassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/questionassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2645,21 +2645,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "QuestionAssignment Instance Reference",
             "required": true,
@@ -2794,7 +2794,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/deviceassignment/{bq-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/deviceassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2807,21 +2807,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceAssignment Instance Reference",
             "required": true,
@@ -2997,7 +2997,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/deviceassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/deviceassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -3010,21 +3010,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceAssignment Instance Reference",
             "required": true,
@@ -3095,7 +3095,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/deviceassignment/{bq-reference-id}/capture": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/deviceassignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3108,21 +3108,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceAssignment Instance Reference",
             "required": true,
@@ -3212,7 +3212,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/deviceassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/deviceassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3225,21 +3225,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceAssignment Instance Reference",
             "required": true,
@@ -3379,7 +3379,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/biometricassignment/provision": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/biometricassignment/provision": {
       "post": {
         "tags": [
           "provide"
@@ -3392,14 +3392,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -3538,7 +3538,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/biometricassignment/{bq-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/biometricassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3551,21 +3551,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BiometricAssignment Instance Reference",
             "required": true,
@@ -3707,7 +3707,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/biometricassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/biometricassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -3720,21 +3720,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BiometricAssignment Instance Reference",
             "required": true,
@@ -3805,7 +3805,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/biometricassignment/{bq-reference-id}/exchange": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/biometricassignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3818,21 +3818,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BiometricAssignment Instance Reference",
             "required": true,
@@ -3903,7 +3903,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/biometricassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/biometricassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3916,21 +3916,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BiometricAssignment Instance Reference",
             "required": true,
@@ -4053,7 +4053,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/readerassignment/{bq-reference-id}/update": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/readerassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4066,21 +4066,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReaderAssignment Instance Reference",
             "required": true,
@@ -4238,7 +4238,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/readerassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/readerassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -4251,21 +4251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReaderAssignment Instance Reference",
             "required": true,
@@ -4336,7 +4336,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/readerassignment/{bq-reference-id}/capture": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/readerassignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4349,21 +4349,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReaderAssignment Instance Reference",
             "required": true,
@@ -4453,7 +4453,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/readerassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/readerassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4466,21 +4466,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReaderAssignment Instance Reference",
             "required": true,
@@ -4611,7 +4611,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/chequesassignment/provision": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/chequesassignment/provision": {
       "post": {
         "tags": [
           "provide"
@@ -4624,14 +4624,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
@@ -4760,7 +4760,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/chequesassignment/{bq-reference-id}/control": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/chequesassignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -4773,21 +4773,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ChequesAssignment Instance Reference",
             "required": true,
@@ -4858,7 +4858,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/chequesassignment/{bq-reference-id}/exchange": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/chequesassignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4871,21 +4871,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ChequesAssignment Instance Reference",
             "required": true,
@@ -4956,7 +4956,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/chequesassignment/{bq-reference-id}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/chequesassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4969,21 +4969,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ChequesAssignment Instance Reference",
             "required": true,
@@ -5095,7 +5095,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -5107,7 +5107,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
@@ -5170,7 +5170,7 @@
         }
       }
     },
-    "/issued-device-administration/{sd-reference-id}/issued-device-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/issued-device-administration/{sdReferenceId}/issued-device-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5182,21 +5182,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ChequesAssignment",
             "required": true,

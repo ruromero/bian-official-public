@@ -162,7 +162,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/configuration": {
+    "/market-data-switch-operation/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketDataSwitchOperation Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/feedback": {
+    "/market-data-switch-operation/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketDataSwitchOperation Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}": {
+    "/market-data-switch-operation/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketDataSwitchOperation Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/initiation": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
@@ -698,7 +698,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/update": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -711,14 +711,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -808,7 +808,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/control": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -821,14 +821,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -895,7 +895,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/execution": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -908,14 +908,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -1010,7 +1010,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/requisition": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1023,14 +1023,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -1125,7 +1125,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1138,14 +1138,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -1232,7 +1232,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/feedupload/{bq-reference-id}/update": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/feedupload/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1245,21 +1245,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FeedUpload Instance Reference",
             "required": true,
@@ -1333,7 +1333,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/feedupload/{bq-reference-id}/exchange": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/feedupload/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1346,21 +1346,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FeedUpload Instance Reference",
             "required": true,
@@ -1431,7 +1431,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/feedupload/{bq-reference-id}/": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/feedupload/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1444,21 +1444,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FeedUpload Instance Reference",
             "required": true,
@@ -1560,7 +1560,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/internalpublication/initiation": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/internalpublication/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1573,14 +1573,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -1665,7 +1665,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/internalpublication/{bq-reference-id}/update": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/internalpublication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1678,21 +1678,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalPublication Instance Reference",
             "required": true,
@@ -1756,7 +1756,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/internalpublication/{bq-reference-id}/exchange": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/internalpublication/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1769,21 +1769,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalPublication Instance Reference",
             "required": true,
@@ -1854,7 +1854,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/internalpublication/{bq-reference-id}/": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/internalpublication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1867,21 +1867,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalPublication Instance Reference",
             "required": true,
@@ -1978,7 +1978,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/distribution/initiation": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/distribution/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1991,14 +1991,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
@@ -2121,7 +2121,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/distribution/{bq-reference-id}/update": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/distribution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2134,21 +2134,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2250,7 +2250,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/distribution/{bq-reference-id}/execution": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/distribution/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2263,21 +2263,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2389,7 +2389,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/distribution/{bq-reference-id}/requisition": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/distribution/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2402,21 +2402,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2528,7 +2528,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/distribution/{bq-reference-id}/": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/distribution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2541,21 +2541,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2671,7 +2671,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -2683,7 +2683,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
@@ -2743,7 +2743,7 @@
         }
       }
     },
-    "/market-data-switch-operation/{sd-reference-id}/information-feed-switch-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/market-data-switch-operation/{sdReferenceId}/information-feed-switch-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2755,21 +2755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Data Switch Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Information Feed Switch operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Distribution",
             "required": true,

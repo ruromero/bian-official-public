@@ -168,7 +168,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/configuration": {
+    "/public-reference-data-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPublicReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/feedback": {
+    "/public-reference-data-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPublicReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}": {
+    "/public-reference-data-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPublicReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/initiation": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
@@ -765,7 +765,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/update": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -778,14 +778,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -906,7 +906,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/control": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -919,14 +919,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/exchange": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1196,7 +1196,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/capture": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1209,14 +1209,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1348,7 +1348,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/requisition": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1361,14 +1361,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1500,7 +1500,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1513,14 +1513,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/globalreferencedata/initiation": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/globalreferencedata/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1642,14 +1642,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
@@ -1772,7 +1772,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/globalreferencedata/{bq-reference-id}/": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/globalreferencedata/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1785,21 +1785,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "GlobalReferenceData Instance Reference",
             "required": true,
@@ -1917,7 +1917,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -1929,7 +1929,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
@@ -1987,7 +1987,7 @@
         }
       }
     },
-    "/public-reference-data-management/{sd-reference-id}/global-standard-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/public-reference-data-management/{sdReferenceId}/global-standard-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1999,21 +1999,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Public Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Global Standard Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- GlobalReferenceData",
             "required": true,

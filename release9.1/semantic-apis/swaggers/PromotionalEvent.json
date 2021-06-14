@@ -162,7 +162,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/configuration": {
+    "/promotional-events/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPromotionalEvents Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/feedback": {
+    "/promotional-events/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPromotionalEvents Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}": {
+    "/promotional-events/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPromotionalEvents Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/creation": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
@@ -746,7 +746,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/update": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -759,14 +759,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -904,7 +904,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/requisition": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -917,14 +917,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -1046,7 +1046,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/grant": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1059,14 +1059,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -1146,7 +1146,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1159,14 +1159,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -1277,7 +1277,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/update": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1290,21 +1290,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1504,7 +1504,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/execution": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1517,21 +1517,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1741,7 +1741,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/requisition": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1754,21 +1754,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1978,7 +1978,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1991,21 +1991,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -2161,7 +2161,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/impactassessment/creation": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/impactassessment/creation": {
       "post": {
         "tags": [
           "create"
@@ -2174,14 +2174,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -2352,7 +2352,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/impactassessment/{bq-reference-id}/update": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/impactassessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2365,21 +2365,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ImpactAssessment Instance Reference",
             "required": true,
@@ -2559,7 +2559,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/impactassessment/{bq-reference-id}/execution": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/impactassessment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2572,21 +2572,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ImpactAssessment Instance Reference",
             "required": true,
@@ -2776,7 +2776,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/impactassessment/{bq-reference-id}/requisition": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/impactassessment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2789,21 +2789,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ImpactAssessment Instance Reference",
             "required": true,
@@ -2993,7 +2993,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/impactassessment/{bq-reference-id}/": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/impactassessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3006,21 +3006,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ImpactAssessment Instance Reference",
             "required": true,
@@ -3166,7 +3166,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/participation/creation": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/participation/creation": {
       "post": {
         "tags": [
           "create"
@@ -3179,14 +3179,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
@@ -3369,7 +3369,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/participation/{bq-reference-id}/update": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/participation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3382,21 +3382,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Participation Instance Reference",
             "required": true,
@@ -3584,7 +3584,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/participation/{bq-reference-id}/requisition": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/participation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3597,21 +3597,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Participation Instance Reference",
             "required": true,
@@ -3809,7 +3809,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/participation/{bq-reference-id}/": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/participation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3822,21 +3822,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Participation Instance Reference",
             "required": true,
@@ -3982,7 +3982,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3994,7 +3994,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
@@ -4054,7 +4054,7 @@
         }
       }
     },
-    "/promotional-events/{sd-reference-id}/promotional-event-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/promotional-events/{sdReferenceId}/promotional-event-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4066,21 +4066,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Promotional Events Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Promotional Event Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Participation",
             "required": true,

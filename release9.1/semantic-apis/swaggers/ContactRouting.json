@@ -162,7 +162,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/configuration": {
+    "/contact-routing/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactRouting Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/feedback": {
+    "/contact-routing/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactRouting Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}": {
+    "/contact-routing/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactRouting Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/initiation": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
@@ -749,7 +749,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/update": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -762,14 +762,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
@@ -911,7 +911,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/control": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -924,14 +924,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/exchange": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
@@ -1085,7 +1085,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/capture": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1098,14 +1098,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
@@ -1211,7 +1211,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1224,14 +1224,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
@@ -1344,7 +1344,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/allocation/{bq-reference-id}/update": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/allocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1357,21 +1357,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1479,7 +1479,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/allocation/{bq-reference-id}/control": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/allocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1492,21 +1492,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1577,7 +1577,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/allocation/{bq-reference-id}/exchange": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/allocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1590,21 +1590,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1675,7 +1675,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/allocation/{bq-reference-id}/capture": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/allocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1688,21 +1688,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1802,7 +1802,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/allocation/{bq-reference-id}/": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/allocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1815,21 +1815,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1935,7 +1935,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -1947,7 +1947,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
@@ -2005,7 +2005,7 @@
         }
       }
     },
-    "/contact-routing/{sd-reference-id}/customer-servicing-resource-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/contact-routing/{sdReferenceId}/customer-servicing-resource-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2017,21 +2017,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Routing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Servicing Resource Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Allocation",
             "required": true,

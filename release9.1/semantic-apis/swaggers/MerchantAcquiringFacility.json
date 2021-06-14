@@ -162,7 +162,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/configuration": {
+    "/merchant-acquiring-facility/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchantAcquiringFacility Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/feedback": {
+    "/merchant-acquiring-facility/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchantAcquiringFacility Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}": {
+    "/merchant-acquiring-facility/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchantAcquiringFacility Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/initiation": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
@@ -755,7 +755,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -768,14 +768,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -947,7 +947,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -960,14 +960,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1034,7 +1034,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1047,14 +1047,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1186,7 +1186,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1199,14 +1199,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1334,7 +1334,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/merchantaccount/{bq-reference-id}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/merchantaccount/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1347,21 +1347,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MerchantAccount Instance Reference",
             "required": true,
@@ -1525,7 +1525,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/clearing/{bq-reference-id}/update": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/clearing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1538,21 +1538,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Clearing Instance Reference",
             "required": true,
@@ -1850,7 +1850,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/clearing/{bq-reference-id}/execution": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/clearing/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1863,21 +1863,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Clearing Instance Reference",
             "required": true,
@@ -2094,7 +2094,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/clearing/{bq-reference-id}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/clearing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2107,21 +2107,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Clearing Instance Reference",
             "required": true,
@@ -2376,7 +2376,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/chargeback/{bq-reference-id}/update": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/chargeback/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2389,21 +2389,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Chargeback Instance Reference",
             "required": true,
@@ -2537,7 +2537,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/chargeback/{bq-reference-id}/execution": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/chargeback/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2550,21 +2550,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Chargeback Instance Reference",
             "required": true,
@@ -2695,7 +2695,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/chargeback/{bq-reference-id}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/chargeback/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2708,21 +2708,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Chargeback Instance Reference",
             "required": true,
@@ -2895,7 +2895,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/update": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/settlement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2908,21 +2908,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -3092,7 +3092,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/execution": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/settlement/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3105,21 +3105,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -3286,7 +3286,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/settlement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3299,21 +3299,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -3504,7 +3504,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/update": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3517,21 +3517,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3755,7 +3755,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/exchange": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3768,21 +3768,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3853,7 +3853,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3866,21 +3866,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -4075,7 +4075,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4088,21 +4088,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -4320,7 +4320,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -4332,7 +4332,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
@@ -4394,7 +4394,7 @@
         }
       }
     },
-    "/merchant-acquiring-facility/{sd-reference-id}/merchant-acquiring-facility-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/merchant-acquiring-facility/{sdReferenceId}/merchant-acquiring-facility-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4406,21 +4406,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchant Acquiring Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ServiceFees",
             "required": true,

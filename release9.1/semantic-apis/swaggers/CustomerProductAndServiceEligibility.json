@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/configuration": {
+    "/customer-product-service-eligibility/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProductServiceEligibility Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/feedback": {
+    "/customer-product-service-eligibility/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProductServiceEligibility Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}": {
+    "/customer-product-service-eligibility/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProductServiceEligibility Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/evaluation": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
@@ -724,7 +724,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/update": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -737,14 +737,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -852,7 +852,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/exchange": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -865,14 +865,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -939,7 +939,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/execution": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -952,14 +952,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -1072,7 +1072,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/requisition": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1085,14 +1085,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -1205,7 +1205,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/grant": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1218,14 +1218,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -1305,7 +1305,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1318,14 +1318,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
@@ -1429,7 +1429,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/eligibilitycheck/{bq-reference-id}/": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/eligibilitycheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1442,21 +1442,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EligibilityCheck Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/nextbest/{bq-reference-id}/update": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/nextbest/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1591,21 +1591,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NextBest Instance Reference",
             "required": true,
@@ -1701,7 +1701,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/nextbest/{bq-reference-id}/": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/nextbest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1714,21 +1714,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NextBest Instance Reference",
             "required": true,
@@ -1858,7 +1858,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1870,7 +1870,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
@@ -1929,7 +1929,7 @@
         }
       }
     },
-    "/customer-product-service-eligibility/{sd-reference-id}/customer-eligibility-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-product-service-eligibility/{sdReferenceId}/customer-eligibility-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1941,21 +1941,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Product Service Eligibility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Eligibility Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- NextBest",
             "required": true,

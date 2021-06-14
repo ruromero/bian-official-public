@@ -162,7 +162,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/configuration": {
+    "/contact-dialogue/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactDialogue Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/feedback": {
+    "/contact-dialogue/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactDialogue Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}": {
+    "/contact-dialogue/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactDialogue Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
@@ -760,7 +760,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -773,14 +773,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -960,7 +960,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/control": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -973,14 +973,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1047,7 +1047,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/exchange": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1060,14 +1060,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1134,7 +1134,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/execution": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1147,14 +1147,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1315,7 +1315,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/requisition": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1328,14 +1328,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1496,7 +1496,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1509,14 +1509,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1648,7 +1648,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/query/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/query/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1661,14 +1661,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -1830,7 +1830,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/query/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/query/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1843,21 +1843,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Query Instance Reference",
             "required": true,
@@ -1977,7 +1977,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/query/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/query/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1990,21 +1990,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Query Instance Reference",
             "required": true,
@@ -2158,7 +2158,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/authentication/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/authentication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2171,21 +2171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authentication Instance Reference",
             "required": true,
@@ -2305,7 +2305,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/authentication/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/authentication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2318,21 +2318,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authentication Instance Reference",
             "required": true,
@@ -2454,7 +2454,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/sales/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/sales/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2467,14 +2467,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -2640,7 +2640,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/sales/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/sales/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2653,21 +2653,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sales Instance Reference",
             "required": true,
@@ -2795,7 +2795,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/sales/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/sales/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2808,21 +2808,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sales Instance Reference",
             "required": true,
@@ -2980,7 +2980,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/offer/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/offer/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2993,14 +2993,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -3162,7 +3162,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/offer/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/offer/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3175,21 +3175,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Offer Instance Reference",
             "required": true,
@@ -3309,7 +3309,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/offer/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/offer/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3322,21 +3322,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Offer Instance Reference",
             "required": true,
@@ -3490,7 +3490,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/productservice/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/productservice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3503,14 +3503,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -3673,7 +3673,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/productservice/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/productservice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3686,21 +3686,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductService Instance Reference",
             "required": true,
@@ -3822,7 +3822,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/productservice/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/productservice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3835,21 +3835,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductService Instance Reference",
             "required": true,
@@ -4004,7 +4004,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/case/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/case/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4017,14 +4017,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -4191,7 +4191,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/case/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/case/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4204,21 +4204,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Case Instance Reference",
             "required": true,
@@ -4348,7 +4348,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/case/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/case/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4361,21 +4361,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Case Instance Reference",
             "required": true,
@@ -4534,7 +4534,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/order/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/order/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4547,14 +4547,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -4736,7 +4736,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/order/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/order/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4749,21 +4749,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Order Instance Reference",
             "required": true,
@@ -4899,7 +4899,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/order/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/order/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4912,21 +4912,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Order Instance Reference",
             "required": true,
@@ -5088,7 +5088,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/intelligence/initiation": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/intelligence/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5101,14 +5101,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
@@ -5254,7 +5254,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/intelligence/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/intelligence/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5267,21 +5267,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Intelligence Instance Reference",
             "required": true,
@@ -5377,7 +5377,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/intelligence/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/intelligence/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5390,21 +5390,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Intelligence Instance Reference",
             "required": true,
@@ -5546,7 +5546,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/history/{bq-reference-id}/update": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/history/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5559,21 +5559,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "History Instance Reference",
             "required": true,
@@ -5685,7 +5685,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/history/{bq-reference-id}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/history/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5698,21 +5698,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "History Instance Reference",
             "required": true,
@@ -5862,7 +5862,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -5874,7 +5874,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
@@ -5940,7 +5940,7 @@
         }
       }
     },
-    "/contact-dialogue/{sd-reference-id}/customer-contact-session-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/contact-dialogue/{sdReferenceId}/customer-contact-session-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5952,21 +5952,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Dialogue Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Contact Session Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- History",
             "required": true,

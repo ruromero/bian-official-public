@@ -162,7 +162,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/configuration": {
+    "/prospect-campaign-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/feedback": {
+    "/prospect-campaign-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}": {
+    "/prospect-campaign-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/creation": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
@@ -771,7 +771,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/update": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -784,14 +784,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -953,7 +953,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/requisition": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -966,14 +966,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -1087,7 +1087,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/grant": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1100,14 +1100,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -1187,7 +1187,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1200,14 +1200,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -1330,7 +1330,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/update": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1343,21 +1343,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1531,7 +1531,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/execution": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1544,21 +1544,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1723,7 +1723,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/requisition": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1736,21 +1736,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1915,7 +1915,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1928,21 +1928,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -2081,7 +2081,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/performanceassessment/creation": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/performanceassessment/creation": {
       "post": {
         "tags": [
           "create"
@@ -2094,14 +2094,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -2206,7 +2206,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/update": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2219,21 +2219,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2347,7 +2347,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/execution": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2360,21 +2360,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2494,7 +2494,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/requisition": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2507,21 +2507,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2641,7 +2641,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2654,21 +2654,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2777,7 +2777,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/campaigndirection/creation": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/campaigndirection/creation": {
       "post": {
         "tags": [
           "create"
@@ -2790,14 +2790,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
@@ -2880,7 +2880,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/update": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2893,21 +2893,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -2995,7 +2995,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/requisition": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3008,21 +3008,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -3120,7 +3120,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3133,21 +3133,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -3243,7 +3243,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3255,7 +3255,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
@@ -3315,7 +3315,7 @@
         }
       }
     },
-    "/prospect-campaign-management/{sd-reference-id}/prospect-campaign-portfolio-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/prospect-campaign-management/{sdReferenceId}/prospect-campaign-portfolio-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3327,21 +3327,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Portfolio Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CampaignDirection",
             "required": true,

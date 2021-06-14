@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/configuration": {
+    "/customer-portfolio/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPortfolio Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/feedback": {
+    "/customer-portfolio/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPortfolio Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}": {
+    "/customer-portfolio/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPortfolio Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/evaluation": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
@@ -760,7 +760,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/update": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -773,14 +773,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
@@ -928,7 +928,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/requisition": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -941,14 +941,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
@@ -1097,7 +1097,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1110,14 +1110,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
@@ -1233,7 +1233,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/evaluation": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1246,14 +1246,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
@@ -1446,7 +1446,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/update": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1459,21 +1459,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1615,7 +1615,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/exchange": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1628,21 +1628,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1713,7 +1713,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/execution": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1726,21 +1726,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1892,7 +1892,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/requisition": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1905,21 +1905,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -2071,7 +2071,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2084,21 +2084,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -2221,7 +2221,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2233,7 +2233,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
@@ -2291,7 +2291,7 @@
         }
       }
     },
-    "/customer-portfolio/{sd-reference-id}/customer-segment-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-portfolio/{sdReferenceId}/customer-segment-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2303,21 +2303,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Segment Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PerformanceAnalysis",
             "required": true,

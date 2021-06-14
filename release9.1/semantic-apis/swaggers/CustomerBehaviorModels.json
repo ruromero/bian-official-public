@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/configuration": {
+    "/customer-behavior-models/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehaviorModels Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/feedback": {
+    "/customer-behavior-models/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehaviorModels Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}": {
+    "/customer-behavior-models/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehaviorModels Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/creation": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
@@ -778,7 +778,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/execution": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -791,14 +791,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
@@ -939,7 +939,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/requisition": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -952,14 +952,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
@@ -1100,7 +1100,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1113,14 +1113,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
@@ -1249,7 +1249,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/update": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1262,21 +1262,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1442,7 +1442,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/exchange": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1455,21 +1455,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1540,7 +1540,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/capture": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1553,21 +1553,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1662,7 +1662,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/requisition": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1675,21 +1675,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1791,7 +1791,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1804,21 +1804,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1967,7 +1967,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/testing/{bq-reference-id}/update": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/testing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1980,21 +1980,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2143,7 +2143,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/testing/{bq-reference-id}/exchange": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/testing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2156,21 +2156,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2241,7 +2241,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/testing/{bq-reference-id}/": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/testing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2254,21 +2254,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2405,7 +2405,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/production/{bq-reference-id}/execution": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/production/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2418,21 +2418,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2577,7 +2577,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/production/{bq-reference-id}/requisition": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/production/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2590,21 +2590,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2749,7 +2749,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/production/{bq-reference-id}/": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/production/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2762,21 +2762,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2919,7 +2919,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -2931,7 +2931,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
@@ -2991,7 +2991,7 @@
         }
       }
     },
-    "/customer-behavior-models/{sd-reference-id}/customer-behavior-model-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-behavior-models/{sdReferenceId}/customer-behavior-model-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3003,21 +3003,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavior Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Production",
             "required": true,

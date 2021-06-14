@@ -168,7 +168,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/configuration": {
+    "/financial-market-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/feedback": {
+    "/financial-market-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}": {
+    "/financial-market-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketAnalysis Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/initiation": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
@@ -757,7 +757,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/update": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -770,14 +770,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
@@ -890,7 +890,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/execution": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -903,14 +903,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
@@ -1034,7 +1034,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/requisition": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1047,14 +1047,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
@@ -1178,7 +1178,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1191,14 +1191,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
@@ -1303,7 +1303,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/financialmarketinsight/initiation": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/financialmarketinsight/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1316,14 +1316,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
@@ -1446,7 +1446,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/financialmarketinsight/{bq-reference-id}/update": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/financialmarketinsight/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1459,21 +1459,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialMarketInsight Instance Reference",
             "required": true,
@@ -1601,7 +1601,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/financialmarketinsight/{bq-reference-id}/execution": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/financialmarketinsight/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1614,21 +1614,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialMarketInsight Instance Reference",
             "required": true,
@@ -1767,7 +1767,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/financialmarketinsight/{bq-reference-id}/requisition": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/financialmarketinsight/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1780,21 +1780,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialMarketInsight Instance Reference",
             "required": true,
@@ -1933,7 +1933,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/financialmarketinsight/{bq-reference-id}/": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/financialmarketinsight/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1946,21 +1946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialMarketInsight Instance Reference",
             "required": true,
@@ -2078,7 +2078,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2090,7 +2090,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
@@ -2148,7 +2148,7 @@
         }
       }
     },
-    "/financial-market-analysis/{sd-reference-id}/financial-market-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/financial-market-analysis/{sdReferenceId}/financial-market-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2160,21 +2160,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- FinancialMarketInsight",
             "required": true,

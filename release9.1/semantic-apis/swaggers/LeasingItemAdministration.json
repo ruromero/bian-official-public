@@ -168,7 +168,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/configuration": {
+    "/leasing-item-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasingItemAdministration Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/feedback": {
+    "/leasing-item-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasingItemAdministration Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}": {
+    "/leasing-item-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasingItemAdministration Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/initiation": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/update": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -850,7 +850,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/control": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -863,14 +863,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/exchange": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1084,7 +1084,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/capture": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1097,14 +1097,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/requisition": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1332,7 +1332,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/grant": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1345,14 +1345,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,14 +1476,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1576,7 +1576,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/valuation/initiation": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/valuation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1589,14 +1589,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -1737,7 +1737,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/update": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1750,21 +1750,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -1910,7 +1910,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/capture": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1923,21 +1923,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -2094,7 +2094,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2107,21 +2107,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -2248,7 +2248,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/registration/initiation": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/registration/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2261,14 +2261,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -2409,7 +2409,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/registration/{bq-reference-id}/update": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/registration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2422,21 +2422,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Registration Instance Reference",
             "required": true,
@@ -2582,7 +2582,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/registration/{bq-reference-id}/capture": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/registration/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2595,21 +2595,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Registration Instance Reference",
             "required": true,
@@ -2766,7 +2766,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/registration/{bq-reference-id}/": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/registration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2779,21 +2779,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Registration Instance Reference",
             "required": true,
@@ -2920,7 +2920,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/assurance/initiation": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/assurance/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2933,14 +2933,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
@@ -3073,7 +3073,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/update": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3086,21 +3086,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -3238,7 +3238,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/capture": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3251,21 +3251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -3414,7 +3414,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3427,21 +3427,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -3564,7 +3564,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3576,7 +3576,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
@@ -3636,7 +3636,7 @@
         }
       }
     },
-    "/leasing-item-administration/{sd-reference-id}/leasing-item-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/leasing-item-administration/{sdReferenceId}/leasing-item-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3648,21 +3648,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Item Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Item Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Registration",
             "required": true,

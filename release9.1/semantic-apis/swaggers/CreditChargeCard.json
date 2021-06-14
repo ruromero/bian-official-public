@@ -162,7 +162,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/configuration": {
+    "/credit-charge-card/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditChargeCard Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/feedback": {
+    "/credit-charge-card/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditChargeCard Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}": {
+    "/credit-charge-card/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditChargeCard Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/initiation": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
@@ -889,7 +889,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -902,14 +902,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
@@ -1265,7 +1265,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/control": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1278,14 +1278,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
@@ -1352,7 +1352,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1365,14 +1365,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
@@ -1592,7 +1592,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1605,21 +1605,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1848,7 +1848,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1861,21 +1861,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2073,7 +2073,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2086,21 +2086,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2277,7 +2277,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2290,21 +2290,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2601,7 +2601,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/billing/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/billing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2614,21 +2614,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -2778,7 +2778,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/billing/{bq-reference-id}/execution": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/billing/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2791,21 +2791,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -2946,7 +2946,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/billing/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/billing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2959,21 +2959,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -3265,7 +3265,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3278,21 +3278,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -3450,7 +3450,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/execution": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3463,21 +3463,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -3611,7 +3611,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3624,21 +3624,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -3788,7 +3788,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/cardtransaction/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/cardtransaction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3801,21 +3801,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -4041,7 +4041,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/cardtransaction/{bq-reference-id}/exchange": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/cardtransaction/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4054,21 +4054,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -4139,7 +4139,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/cardtransaction/{bq-reference-id}/execution": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/cardtransaction/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4152,21 +4152,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -4334,7 +4334,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/cardtransaction/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/cardtransaction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4347,21 +4347,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -4545,7 +4545,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4558,14 +4558,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
@@ -4799,7 +4799,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4812,21 +4812,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -4962,7 +4962,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/exchange": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4975,21 +4975,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5060,7 +5060,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/requisition": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5073,21 +5073,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5221,7 +5221,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5234,21 +5234,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5462,7 +5462,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/creditplan/initiation": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/creditplan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5475,14 +5475,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
@@ -5610,7 +5610,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/creditplan/{bq-reference-id}/update": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/creditplan/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5623,21 +5623,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditPlan Instance Reference",
             "required": true,
@@ -5735,7 +5735,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/creditplan/{bq-reference-id}/requisition": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/creditplan/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5748,21 +5748,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditPlan Instance Reference",
             "required": true,
@@ -5870,7 +5870,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/creditplan/{bq-reference-id}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/creditplan/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5883,21 +5883,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditPlan Instance Reference",
             "required": true,
@@ -6033,7 +6033,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -6045,7 +6045,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
@@ -6109,7 +6109,7 @@
         }
       }
     },
-    "/credit-charge-card/{sd-reference-id}/credit-charge-card-fulfilment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/credit-charge-card/{sdReferenceId}/credit-charge-card-fulfilment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6121,21 +6121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Charge Card Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Fulfilment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CreditPlan",
             "required": true,

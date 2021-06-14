@@ -162,7 +162,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/configuration": {
+    "/contact-center-operations/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactCenterOperations Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/feedback": {
+    "/contact-center-operations/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactCenterOperations Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}": {
+    "/contact-center-operations/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDContactCenterOperations Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/creation": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
@@ -769,7 +769,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/update": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -782,14 +782,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -937,7 +937,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/control": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -950,14 +950,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -1024,7 +1024,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/execution": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1037,14 +1037,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -1202,7 +1202,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/requisition": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1215,14 +1215,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -1516,7 +1516,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/assignment/creation": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/assignment/creation": {
       "post": {
         "tags": [
           "create"
@@ -1529,14 +1529,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -1647,7 +1647,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/update": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1660,21 +1660,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1790,7 +1790,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/control": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1803,21 +1803,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1888,7 +1888,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/requisition": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1901,21 +1901,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2005,7 +2005,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2018,21 +2018,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2142,7 +2142,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/peakload/{bq-reference-id}/update": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/peakload/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2155,21 +2155,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PeakLoad Instance Reference",
             "required": true,
@@ -2281,7 +2281,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/peakload/{bq-reference-id}/requisition": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/peakload/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2294,21 +2294,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PeakLoad Instance Reference",
             "required": true,
@@ -2430,7 +2430,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/peakload/{bq-reference-id}/": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/peakload/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2443,21 +2443,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PeakLoad Instance Reference",
             "required": true,
@@ -2565,7 +2565,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/troubleshooting/creation": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/troubleshooting/creation": {
       "post": {
         "tags": [
           "create"
@@ -2578,14 +2578,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
@@ -2670,7 +2670,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2683,21 +2683,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2787,7 +2787,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2800,21 +2800,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2914,7 +2914,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2927,21 +2927,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -3038,7 +3038,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3050,7 +3050,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
@@ -3110,7 +3110,7 @@
         }
       }
     },
-    "/contact-center-operations/{sd-reference-id}/contact-center-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/contact-center-operations/{sdReferenceId}/contact-center-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3122,21 +3122,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Contact Center Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Contact Center Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Troubleshooting",
             "required": true,

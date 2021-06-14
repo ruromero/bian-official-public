@@ -162,7 +162,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/configuration": {
+    "/e-branch-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDEBranchManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/feedback": {
+    "/e-branch-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDEBranchManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}": {
+    "/e-branch-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDEBranchManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/creation": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
@@ -725,7 +725,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/update": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -738,14 +738,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
@@ -809,7 +809,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/exchange": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -822,14 +822,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
@@ -896,7 +896,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/requisition": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -909,14 +909,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
@@ -990,7 +990,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1003,14 +1003,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
@@ -1108,7 +1108,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/update": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1121,21 +1121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1239,7 +1239,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/requisition": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1252,21 +1252,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1364,7 +1364,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1377,21 +1377,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1511,7 +1511,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/maintenanceandupgrade/creation": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/maintenanceandupgrade/creation": {
       "post": {
         "tags": [
           "create"
@@ -1524,14 +1524,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
@@ -1630,7 +1630,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/maintenanceandupgrade/{bq-reference-id}/update": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/maintenanceandupgrade/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1643,21 +1643,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrade Instance Reference",
             "required": true,
@@ -1721,7 +1721,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/maintenanceandupgrade/{bq-reference-id}/requisition": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/maintenanceandupgrade/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1734,21 +1734,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrade Instance Reference",
             "required": true,
@@ -1822,7 +1822,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/maintenanceandupgrade/{bq-reference-id}/": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/maintenanceandupgrade/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1835,21 +1835,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrade Instance Reference",
             "required": true,
@@ -1933,7 +1933,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1946,21 +1946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2050,7 +2050,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2063,21 +2063,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2177,7 +2177,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2190,21 +2190,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2301,7 +2301,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2313,7 +2313,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
@@ -2373,7 +2373,7 @@
         }
       }
     },
-    "/e-branch-management/{sd-reference-id}/e-branch-channel-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/e-branch-management/{sdReferenceId}/e-branch-channel-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2385,21 +2385,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "E-Branch Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "EBranch Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Troubleshooting",
             "required": true,

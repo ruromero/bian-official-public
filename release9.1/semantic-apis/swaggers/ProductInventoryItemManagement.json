@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/configuration": {
+    "/product-inventory-item-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryItemManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/feedback": {
+    "/product-inventory-item-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryItemManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}": {
+    "/product-inventory-item-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryItemManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/update": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -622,14 +622,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
@@ -773,7 +773,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/requisition": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -786,14 +786,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
@@ -943,7 +943,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -956,14 +956,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
@@ -1077,7 +1077,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/assignment/initiation": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/assignment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1090,14 +1090,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
@@ -1285,7 +1285,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/assignment/{bq-reference-id}/update": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/assignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1298,21 +1298,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1438,7 +1438,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/assignment/{bq-reference-id}/exchange": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/assignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1451,21 +1451,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1536,7 +1536,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/assignment/{bq-reference-id}/requisition": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/assignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1549,21 +1549,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1771,7 +1771,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1784,21 +1784,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1953,7 +1953,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -1965,7 +1965,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
@@ -2023,7 +2023,7 @@
         }
       }
     },
-    "/product-inventory-item-management/{sd-reference-id}/product-inventory-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-inventory-item-management/{sdReferenceId}/product-inventory-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2035,21 +2035,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Assignment",
             "required": true,

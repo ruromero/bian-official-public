@@ -162,7 +162,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/configuration": {
+    "/legal-compliance/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLegalCompliance Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/feedback": {
+    "/legal-compliance/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLegalCompliance Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}": {
+    "/legal-compliance/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLegalCompliance Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/evaluation": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/{cr-reference-id}/update": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Legal Compliance Assessment Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/{cr-reference-id}/exchange": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Legal Compliance Assessment Instance Reference",
             "required": true,
@@ -1023,7 +1023,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/{cr-reference-id}/requisition": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1036,14 +1036,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Legal Compliance Assessment Instance Reference",
             "required": true,
@@ -1205,7 +1205,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/{cr-reference-id}": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1218,14 +1218,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Legal Compliance Assessment Instance Reference",
             "required": true,
@@ -1365,7 +1365,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1377,7 +1377,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
@@ -1433,7 +1433,7 @@
         }
       }
     },
-    "/legal-compliance/{sd-reference-id}/legal-compliance-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/legal-compliance/{sdReferenceId}/legal-compliance-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1445,21 +1445,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Legal Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Legal Compliance Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/configuration": {
+    "/intellectual-property-portfolio/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIntellectualPropertyPortfolio Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/feedback": {
+    "/intellectual-property-portfolio/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIntellectualPropertyPortfolio Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}": {
+    "/intellectual-property-portfolio/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIntellectualPropertyPortfolio Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/initiation": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
@@ -774,7 +774,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/update": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -787,14 +787,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
@@ -960,7 +960,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -973,14 +973,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
@@ -1105,7 +1105,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/maintenance/initiation": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/maintenance/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1118,14 +1118,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
@@ -1330,7 +1330,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/update": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1343,21 +1343,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/exchange": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1546,21 +1546,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -1631,7 +1631,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/requisition": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1644,21 +1644,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -1810,7 +1810,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1823,21 +1823,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -2015,7 +2015,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/initiation": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2028,14 +2028,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
@@ -2220,7 +2220,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/update": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2233,21 +2233,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2369,7 +2369,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/exchange": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2382,21 +2382,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2467,7 +2467,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/requisition": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2480,21 +2480,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2694,7 +2694,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/grant": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2707,21 +2707,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2801,7 +2801,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2814,21 +2814,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2992,7 +2992,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3004,7 +3004,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
@@ -3063,7 +3063,7 @@
         }
       }
     },
-    "/intellectual-property-portfolio/{sd-reference-id}/intellectual-property-asset-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/intellectual-property-portfolio/{sdReferenceId}/intellectual-property-asset-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3075,21 +3075,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Intellectual Property Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Assignment",
             "required": true,

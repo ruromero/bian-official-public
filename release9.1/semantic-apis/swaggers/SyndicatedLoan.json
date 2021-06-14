@@ -168,7 +168,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/configuration": {
+    "/syndicated-loan/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSyndicatedLoan Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/feedback": {
+    "/syndicated-loan/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSyndicatedLoan Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}": {
+    "/syndicated-loan/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSyndicatedLoan Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/initiation": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/update": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/control": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/exchange": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/execution": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/requisition": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/update": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/exchange": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/requisition": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2089,21 +2089,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -2250,7 +2250,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2263,21 +2263,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -2399,7 +2399,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/structuring/initiation": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/structuring/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2412,14 +2412,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
@@ -2550,7 +2550,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/structuring/{bq-reference-id}/update": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/structuring/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2563,21 +2563,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Structuring Instance Reference",
             "required": true,
@@ -2713,7 +2713,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/structuring/{bq-reference-id}/exchange": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/structuring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2726,21 +2726,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Structuring Instance Reference",
             "required": true,
@@ -2884,7 +2884,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/structuring/{bq-reference-id}/requisition": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/structuring/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2897,21 +2897,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Structuring Instance Reference",
             "required": true,
@@ -3058,7 +3058,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/structuring/{bq-reference-id}/": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/structuring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3071,21 +3071,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Structuring Instance Reference",
             "required": true,
@@ -3207,7 +3207,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/origination/{bq-reference-id}/update": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/origination/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3220,21 +3220,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Origination Instance Reference",
             "required": true,
@@ -3370,7 +3370,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/origination/{bq-reference-id}/exchange": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/origination/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3383,21 +3383,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Origination Instance Reference",
             "required": true,
@@ -3541,7 +3541,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/origination/{bq-reference-id}/requisition": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/origination/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3554,21 +3554,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Origination Instance Reference",
             "required": true,
@@ -3715,7 +3715,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/origination/{bq-reference-id}/": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/origination/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3728,21 +3728,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Origination Instance Reference",
             "required": true,
@@ -3864,7 +3864,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/syndicateassembly/{bq-reference-id}/update": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/syndicateassembly/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3877,21 +3877,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SyndicateAssembly Instance Reference",
             "required": true,
@@ -4019,7 +4019,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/syndicateassembly/{bq-reference-id}/exchange": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/syndicateassembly/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4032,21 +4032,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SyndicateAssembly Instance Reference",
             "required": true,
@@ -4182,7 +4182,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/syndicateassembly/{bq-reference-id}/requisition": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/syndicateassembly/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4195,21 +4195,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SyndicateAssembly Instance Reference",
             "required": true,
@@ -4348,7 +4348,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/syndicateassembly/{bq-reference-id}/": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/syndicateassembly/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4361,21 +4361,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SyndicateAssembly Instance Reference",
             "required": true,
@@ -4493,7 +4493,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -4505,7 +4505,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
@@ -4566,7 +4566,7 @@
         }
       }
     },
-    "/syndicated-loan/{sd-reference-id}/syndicated-loan-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/syndicated-loan/{sdReferenceId}/syndicated-loan-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4578,21 +4578,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Syndicated Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Syndicated Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Structuring",
             "required": true,

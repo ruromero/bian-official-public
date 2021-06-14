@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/configuration": {
+    "/customer-position/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPosition Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/feedback": {
+    "/customer-position/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPosition Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}": {
+    "/customer-position/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerPosition Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/initiation": {
+    "/customer-position/{sdReferenceId}/customer-position-state/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
@@ -708,7 +708,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/update": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -721,14 +721,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
@@ -820,7 +820,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/control": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -833,14 +833,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
@@ -907,7 +907,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/execution": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -920,14 +920,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
@@ -1039,7 +1039,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/requisition": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1052,14 +1052,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
@@ -1171,7 +1171,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1184,14 +1184,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
@@ -1284,7 +1284,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/cashflow/{bq-reference-id}/exchange": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/cashflow/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1297,21 +1297,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Cashflow Instance Reference",
             "required": true,
@@ -1382,7 +1382,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/cashflow/{bq-reference-id}/capture": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/cashflow/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1395,21 +1395,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Cashflow Instance Reference",
             "required": true,
@@ -1525,7 +1525,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/cashflow/{bq-reference-id}/": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/cashflow/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1538,21 +1538,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Cashflow Instance Reference",
             "required": true,
@@ -1693,7 +1693,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/credit/{bq-reference-id}/exchange": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/credit/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1706,21 +1706,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Credit Instance Reference",
             "required": true,
@@ -1791,7 +1791,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/credit/{bq-reference-id}/capture": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/credit/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1804,21 +1804,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Credit Instance Reference",
             "required": true,
@@ -1917,7 +1917,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/credit/{bq-reference-id}/": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/credit/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1930,21 +1930,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Credit Instance Reference",
             "required": true,
@@ -2068,7 +2068,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/collateral/{bq-reference-id}/exchange": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/collateral/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2081,21 +2081,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -2166,7 +2166,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/collateral/{bq-reference-id}/capture": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/collateral/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2179,21 +2179,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -2328,7 +2328,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/collateral/{bq-reference-id}/": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/collateral/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2341,21 +2341,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -2515,7 +2515,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state": {
+    "/customer-position/{sdReferenceId}/customer-position-state": {
       "get": {
         "tags": [
           "retrieve"
@@ -2527,7 +2527,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
@@ -2587,7 +2587,7 @@
         }
       }
     },
-    "/customer-position/{sd-reference-id}/customer-position-state/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-position/{sdReferenceId}/customer-position-state/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2599,21 +2599,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Position Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Collateral",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/configuration": {
+    "/card-authorization/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardAuthorization Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/feedback": {
+    "/card-authorization/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardAuthorization Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}": {
+    "/card-authorization/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardAuthorization Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/evaluation": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
@@ -804,7 +804,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/update": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -817,14 +817,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1100,7 +1100,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/exchange": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1113,14 +1113,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1187,7 +1187,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/execution": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1200,14 +1200,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1400,7 +1400,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/requisition": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1413,14 +1413,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1613,7 +1613,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/grant": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1626,14 +1626,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1713,7 +1713,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1726,14 +1726,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
@@ -1913,7 +1913,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/devicecheck/{bq-reference-id}/update": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/devicecheck/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1926,21 +1926,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceCheck Instance Reference",
             "required": true,
@@ -2068,7 +2068,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/devicecheck/{bq-reference-id}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/devicecheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2081,21 +2081,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceCheck Instance Reference",
             "required": true,
@@ -2317,7 +2317,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/authentication/{bq-reference-id}/update": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/authentication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2330,21 +2330,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authentication Instance Reference",
             "required": true,
@@ -2476,7 +2476,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/authentication/{bq-reference-id}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/authentication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2489,21 +2489,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authentication Instance Reference",
             "required": true,
@@ -2634,7 +2634,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/creditcheck/{bq-reference-id}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/creditcheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2647,21 +2647,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditCheck Instance Reference",
             "required": true,
@@ -2771,7 +2771,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/fraudcheck/{bq-reference-id}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/fraudcheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2784,21 +2784,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FraudCheck Instance Reference",
             "required": true,
@@ -2996,7 +2996,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/standin/{bq-reference-id}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/standin/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3009,21 +3009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StandIn Instance Reference",
             "required": true,
@@ -3226,7 +3226,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -3238,7 +3238,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
@@ -3300,7 +3300,7 @@
         }
       }
     },
-    "/card-authorization/{sd-reference-id}/credit-charge-card-authorization-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-authorization/{sdReferenceId}/credit-charge-card-authorization-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3312,21 +3312,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Authorization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Charge Card Authorization Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- StandIn",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/configuration": {
+    "/interbank-relationship-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInterbankRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/feedback": {
+    "/interbank-relationship-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInterbankRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}": {
+    "/interbank-relationship-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInterbankRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/creation": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/update": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -892,7 +892,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/control": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -905,14 +905,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -979,7 +979,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/exchange": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -992,14 +992,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -1066,7 +1066,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/requisition": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1079,14 +1079,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -1215,7 +1215,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/grant": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1228,14 +1228,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -1315,7 +1315,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1328,14 +1328,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -1443,7 +1443,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/contact/creation": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/contact/creation": {
       "post": {
         "tags": [
           "create"
@@ -1456,14 +1456,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
@@ -1546,7 +1546,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/update": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1559,21 +1559,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -1699,7 +1699,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/requisition": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1712,21 +1712,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -1853,7 +1853,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1866,21 +1866,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2003,7 +2003,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2015,7 +2015,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
@@ -2073,7 +2073,7 @@
         }
       }
     },
-    "/interbank-relationship-management/{sd-reference-id}/bank-relationship-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/interbank-relationship-management/{sdReferenceId}/bank-relationship-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2085,21 +2085,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Interbank Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Bank Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Contact",
             "required": true,

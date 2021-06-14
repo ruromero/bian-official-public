@@ -162,7 +162,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/configuration": {
+    "/brand-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBrandManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/feedback": {
+    "/brand-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBrandManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}": {
+    "/brand-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBrandManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/update": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -622,14 +622,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -733,7 +733,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/requisition": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -746,14 +746,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -867,7 +867,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/grant": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -880,14 +880,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -1081,7 +1081,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/brandadvice/initiation": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/brandadvice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1094,14 +1094,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -1200,7 +1200,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/brandadvice/{bq-reference-id}/update": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/brandadvice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1213,21 +1213,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BrandAdvice Instance Reference",
             "required": true,
@@ -1291,7 +1291,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/brandadvice/{bq-reference-id}/exchange": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/brandadvice/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1304,21 +1304,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BrandAdvice Instance Reference",
             "required": true,
@@ -1389,7 +1389,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/brandadvice/{bq-reference-id}/requisition": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/brandadvice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1402,21 +1402,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BrandAdvice Instance Reference",
             "required": true,
@@ -1490,7 +1490,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/brandadvice/{bq-reference-id}/": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/brandadvice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1503,21 +1503,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BrandAdvice Instance Reference",
             "required": true,
@@ -1601,7 +1601,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/troubleshoot/initiation": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/troubleshoot/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1614,14 +1614,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
@@ -1720,7 +1720,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/troubleshoot/{bq-reference-id}/update": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/troubleshoot/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1733,21 +1733,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshoot Instance Reference",
             "required": true,
@@ -1811,7 +1811,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/troubleshoot/{bq-reference-id}/requisition": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/troubleshoot/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1824,21 +1824,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshoot Instance Reference",
             "required": true,
@@ -1912,7 +1912,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/troubleshoot/{bq-reference-id}/": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/troubleshoot/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1925,21 +1925,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshoot Instance Reference",
             "required": true,
@@ -2023,7 +2023,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan": {
+    "/brand-management/{sdReferenceId}/brand-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2035,7 +2035,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
@@ -2094,7 +2094,7 @@
         }
       }
     },
-    "/brand-management/{sd-reference-id}/brand-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/brand-management/{sdReferenceId}/brand-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2106,21 +2106,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Brand Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Brand Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Troubleshoot",
             "required": true,

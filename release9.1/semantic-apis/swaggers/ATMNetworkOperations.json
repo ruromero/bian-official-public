@@ -168,7 +168,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/configuration": {
+    "/atm-network-operations/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDATMNetworkOperations Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/feedback": {
+    "/atm-network-operations/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDATMNetworkOperations Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}": {
+    "/atm-network-operations/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDATMNetworkOperations Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/initiation": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/update": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -912,7 +912,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/control": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -925,14 +925,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1060,7 +1060,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/exchange": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1073,14 +1073,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/execution": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1363,7 +1363,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/requisition": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1376,14 +1376,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1518,7 +1518,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1531,14 +1531,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1652,7 +1652,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialdocumenthandling/initiation": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialdocumenthandling/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1665,14 +1665,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -1795,7 +1795,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialdocumenthandling/{bq-reference-id}/update": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialdocumenthandling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1808,21 +1808,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialDocumentHandling Instance Reference",
             "required": true,
@@ -1950,7 +1950,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialdocumenthandling/{bq-reference-id}/exchange": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialdocumenthandling/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1963,21 +1963,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialDocumentHandling Instance Reference",
             "required": true,
@@ -2113,7 +2113,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialdocumenthandling/{bq-reference-id}/execution": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialdocumenthandling/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2126,21 +2126,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialDocumentHandling Instance Reference",
             "required": true,
@@ -2279,7 +2279,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialdocumenthandling/{bq-reference-id}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialdocumenthandling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2292,21 +2292,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialDocumentHandling Instance Reference",
             "required": true,
@@ -2424,7 +2424,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/networkoperation/initiation": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/networkoperation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2437,14 +2437,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -2559,7 +2559,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/networkoperation/{bq-reference-id}/update": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/networkoperation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2572,21 +2572,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NetworkOperation Instance Reference",
             "required": true,
@@ -2706,7 +2706,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/networkoperation/{bq-reference-id}/control": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/networkoperation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2719,21 +2719,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NetworkOperation Instance Reference",
             "required": true,
@@ -2833,7 +2833,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/networkoperation/{bq-reference-id}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/networkoperation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2846,21 +2846,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NetworkOperation Instance Reference",
             "required": true,
@@ -2978,7 +2978,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/cashdistribution/{bq-reference-id}/exchange": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/cashdistribution/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2991,21 +2991,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashDistribution Instance Reference",
             "required": true,
@@ -3141,7 +3141,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/cashdistribution/{bq-reference-id}/requisition": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/cashdistribution/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3154,21 +3154,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashDistribution Instance Reference",
             "required": true,
@@ -3307,7 +3307,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/cashdistribution/{bq-reference-id}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/cashdistribution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3320,21 +3320,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashDistribution Instance Reference",
             "required": true,
@@ -3452,7 +3452,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/devicetracking/{bq-reference-id}/update": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/devicetracking/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3465,21 +3465,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceTracking Instance Reference",
             "required": true,
@@ -3575,7 +3575,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/devicetracking/{bq-reference-id}/exchange": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/devicetracking/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3588,21 +3588,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceTracking Instance Reference",
             "required": true,
@@ -3730,7 +3730,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/devicetracking/{bq-reference-id}/execution": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/devicetracking/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3743,21 +3743,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceTracking Instance Reference",
             "required": true,
@@ -3888,7 +3888,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/devicetracking/{bq-reference-id}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/devicetracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3901,21 +3901,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceTracking Instance Reference",
             "required": true,
@@ -4029,7 +4029,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialtransactioncapture/initiation": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialtransactioncapture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4042,14 +4042,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
@@ -4136,7 +4136,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialtransactioncapture/{bq-reference-id}/update": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialtransactioncapture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4149,21 +4149,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionCapture Instance Reference",
             "required": true,
@@ -4275,7 +4275,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialtransactioncapture/{bq-reference-id}/exchange": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialtransactioncapture/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4288,21 +4288,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionCapture Instance Reference",
             "required": true,
@@ -4422,7 +4422,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialtransactioncapture/{bq-reference-id}/execution": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialtransactioncapture/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4435,21 +4435,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionCapture Instance Reference",
             "required": true,
@@ -4572,7 +4572,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/financialtransactioncapture/{bq-reference-id}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/financialtransactioncapture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4585,21 +4585,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionCapture Instance Reference",
             "required": true,
@@ -4709,7 +4709,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -4721,7 +4721,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
@@ -4783,7 +4783,7 @@
         }
       }
     },
-    "/atm-network-operations/{sd-reference-id}/atm-network-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/atm-network-operations/{sdReferenceId}/atm-network-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4795,21 +4795,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ATM Network Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ATM Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- FinancialDocumentHandling",
             "required": true,

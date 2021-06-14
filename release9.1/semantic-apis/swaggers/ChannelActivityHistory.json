@@ -162,7 +162,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/configuration": {
+    "/channel-activity-history/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityHistory Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/feedback": {
+    "/channel-activity-history/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityHistory Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}": {
+    "/channel-activity-history/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityHistory Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/initiation": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
@@ -708,7 +708,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/update": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -721,14 +721,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
@@ -792,7 +792,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/control": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -805,14 +805,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
@@ -879,7 +879,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -892,14 +892,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
@@ -987,7 +987,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/event/{bq-reference-id}/update": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/event/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1000,21 +1000,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Event Instance Reference",
             "required": true,
@@ -1302,7 +1302,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/event/{bq-reference-id}/capture": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/event/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1315,21 +1315,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Event Instance Reference",
             "required": true,
@@ -1515,7 +1515,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/event/{bq-reference-id}/": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/event/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1528,21 +1528,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Event Instance Reference",
             "required": true,
@@ -1752,7 +1752,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -1764,7 +1764,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
@@ -1822,7 +1822,7 @@
         }
       }
     },
-    "/channel-activity-history/{sd-reference-id}/channel-activity-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/channel-activity-history/{sdReferenceId}/channel-activity-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1834,21 +1834,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Event",
             "required": true,

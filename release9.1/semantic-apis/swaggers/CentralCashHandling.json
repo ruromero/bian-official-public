@@ -168,7 +168,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/configuration": {
+    "/central-cash-handling/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCentralCashHandling Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/feedback": {
+    "/central-cash-handling/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCentralCashHandling Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}": {
+    "/central-cash-handling/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCentralCashHandling Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/initiation": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
@@ -802,7 +802,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/update": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -815,14 +815,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -980,7 +980,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/control": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -993,14 +993,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -1162,7 +1162,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/exchange": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1175,14 +1175,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -1344,7 +1344,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/capture": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1357,14 +1357,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1546,14 +1546,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -1698,7 +1698,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/initiation": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1711,14 +1711,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -1841,7 +1841,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/{bq-reference-id}/update": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1854,21 +1854,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandAllocation Instance Reference",
             "required": true,
@@ -1996,7 +1996,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/{bq-reference-id}/control": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2009,21 +2009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandAllocation Instance Reference",
             "required": true,
@@ -2159,7 +2159,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/{bq-reference-id}/exchange": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2172,21 +2172,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandAllocation Instance Reference",
             "required": true,
@@ -2322,7 +2322,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/{bq-reference-id}/capture": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2335,21 +2335,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandAllocation Instance Reference",
             "required": true,
@@ -2488,7 +2488,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/trackingandallocation/{bq-reference-id}/": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/trackingandallocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2501,21 +2501,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandAllocation Instance Reference",
             "required": true,
@@ -2633,7 +2633,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/initiation": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2646,14 +2646,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
@@ -2768,7 +2768,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/{bq-reference-id}/update": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2781,21 +2781,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProjectionandAllocation Instance Reference",
             "required": true,
@@ -2915,7 +2915,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/{bq-reference-id}/control": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2928,21 +2928,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProjectionandAllocation Instance Reference",
             "required": true,
@@ -3070,7 +3070,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/{bq-reference-id}/exchange": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3083,21 +3083,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProjectionandAllocation Instance Reference",
             "required": true,
@@ -3225,7 +3225,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/{bq-reference-id}/capture": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3238,21 +3238,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProjectionandAllocation Instance Reference",
             "required": true,
@@ -3383,7 +3383,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/projectionandallocation/{bq-reference-id}/": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/projectionandallocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3396,21 +3396,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProjectionandAllocation Instance Reference",
             "required": true,
@@ -3524,7 +3524,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -3536,7 +3536,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
@@ -3595,7 +3595,7 @@
         }
       }
     },
-    "/central-cash-handling/{sd-reference-id}/central-cash-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/central-cash-handling/{sdReferenceId}/central-cash-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3607,21 +3607,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Central Cash Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Central Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TrackingandAllocation",
             "required": true,

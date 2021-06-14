@@ -162,7 +162,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/configuration": {
+    "/corporate-tax-advisory/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTaxAdvisory Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/feedback": {
+    "/corporate-tax-advisory/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTaxAdvisory Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}": {
+    "/corporate-tax-advisory/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTaxAdvisory Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/initiation": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
@@ -759,7 +759,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -772,14 +772,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -955,7 +955,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -968,14 +968,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1042,7 +1042,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1055,14 +1055,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1233,7 +1233,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1246,14 +1246,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1383,7 +1383,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/taxoptimization/initiation": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/taxoptimization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1396,14 +1396,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1603,7 +1603,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/update": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1616,21 +1616,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -1756,7 +1756,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/requisition": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1769,21 +1769,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -1919,7 +1919,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1932,21 +1932,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -2061,7 +2061,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2074,14 +2074,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2190,7 +2190,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/update": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2203,21 +2203,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2443,7 +2443,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/exchange": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2456,21 +2456,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2541,7 +2541,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2554,21 +2554,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2795,7 +2795,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2808,21 +2808,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2931,7 +2931,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2943,7 +2943,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
@@ -3002,7 +3002,7 @@
         }
       }
     },
-    "/corporate-tax-advisory/{sd-reference-id}/corporate-tax-advisory-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/corporate-tax-advisory/{sdReferenceId}/corporate-tax-advisory-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3014,21 +3014,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Tax Advisory Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ServiceFees",
             "required": true,

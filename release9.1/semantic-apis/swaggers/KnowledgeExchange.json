@@ -168,7 +168,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/configuration": {
+    "/knowledge-exchange/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDKnowledgeExchange Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/feedback": {
+    "/knowledge-exchange/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDKnowledgeExchange Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}": {
+    "/knowledge-exchange/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDKnowledgeExchange Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/initiation": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/update": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -912,7 +912,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/control": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -925,14 +925,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1060,7 +1060,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/exchange": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1073,14 +1073,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/execution": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1363,7 +1363,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/requisition": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1376,14 +1376,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1518,7 +1518,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1531,14 +1531,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1652,7 +1652,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/initiation": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1665,14 +1665,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
@@ -1795,7 +1795,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/{bq-reference-id}/update": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1808,21 +1808,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaptureandClassification Instance Reference",
             "required": true,
@@ -1950,7 +1950,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/{bq-reference-id}/exchange": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1963,21 +1963,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaptureandClassification Instance Reference",
             "required": true,
@@ -2113,7 +2113,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/{bq-reference-id}/execution": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2126,21 +2126,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaptureandClassification Instance Reference",
             "required": true,
@@ -2279,7 +2279,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/{bq-reference-id}/requisition": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2292,21 +2292,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaptureandClassification Instance Reference",
             "required": true,
@@ -2445,7 +2445,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/captureandclassification/{bq-reference-id}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/captureandclassification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2458,21 +2458,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaptureandClassification Instance Reference",
             "required": true,
@@ -2590,7 +2590,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/indexingandpublication/{bq-reference-id}/update": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/indexingandpublication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2603,21 +2603,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IndexingandPublication Instance Reference",
             "required": true,
@@ -2745,7 +2745,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/indexingandpublication/{bq-reference-id}/exchange": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/indexingandpublication/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2758,21 +2758,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IndexingandPublication Instance Reference",
             "required": true,
@@ -2908,7 +2908,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/indexingandpublication/{bq-reference-id}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/indexingandpublication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2921,21 +2921,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IndexingandPublication Instance Reference",
             "required": true,
@@ -3053,7 +3053,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/reviewrefinementandediting/{bq-reference-id}/update": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/reviewrefinementandediting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3066,21 +3066,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewRefinementandEditing Instance Reference",
             "required": true,
@@ -3208,7 +3208,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/reviewrefinementandediting/{bq-reference-id}/exchange": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/reviewrefinementandediting/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3221,21 +3221,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewRefinementandEditing Instance Reference",
             "required": true,
@@ -3371,7 +3371,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/reviewrefinementandediting/{bq-reference-id}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/reviewrefinementandediting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3384,21 +3384,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewRefinementandEditing Instance Reference",
             "required": true,
@@ -3516,7 +3516,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/archiving/{bq-reference-id}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/archiving/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3529,21 +3529,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Archiving Instance Reference",
             "required": true,
@@ -3661,7 +3661,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/maintenanceandaccessadministration/{bq-reference-id}/update": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/maintenanceandaccessadministration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3674,21 +3674,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceandAccessAdministration Instance Reference",
             "required": true,
@@ -3808,7 +3808,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/maintenanceandaccessadministration/{bq-reference-id}/requisition": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/maintenanceandaccessadministration/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3821,21 +3821,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceandAccessAdministration Instance Reference",
             "required": true,
@@ -3966,7 +3966,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/maintenanceandaccessadministration/{bq-reference-id}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/maintenanceandaccessadministration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3979,21 +3979,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceandAccessAdministration Instance Reference",
             "required": true,
@@ -4107,7 +4107,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -4119,7 +4119,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
@@ -4181,7 +4181,7 @@
         }
       }
     },
-    "/knowledge-exchange/{sd-reference-id}/intellectual-property-exchange-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/knowledge-exchange/{sdReferenceId}/intellectual-property-exchange-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4193,21 +4193,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Knowledge Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Intellectual Property Exchange Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CaptureandClassification",
             "required": true,

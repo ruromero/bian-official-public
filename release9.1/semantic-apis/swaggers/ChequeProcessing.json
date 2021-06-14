@@ -168,7 +168,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/configuration": {
+    "/cheque-processing/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChequeProcessing Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/feedback": {
+    "/cheque-processing/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChequeProcessing Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}": {
+    "/cheque-processing/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChequeProcessing Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/initiation": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/update": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -912,7 +912,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/control": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -925,14 +925,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -1060,7 +1060,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/exchange": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1073,14 +1073,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/execution": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -1363,7 +1363,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/requisition": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1376,14 +1376,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -1518,7 +1518,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1531,14 +1531,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
@@ -1652,7 +1652,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/chequeextraction/{bq-reference-id}/": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/chequeextraction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1665,21 +1665,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ChequeExtraction Instance Reference",
             "required": true,
@@ -1793,7 +1793,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/financialtransactioninitiation/{bq-reference-id}/exchange": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/financialtransactioninitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1806,21 +1806,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionInitiation Instance Reference",
             "required": true,
@@ -1948,7 +1948,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/financialtransactioninitiation/{bq-reference-id}/": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/financialtransactioninitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1961,21 +1961,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialTransactionInitiation Instance Reference",
             "required": true,
@@ -2089,7 +2089,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/cancelledchequehandling/{bq-reference-id}/update": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/cancelledchequehandling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2102,21 +2102,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CancelledChequeHandling Instance Reference",
             "required": true,
@@ -2228,7 +2228,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/cancelledchequehandling/{bq-reference-id}/": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/cancelledchequehandling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2241,21 +2241,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CancelledChequeHandling Instance Reference",
             "required": true,
@@ -2365,7 +2365,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -2377,7 +2377,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
@@ -2440,7 +2440,7 @@
         }
       }
     },
-    "/cheque-processing/{sd-reference-id}/chequeprocessing-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/cheque-processing/{sdReferenceId}/chequeprocessing-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2452,21 +2452,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cheque Processing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Chequeprocessing Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ChequeExtraction",
             "required": true,

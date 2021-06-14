@@ -162,7 +162,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/configuration": {
+    "/payment-initiation/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentInitiation Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/feedback": {
+    "/payment-initiation/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentInitiation Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}": {
+    "/payment-initiation/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentInitiation Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/initiation": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
@@ -834,7 +834,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/update": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -847,14 +847,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
@@ -1128,7 +1128,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1141,14 +1141,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
@@ -1327,7 +1327,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/compliance/{bq-reference-id}/": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/compliance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1340,21 +1340,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Compliance Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/fundingcheck/{bq-reference-id}/": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/fundingcheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1546,21 +1546,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FundingCheck Instance Reference",
             "required": true,
@@ -1707,7 +1707,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/orderinitiation/{bq-reference-id}/exchange": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/orderinitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1720,21 +1720,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OrderInitiation Instance Reference",
             "required": true,
@@ -1805,7 +1805,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/orderinitiation/{bq-reference-id}/": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/orderinitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1818,21 +1818,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OrderInitiation Instance Reference",
             "required": true,
@@ -2020,7 +2020,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -2032,7 +2032,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
@@ -2092,7 +2092,7 @@
         }
       }
     },
-    "/payment-initiation/{sd-reference-id}/payment-initiation-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/payment-initiation/{sdReferenceId}/payment-initiation-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2104,21 +2104,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Initiation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Initiation Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- OrderInitiation",
             "required": true,

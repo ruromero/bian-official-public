@@ -168,7 +168,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/configuration": {
+    "/corporate-lease/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLease Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/feedback": {
+    "/corporate-lease/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLease Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}": {
+    "/corporate-lease/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLease Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/initiation": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/update": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/control": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/exchange": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/execution": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/requisition": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/administer/{bq-reference-id}/update": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/administer/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Administer Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/administer/{bq-reference-id}/control": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/administer/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Administer Instance Reference",
             "required": true,
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/administer/{bq-reference-id}/exchange": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/administer/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2089,21 +2089,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Administer Instance Reference",
             "required": true,
@@ -2247,7 +2247,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/administer/{bq-reference-id}/requisition": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/administer/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2260,21 +2260,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Administer Instance Reference",
             "required": true,
@@ -2421,7 +2421,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/administer/{bq-reference-id}/": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/administer/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2434,21 +2434,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Administer Instance Reference",
             "required": true,
@@ -2570,7 +2570,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/initiation": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2583,14 +2583,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
@@ -2713,7 +2713,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/{bq-reference-id}/update": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2726,21 +2726,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfill Instance Reference",
             "required": true,
@@ -2868,7 +2868,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/{bq-reference-id}/exchange": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2881,21 +2881,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfill Instance Reference",
             "required": true,
@@ -3031,7 +3031,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/{bq-reference-id}/execution": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3044,21 +3044,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfill Instance Reference",
             "required": true,
@@ -3197,7 +3197,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/{bq-reference-id}/requisition": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3210,21 +3210,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfill Instance Reference",
             "required": true,
@@ -3363,7 +3363,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/fulfill/{bq-reference-id}/": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/fulfill/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3376,21 +3376,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfill Instance Reference",
             "required": true,
@@ -3508,7 +3508,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3520,7 +3520,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
@@ -3579,7 +3579,7 @@
         }
       }
     },
-    "/corporate-lease/{sd-reference-id}/corporate-lease-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/corporate-lease/{sdReferenceId}/corporate-lease-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3591,21 +3591,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Lease Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Lease Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Fulfill",
             "required": true,

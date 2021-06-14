@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/configuration": {
+    "/card-ecommerce-gateway/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardECommerceGateway Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/feedback": {
+    "/card-ecommerce-gateway/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardECommerceGateway Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}": {
+    "/card-ecommerce-gateway/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardECommerceGateway Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/control": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -622,14 +622,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -696,7 +696,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -709,14 +709,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -795,7 +795,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardtransaction/initiation": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardtransaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -808,14 +808,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -894,7 +894,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardtransaction/{bq-reference-id}/update": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardtransaction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -907,21 +907,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -1005,7 +1005,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardtransaction/{bq-reference-id}/": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardtransaction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1018,21 +1018,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardTransaction Instance Reference",
             "required": true,
@@ -1126,7 +1126,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionbatch/initiation": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionbatch/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1139,14 +1139,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -1225,7 +1225,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionbatch/{bq-reference-id}/update": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionbatch/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1238,21 +1238,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionBatch Instance Reference",
             "required": true,
@@ -1336,7 +1336,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionbatch/{bq-reference-id}/": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionbatch/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1349,21 +1349,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionBatch Instance Reference",
             "required": true,
@@ -1457,7 +1457,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardauthentication/initiation": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardauthentication/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1470,14 +1470,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -1561,7 +1561,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardauthentication/{bq-reference-id}/update": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardauthentication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1574,21 +1574,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardAuthentication Instance Reference",
             "required": true,
@@ -1682,7 +1682,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/cardauthentication/{bq-reference-id}/": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/cardauthentication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1695,21 +1695,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CardAuthentication Instance Reference",
             "required": true,
@@ -1808,7 +1808,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionauthorization/initiation": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionauthorization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1821,14 +1821,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
@@ -1907,7 +1907,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionauthorization/{bq-reference-id}/update": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionauthorization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1920,21 +1920,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAuthorization Instance Reference",
             "required": true,
@@ -2018,7 +2018,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/transactionauthorization/{bq-reference-id}/": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/transactionauthorization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2031,21 +2031,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAuthorization Instance Reference",
             "required": true,
@@ -2139,7 +2139,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -2151,7 +2151,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
@@ -2212,7 +2212,7 @@
         }
       }
     },
-    "/card-ecommerce-gateway/{sd-reference-id}/ecommerce-gateway-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-ecommerce-gateway/{sdReferenceId}/ecommerce-gateway-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2224,21 +2224,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card eCommerce Gateway Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "eCommerce Gateway Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionAuthorization",
             "required": true,

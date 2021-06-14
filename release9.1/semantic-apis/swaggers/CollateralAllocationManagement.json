@@ -162,7 +162,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/configuration": {
+    "/collateral-allocation-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAllocationManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/feedback": {
+    "/collateral-allocation-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAllocationManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}": {
+    "/collateral-allocation-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAllocationManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/initiation": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/update": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
@@ -917,7 +917,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -930,14 +930,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
@@ -1059,7 +1059,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/initiation": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1072,14 +1072,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
@@ -1255,7 +1255,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/update": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1268,21 +1268,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1460,7 +1460,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/control": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1473,21 +1473,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1558,7 +1558,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/exchange": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1571,21 +1571,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1656,7 +1656,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/capture": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1669,21 +1669,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1817,7 +1817,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/grant": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1830,21 +1830,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -1924,7 +1924,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/allocation/{bq-reference-id}/": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/allocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1937,21 +1937,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Allocation Instance Reference",
             "required": true,
@@ -2140,7 +2140,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -2152,7 +2152,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
@@ -2210,7 +2210,7 @@
         }
       }
     },
-    "/collateral-allocation-management/{sd-reference-id}/collateral-asset-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/collateral-allocation-management/{sdReferenceId}/collateral-asset-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2222,21 +2222,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Allocation Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Allocation",
             "required": true,

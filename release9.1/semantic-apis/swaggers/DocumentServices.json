@@ -162,7 +162,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/configuration": {
+    "/document-services/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDocumentServices Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/feedback": {
+    "/document-services/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDocumentServices Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}": {
+    "/document-services/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDocumentServices Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/registration": {
+    "/document-services/{sdReferenceId}/document-directory-entry/registration": {
       "post": {
         "tags": [
           "register"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
@@ -813,7 +813,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}/update": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -826,14 +826,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
@@ -1067,7 +1067,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}/control": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1080,14 +1080,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
@@ -1154,7 +1154,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}/exchange": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1167,14 +1167,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
@@ -1241,7 +1241,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}/requisition": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1254,14 +1254,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
@@ -1391,7 +1391,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1404,14 +1404,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
@@ -1572,7 +1572,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry": {
+    "/document-services/{sdReferenceId}/document-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -1584,7 +1584,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
@@ -1640,7 +1640,7 @@
         }
       }
     },
-    "/document-services/{sd-reference-id}/document-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/document-services/{sdReferenceId}/document-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1652,21 +1652,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Document Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Document Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

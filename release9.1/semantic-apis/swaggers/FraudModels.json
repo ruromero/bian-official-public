@@ -162,7 +162,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/configuration": {
+    "/fraud-models/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudModels Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/feedback": {
+    "/fraud-models/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudModels Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}": {
+    "/fraud-models/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudModels Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/creation": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
@@ -773,7 +773,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/execution": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -786,14 +786,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
@@ -948,7 +948,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/requisition": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -961,14 +961,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
@@ -1123,7 +1123,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1136,14 +1136,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
@@ -1272,7 +1272,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/update": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1285,21 +1285,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1465,7 +1465,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/exchange": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1478,21 +1478,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1563,7 +1563,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/capture": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1576,21 +1576,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1676,7 +1676,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/requisition": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1689,21 +1689,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1797,7 +1797,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/functionalrequirements/{bq-reference-id}/": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/functionalrequirements/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1810,21 +1810,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRequirements Instance Reference",
             "required": true,
@@ -1973,7 +1973,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/testing/{bq-reference-id}/update": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/testing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1986,21 +1986,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2149,7 +2149,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/testing/{bq-reference-id}/exchange": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/testing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2162,21 +2162,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2247,7 +2247,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/testing/{bq-reference-id}/": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/testing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2260,21 +2260,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Testing Instance Reference",
             "required": true,
@@ -2411,7 +2411,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/production/{bq-reference-id}/execution": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/production/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2424,21 +2424,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2583,7 +2583,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/production/{bq-reference-id}/requisition": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/production/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2596,21 +2596,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2755,7 +2755,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/production/{bq-reference-id}/": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/production/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2768,21 +2768,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2925,7 +2925,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -2937,7 +2937,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
@@ -2997,7 +2997,7 @@
         }
       }
     },
-    "/fraud-models/{sd-reference-id}/fraud-model-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/fraud-models/{sdReferenceId}/fraud-model-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3009,21 +3009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Models Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Model Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Production",
             "required": true,

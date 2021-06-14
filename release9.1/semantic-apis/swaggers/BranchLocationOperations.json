@@ -168,7 +168,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/configuration": {
+    "/branch-location-operations/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationOperations Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/feedback": {
+    "/branch-location-operations/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationOperations Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}": {
+    "/branch-location-operations/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationOperations Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/initiation": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -850,7 +850,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/control": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -863,14 +863,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/exchange": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -1084,7 +1084,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1097,14 +1097,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -1332,7 +1332,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/grant": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1345,14 +1345,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,14 +1476,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
@@ -1576,7 +1576,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/staffassignment/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/staffassignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1589,21 +1589,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffAssignment Instance Reference",
             "required": true,
@@ -1741,7 +1741,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/staffassignment/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/staffassignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1754,21 +1754,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffAssignment Instance Reference",
             "required": true,
@@ -1917,7 +1917,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/staffassignment/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/staffassignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1930,21 +1930,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffAssignment Instance Reference",
             "required": true,
@@ -2093,7 +2093,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/staffassignment/{bq-reference-id}/grant": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/staffassignment/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2106,21 +2106,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffAssignment Instance Reference",
             "required": true,
@@ -2276,7 +2276,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/staffassignment/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/staffassignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2289,21 +2289,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffAssignment Instance Reference",
             "required": true,
@@ -2426,7 +2426,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/cashinventoryhandling/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/cashinventoryhandling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2439,21 +2439,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashInventoryHandling Instance Reference",
             "required": true,
@@ -2591,7 +2591,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/cashinventoryhandling/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/cashinventoryhandling/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2604,21 +2604,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashInventoryHandling Instance Reference",
             "required": true,
@@ -2767,7 +2767,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/cashinventoryhandling/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/cashinventoryhandling/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2780,21 +2780,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashInventoryHandling Instance Reference",
             "required": true,
@@ -2943,7 +2943,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/cashinventoryhandling/{bq-reference-id}/grant": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/cashinventoryhandling/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2956,21 +2956,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashInventoryHandling Instance Reference",
             "required": true,
@@ -3126,7 +3126,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/cashinventoryhandling/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/cashinventoryhandling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3139,21 +3139,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashInventoryHandling Instance Reference",
             "required": true,
@@ -3276,7 +3276,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/noncashinventoryhandling/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/noncashinventoryhandling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3289,21 +3289,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NonCashInventoryHandling Instance Reference",
             "required": true,
@@ -3441,7 +3441,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/noncashinventoryhandling/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/noncashinventoryhandling/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3454,21 +3454,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NonCashInventoryHandling Instance Reference",
             "required": true,
@@ -3617,7 +3617,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/noncashinventoryhandling/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/noncashinventoryhandling/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3630,21 +3630,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NonCashInventoryHandling Instance Reference",
             "required": true,
@@ -3793,7 +3793,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/noncashinventoryhandling/{bq-reference-id}/grant": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/noncashinventoryhandling/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -3806,21 +3806,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NonCashInventoryHandling Instance Reference",
             "required": true,
@@ -3939,7 +3939,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/noncashinventoryhandling/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/noncashinventoryhandling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3952,21 +3952,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "NonCashInventoryHandling Instance Reference",
             "required": true,
@@ -4089,7 +4089,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4102,21 +4102,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -4254,7 +4254,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/exchange": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4267,21 +4267,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -4427,7 +4427,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4440,21 +4440,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -4603,7 +4603,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4616,21 +4616,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -4779,7 +4779,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/grant": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -4792,21 +4792,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -4925,7 +4925,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/locationsecurityadministration/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/locationsecurityadministration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4938,21 +4938,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LocationSecurityAdministration Instance Reference",
             "required": true,
@@ -5075,7 +5075,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/safecustodyoperations/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/safecustodyoperations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5088,21 +5088,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeCustodyOperations Instance Reference",
             "required": true,
@@ -5240,7 +5240,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/safecustodyoperations/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/safecustodyoperations/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -5253,21 +5253,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeCustodyOperations Instance Reference",
             "required": true,
@@ -5416,7 +5416,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/safecustodyoperations/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/safecustodyoperations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5429,21 +5429,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeCustodyOperations Instance Reference",
             "required": true,
@@ -5555,7 +5555,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/safecustodyoperations/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/safecustodyoperations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5568,21 +5568,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeCustodyOperations Instance Reference",
             "required": true,
@@ -5701,7 +5701,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/workforceadministration/{bq-reference-id}/update": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/workforceadministration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5714,21 +5714,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "WorkforceAdministration Instance Reference",
             "required": true,
@@ -5858,7 +5858,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/workforceadministration/{bq-reference-id}/capture": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/workforceadministration/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -5871,21 +5871,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "WorkforceAdministration Instance Reference",
             "required": true,
@@ -6026,7 +6026,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/workforceadministration/{bq-reference-id}/requisition": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/workforceadministration/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -6039,21 +6039,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "WorkforceAdministration Instance Reference",
             "required": true,
@@ -6194,7 +6194,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/workforceadministration/{bq-reference-id}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/workforceadministration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6207,21 +6207,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "WorkforceAdministration Instance Reference",
             "required": true,
@@ -6340,7 +6340,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -6352,7 +6352,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
@@ -6415,7 +6415,7 @@
         }
       }
     },
-    "/branch-location-operations/{sd-reference-id}/branch-location-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/branch-location-operations/{sdReferenceId}/branch-location-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6427,21 +6427,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- StaffAssignment",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/configuration": {
+    "/product-expert-sales-support/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductExpertSalesSupport Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/feedback": {
+    "/product-expert-sales-support/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductExpertSalesSupport Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}": {
+    "/product-expert-sales-support/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductExpertSalesSupport Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/creation": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
@@ -754,7 +754,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/update": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -767,14 +767,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
@@ -916,7 +916,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/requisition": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -929,14 +929,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
@@ -1079,7 +1079,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1092,14 +1092,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
@@ -1212,7 +1212,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/creation": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/creation": {
       "post": {
         "tags": [
           "create"
@@ -1225,14 +1225,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
@@ -1421,7 +1421,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/update": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1434,21 +1434,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/exchange": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1603,21 +1603,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1688,7 +1688,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/capture": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1701,21 +1701,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1841,7 +1841,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/requisition": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1854,21 +1854,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2012,7 +2012,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2025,21 +2025,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -2201,7 +2201,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2213,7 +2213,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
@@ -2271,7 +2271,7 @@
         }
       }
     },
-    "/product-expert-sales-support/{sd-reference-id}/sales-specialist-support-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-expert-sales-support/{sdReferenceId}/sales-specialist-support-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2283,21 +2283,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Expert Sales Support Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Specialist Support Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Assignment",
             "required": true,

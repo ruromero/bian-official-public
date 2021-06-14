@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/configuration": {
+    "/card-financial-settlement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardFinancialSettlement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/feedback": {
+    "/card-financial-settlement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardFinancialSettlement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}": {
+    "/card-financial-settlement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardFinancialSettlement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/initiation": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
@@ -725,7 +725,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/update": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -738,14 +738,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
@@ -863,7 +863,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -876,14 +876,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
@@ -989,7 +989,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/consolidation/{bq-reference-id}/update": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/consolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1002,21 +1002,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1212,7 +1212,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1225,21 +1225,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1407,7 +1407,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/processing/{bq-reference-id}/update": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/processing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1420,21 +1420,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Processing Instance Reference",
             "required": true,
@@ -1522,7 +1522,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/processing/{bq-reference-id}/": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/processing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1535,21 +1535,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Processing Instance Reference",
             "required": true,
@@ -1729,7 +1729,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/instruction/{bq-reference-id}/update": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/instruction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1742,21 +1742,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Instruction Instance Reference",
             "required": true,
@@ -1844,7 +1844,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/instruction/{bq-reference-id}/": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/instruction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1857,21 +1857,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Instruction Instance Reference",
             "required": true,
@@ -2063,7 +2063,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/payment/{bq-reference-id}/update": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/payment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2076,21 +2076,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2170,7 +2170,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/payment/{bq-reference-id}/": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/payment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2183,21 +2183,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2397,7 +2397,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2409,7 +2409,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
@@ -2470,7 +2470,7 @@
         }
       }
     },
-    "/card-financial-settlement/{sd-reference-id}/card-financial-settlement-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-financial-settlement/{sdReferenceId}/card-financial-settlement-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2482,21 +2482,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Financial Settlement Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Payment",
             "required": true,

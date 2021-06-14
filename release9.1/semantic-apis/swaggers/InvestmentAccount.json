@@ -162,7 +162,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/configuration": {
+    "/investment-account/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentAccount Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/feedback": {
+    "/investment-account/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentAccount Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}": {
+    "/investment-account/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentAccount Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/initiation": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
@@ -909,7 +909,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -922,14 +922,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1265,7 +1265,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1278,14 +1278,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1352,7 +1352,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1365,14 +1365,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1582,7 +1582,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/initiation": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1595,14 +1595,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1933,7 +1933,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/update": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1946,21 +1946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -2024,7 +2024,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/exchange": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2037,21 +2037,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -2122,7 +2122,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/execution": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2135,21 +2135,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -2223,7 +2223,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2236,21 +2236,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -2334,7 +2334,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/corporateactions/initiation": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/corporateactions/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2347,14 +2347,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2713,7 +2713,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/corporateactions/{bq-reference-id}/update": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/corporateactions/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2726,21 +2726,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateActions Instance Reference",
             "required": true,
@@ -2804,7 +2804,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/corporateactions/{bq-reference-id}/exchange": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/corporateactions/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2817,21 +2817,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateActions Instance Reference",
             "required": true,
@@ -2902,7 +2902,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/corporateactions/{bq-reference-id}/execution": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/corporateactions/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2915,21 +2915,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateActions Instance Reference",
             "required": true,
@@ -3071,7 +3071,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/corporateactions/{bq-reference-id}/": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/corporateactions/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3084,21 +3084,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateActions Instance Reference",
             "required": true,
@@ -3228,7 +3228,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3241,14 +3241,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3603,7 +3603,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/update": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3616,21 +3616,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3694,7 +3694,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/exchange": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3707,21 +3707,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3792,7 +3792,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3805,21 +3805,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -4001,7 +4001,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/requisition": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4014,21 +4014,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -4102,7 +4102,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4115,21 +4115,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -4285,7 +4285,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -4297,7 +4297,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
@@ -4357,7 +4357,7 @@
         }
       }
     },
-    "/investment-account/{sd-reference-id}/investment-account-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/investment-account/{sdReferenceId}/investment-account-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4369,21 +4369,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Investment Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ServiceFees",
             "required": true,

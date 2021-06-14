@@ -168,7 +168,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/configuration": {
+    "/merchandising-loan/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchandisingLoan Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/feedback": {
+    "/merchandising-loan/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchandisingLoan Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}": {
+    "/merchandising-loan/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMerchandisingLoan Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/control": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/execution": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/requisition": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/financialinstrument/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/financialinstrument/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1755,14 +1755,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -1885,7 +1885,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/financialinstrument/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/financialinstrument/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1898,21 +1898,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialInstrument Instance Reference",
             "required": true,
@@ -2040,7 +2040,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/financialinstrument/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/financialinstrument/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2053,21 +2053,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialInstrument Instance Reference",
             "required": true,
@@ -2185,7 +2185,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/sweep/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/sweep/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2198,14 +2198,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -2336,7 +2336,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/sweep/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2349,21 +2349,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -2499,7 +2499,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/sweep/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2512,21 +2512,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -2670,7 +2670,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/sweep/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2683,21 +2683,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -2819,7 +2819,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/financialaccounting/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/financialaccounting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2832,21 +2832,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialAccounting Instance Reference",
             "required": true,
@@ -2974,7 +2974,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/financialaccounting/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/financialaccounting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2987,21 +2987,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialAccounting Instance Reference",
             "required": true,
@@ -3119,7 +3119,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/deposits/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/deposits/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3132,14 +3132,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -3270,7 +3270,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/deposits/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/deposits/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3283,21 +3283,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposits Instance Reference",
             "required": true,
@@ -3433,7 +3433,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/deposits/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/deposits/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3446,21 +3446,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposits Instance Reference",
             "required": true,
@@ -3582,7 +3582,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/withdrawals/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/withdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3595,14 +3595,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -3733,7 +3733,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/withdrawals/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/withdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3746,21 +3746,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawals Instance Reference",
             "required": true,
@@ -3896,7 +3896,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/withdrawals/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/withdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3909,21 +3909,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawals Instance Reference",
             "required": true,
@@ -4045,7 +4045,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/collateral/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/collateral/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4058,14 +4058,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -4196,7 +4196,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/collateral/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4209,21 +4209,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4359,7 +4359,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/requisition": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/collateral/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4372,21 +4372,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4533,7 +4533,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/collateral/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4546,21 +4546,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4682,7 +4682,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/payments/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4695,14 +4695,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -4833,7 +4833,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4846,21 +4846,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4996,7 +4996,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5009,21 +5009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5167,7 +5167,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5180,21 +5180,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5316,7 +5316,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/lien/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/lien/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5329,14 +5329,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -5467,7 +5467,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/lien/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/lien/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5480,21 +5480,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -5630,7 +5630,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/lien/{bq-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/lien/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5643,21 +5643,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -5801,7 +5801,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/lien/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/lien/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5814,21 +5814,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -5950,7 +5950,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/interest/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/interest/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5963,21 +5963,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -6113,7 +6113,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6126,21 +6126,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -6262,7 +6262,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/billing/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/billing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -6275,14 +6275,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -6413,7 +6413,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/billing/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/billing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -6426,21 +6426,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -6576,7 +6576,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/billing/{bq-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/billing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -6589,21 +6589,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -6747,7 +6747,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/billing/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/billing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6760,21 +6760,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Billing Instance Reference",
             "required": true,
@@ -6896,7 +6896,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -6909,14 +6909,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -7047,7 +7047,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -7060,21 +7060,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -7210,7 +7210,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -7223,21 +7223,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -7359,7 +7359,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/fees/initiation": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/fees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -7372,14 +7372,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
@@ -7502,7 +7502,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/fees/{bq-reference-id}/update": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/fees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -7515,21 +7515,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -7657,7 +7657,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/fees/{bq-reference-id}/exchange": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/fees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -7670,21 +7670,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -7820,7 +7820,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/fees/{bq-reference-id}/requisition": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/fees/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -7833,21 +7833,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -7986,7 +7986,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/fees/{bq-reference-id}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/fees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -7999,21 +7999,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -8131,7 +8131,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -8143,7 +8143,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
@@ -8212,7 +8212,7 @@
         }
       }
     },
-    "/merchandising-loan/{sd-reference-id}/merchandising-loan-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/merchandising-loan/{sdReferenceId}/merchandising-loan-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -8224,21 +8224,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Merchandising Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Merchandising Loan Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Interest",
             "required": true,

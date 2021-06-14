@@ -162,7 +162,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/configuration": {
+    "/transaction-engine/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDTransactionEngine Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/feedback": {
+    "/transaction-engine/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDTransactionEngine Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}": {
+    "/transaction-engine/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDTransactionEngine Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/initiation": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
@@ -832,7 +832,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -845,14 +845,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1116,7 +1116,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1129,14 +1129,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1203,7 +1203,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}/exchange": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1216,14 +1216,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1290,7 +1290,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}/execution": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1303,14 +1303,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1531,7 +1531,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1544,14 +1544,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1725,7 +1725,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -1737,7 +1737,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
@@ -1793,7 +1793,7 @@
         }
       }
     },
-    "/transaction-engine/{sd-reference-id}/transaction-schedule-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/transaction-engine/{sdReferenceId}/transaction-schedule-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1805,21 +1805,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Transaction Engine Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Transaction Schedule Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

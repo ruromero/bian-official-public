@@ -162,7 +162,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/configuration": {
+    "/ecm-dcm/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDECMDCM Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/feedback": {
+    "/ecm-dcm/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDECMDCM Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}": {
+    "/ecm-dcm/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDECMDCM Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/initiation": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
@@ -793,7 +793,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -806,14 +806,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1005,7 +1005,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/exchange": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1018,14 +1018,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1092,7 +1092,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1105,14 +1105,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1314,7 +1314,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1327,14 +1327,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1472,7 +1472,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/instrumentdefinition/{bq-reference-id}/update": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/instrumentdefinition/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1485,21 +1485,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InstrumentDefinition Instance Reference",
             "required": true,
@@ -1631,7 +1631,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/instrumentdefinition/{bq-reference-id}/requisition": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/instrumentdefinition/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1644,21 +1644,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InstrumentDefinition Instance Reference",
             "required": true,
@@ -1792,7 +1792,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/instrumentdefinition/{bq-reference-id}/": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/instrumentdefinition/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1805,21 +1805,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InstrumentDefinition Instance Reference",
             "required": true,
@@ -1937,7 +1937,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/prospectus/{bq-reference-id}/update": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/prospectus/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1950,21 +1950,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Prospectus Instance Reference",
             "required": true,
@@ -2096,7 +2096,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/prospectus/{bq-reference-id}/requisition": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/prospectus/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2109,21 +2109,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Prospectus Instance Reference",
             "required": true,
@@ -2257,7 +2257,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/prospectus/{bq-reference-id}/": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/prospectus/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2270,21 +2270,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Prospectus Instance Reference",
             "required": true,
@@ -2402,7 +2402,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/placement/{bq-reference-id}/update": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/placement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2415,21 +2415,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -2577,7 +2577,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/placement/{bq-reference-id}/requisition": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/placement/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2590,21 +2590,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -2754,7 +2754,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/placement/{bq-reference-id}/": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/placement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2767,21 +2767,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -2907,7 +2907,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2919,7 +2919,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
@@ -2979,7 +2979,7 @@
         }
       }
     },
-    "/ecm-dcm/{sd-reference-id}/ecm-dcm-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/ecm-dcm/{sdReferenceId}/ecm-dcm-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2991,21 +2991,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ECM-DCM Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ECMDCM Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Placement",
             "required": true,

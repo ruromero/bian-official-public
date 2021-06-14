@@ -168,7 +168,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/configuration": {
+    "/product-training/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductTraining Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/feedback": {
+    "/product-training/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductTraining Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}": {
+    "/product-training/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductTraining Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/initiation": {
+    "/product-training/{sdReferenceId}/product-training-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
@@ -811,7 +811,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/update": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -824,14 +824,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/control": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -1189,7 +1189,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/exchange": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1202,14 +1202,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/execution": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/requisition": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1591,14 +1591,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -1776,7 +1776,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1789,14 +1789,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -1955,7 +1955,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/contentdevelopment/initiation": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/contentdevelopment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1968,14 +1968,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -2108,7 +2108,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/contentdevelopment/{bq-reference-id}/update": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/contentdevelopment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2121,21 +2121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ContentDevelopment Instance Reference",
             "required": true,
@@ -2273,7 +2273,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/contentdevelopment/{bq-reference-id}/exchange": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/contentdevelopment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2286,21 +2286,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ContentDevelopment Instance Reference",
             "required": true,
@@ -2446,7 +2446,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/contentdevelopment/{bq-reference-id}/requisition": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/contentdevelopment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2459,21 +2459,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ContentDevelopment Instance Reference",
             "required": true,
@@ -2622,7 +2622,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/contentdevelopment/{bq-reference-id}/": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/contentdevelopment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2635,21 +2635,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ContentDevelopment Instance Reference",
             "required": true,
@@ -2772,7 +2772,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/initiation": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2785,14 +2785,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -2925,7 +2925,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/{bq-reference-id}/update": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2938,21 +2938,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceDelivery Instance Reference",
             "required": true,
@@ -3090,7 +3090,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/{bq-reference-id}/exchange": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3103,21 +3103,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceDelivery Instance Reference",
             "required": true,
@@ -3263,7 +3263,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/{bq-reference-id}/execution": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3276,21 +3276,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceDelivery Instance Reference",
             "required": true,
@@ -3439,7 +3439,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/{bq-reference-id}/requisition": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3452,21 +3452,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceDelivery Instance Reference",
             "required": true,
@@ -3615,7 +3615,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicedelivery/{bq-reference-id}/": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicedelivery/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3628,21 +3628,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceDelivery Instance Reference",
             "required": true,
@@ -3765,7 +3765,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/initiation": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3778,14 +3778,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
@@ -3918,7 +3918,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/{bq-reference-id}/update": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3931,21 +3931,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceScheduling Instance Reference",
             "required": true,
@@ -4083,7 +4083,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/{bq-reference-id}/exchange": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4096,21 +4096,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceScheduling Instance Reference",
             "required": true,
@@ -4256,7 +4256,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/{bq-reference-id}/execution": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4269,21 +4269,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceScheduling Instance Reference",
             "required": true,
@@ -4432,7 +4432,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/{bq-reference-id}/requisition": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4445,21 +4445,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceScheduling Instance Reference",
             "required": true,
@@ -4608,7 +4608,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/servicescheduling/{bq-reference-id}/": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/servicescheduling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4621,21 +4621,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceScheduling Instance Reference",
             "required": true,
@@ -4758,7 +4758,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/serviceevaluation/{bq-reference-id}/update": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/serviceevaluation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4771,21 +4771,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceEvaluation Instance Reference",
             "required": true,
@@ -4915,7 +4915,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/serviceevaluation/{bq-reference-id}/exchange": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/serviceevaluation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4928,21 +4928,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceEvaluation Instance Reference",
             "required": true,
@@ -5080,7 +5080,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/serviceevaluation/{bq-reference-id}/requisition": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/serviceevaluation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5093,21 +5093,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceEvaluation Instance Reference",
             "required": true,
@@ -5248,7 +5248,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/serviceevaluation/{bq-reference-id}/": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/serviceevaluation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5261,21 +5261,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceEvaluation Instance Reference",
             "required": true,
@@ -5394,7 +5394,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure": {
+    "/product-training/{sdReferenceId}/product-training-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -5406,7 +5406,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
@@ -5467,7 +5467,7 @@
         }
       }
     },
-    "/product-training/{sd-reference-id}/product-training-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-training/{sdReferenceId}/product-training-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5479,21 +5479,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Training Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Training Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ContentDevelopment",
             "required": true,

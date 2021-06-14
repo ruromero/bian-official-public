@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/configuration": {
+    "/customer-credit-rating/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCreditRating Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/feedback": {
+    "/customer-credit-rating/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCreditRating Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}": {
+    "/customer-credit-rating/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCreditRating Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/initiation": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
@@ -792,7 +792,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/control": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -805,14 +805,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
@@ -879,7 +879,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/exchange": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -892,14 +892,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
@@ -966,7 +966,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/execution": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -979,14 +979,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/requisition": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1116,14 +1116,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
@@ -1240,7 +1240,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1253,14 +1253,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
@@ -1398,7 +1398,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/alerts/{bq-reference-id}/capture": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/alerts/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1411,21 +1411,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alerts Instance Reference",
             "required": true,
@@ -1553,7 +1553,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/alerts/{bq-reference-id}/": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/alerts/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1566,21 +1566,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alerts Instance Reference",
             "required": true,
@@ -1700,7 +1700,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/internalreporting/{bq-reference-id}/capture": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/internalreporting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1713,21 +1713,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalReporting Instance Reference",
             "required": true,
@@ -1845,7 +1845,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/internalreporting/{bq-reference-id}/": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/internalreporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1858,21 +1858,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalReporting Instance Reference",
             "required": true,
@@ -1983,7 +1983,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/externalreporting/{bq-reference-id}/capture": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/externalreporting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1996,21 +1996,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExternalReporting Instance Reference",
             "required": true,
@@ -2142,7 +2142,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/externalreporting/{bq-reference-id}/": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/externalreporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2155,21 +2155,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExternalReporting Instance Reference",
             "required": true,
@@ -2289,7 +2289,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state": {
       "get": {
         "tags": [
           "retrieve"
@@ -2301,7 +2301,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
@@ -2361,7 +2361,7 @@
         }
       }
     },
-    "/customer-credit-rating/{sd-reference-id}/customer-credit-rating-state/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-credit-rating/{sdReferenceId}/customer-credit-rating-state/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2373,21 +2373,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Credit Rating Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Credit Rating State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ExternalReporting",
             "required": true,

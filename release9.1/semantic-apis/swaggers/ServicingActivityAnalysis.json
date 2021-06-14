@@ -162,7 +162,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/configuration": {
+    "/servicing-activity-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/feedback": {
+    "/servicing-activity-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}": {
+    "/servicing-activity-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/evaluation": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
@@ -739,7 +739,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/update": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -752,14 +752,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
@@ -889,7 +889,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/execution": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -902,14 +902,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
@@ -1037,7 +1037,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/requisition": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1050,14 +1050,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
@@ -1185,7 +1185,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1198,14 +1198,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
@@ -1312,7 +1312,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/rootcausealgorithm/evaluation": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/rootcausealgorithm/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1325,14 +1325,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
@@ -1491,7 +1491,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/rootcausealgorithm/{bq-reference-id}/requisition": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/rootcausealgorithm/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1504,21 +1504,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RootCauseAlgorithm Instance Reference",
             "required": true,
@@ -1650,7 +1650,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/rootcausealgorithm/{bq-reference-id}/": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/rootcausealgorithm/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1663,21 +1663,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RootCauseAlgorithm Instance Reference",
             "required": true,
@@ -1815,7 +1815,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -1827,7 +1827,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
@@ -1885,7 +1885,7 @@
         }
       }
     },
-    "/servicing-activity-analysis/{sd-reference-id}/servicing-root-cause-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/servicing-activity-analysis/{sdReferenceId}/servicing-root-cause-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1897,21 +1897,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- RootCauseAlgorithm",
             "required": true,

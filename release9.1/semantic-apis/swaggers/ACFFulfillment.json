@@ -162,7 +162,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/configuration": {
+    "/ach-fulfillment/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDACHFulfillment Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/feedback": {
+    "/ach-fulfillment/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDACHFulfillment Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}": {
+    "/ach-fulfillment/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDACHFulfillment Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
@@ -711,7 +711,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -724,14 +724,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -816,7 +816,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/control": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -829,14 +829,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -903,7 +903,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -916,14 +916,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -1010,7 +1010,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/inboundach/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/inboundach/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1023,14 +1023,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/inboundach/{bq-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/inboundach/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1208,21 +1208,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InboundACH Instance Reference",
             "required": true,
@@ -1438,7 +1438,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/inboundach/{bq-reference-id}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/inboundach/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1451,21 +1451,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InboundACH Instance Reference",
             "required": true,
@@ -1625,7 +1625,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/outboundach/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/outboundach/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1638,14 +1638,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -1810,7 +1810,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/outboundach/{bq-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/outboundach/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1823,21 +1823,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundACH Instance Reference",
             "required": true,
@@ -2061,7 +2061,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/outboundach/{bq-reference-id}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/outboundach/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2074,21 +2074,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundACH Instance Reference",
             "required": true,
@@ -2252,7 +2252,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/warehousing/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/warehousing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2265,14 +2265,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -2455,7 +2455,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/warehousing/{bq-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/warehousing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2468,21 +2468,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Warehousing Instance Reference",
             "required": true,
@@ -2724,7 +2724,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/warehousing/{bq-reference-id}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/warehousing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2737,21 +2737,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Warehousing Instance Reference",
             "required": true,
@@ -2924,7 +2924,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/clearingandsettlement/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/clearingandsettlement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2937,14 +2937,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -3168,7 +3168,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/clearingandsettlement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3181,21 +3181,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -3483,7 +3483,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/clearingandsettlement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3496,21 +3496,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -3706,7 +3706,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/reconciliation/initiation": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/reconciliation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3719,14 +3719,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
@@ -3939,7 +3939,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/reconciliation/{bq-reference-id}/update": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/reconciliation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3952,21 +3952,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliation Instance Reference",
             "required": true,
@@ -4270,7 +4270,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/reconciliation/{bq-reference-id}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/reconciliation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4283,21 +4283,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliation Instance Reference",
             "required": true,
@@ -4501,7 +4501,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -4513,7 +4513,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
@@ -4575,7 +4575,7 @@
         }
       }
     },
-    "/ach-fulfillment/{sd-reference-id}/ach-fulfillment-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/ach-fulfillment/{sdReferenceId}/ach-fulfillment-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4587,21 +4587,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ACH Fulfillment Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Reconciliation",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/configuration": {
+    "/customer-offer/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerOffer Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/feedback": {
+    "/customer-offer/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerOffer Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}": {
+    "/customer-offer/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerOffer Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/initiation": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
@@ -987,7 +987,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1000,14 +1000,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1157,7 +1157,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/control": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1170,14 +1170,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1244,7 +1244,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1257,14 +1257,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1331,7 +1331,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/execution": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1344,14 +1344,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1480,7 +1480,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/requisition": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1493,14 +1493,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1642,14 +1642,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
@@ -1766,7 +1766,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/product/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/product/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1779,21 +1779,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Product Instance Reference",
             "required": true,
@@ -1979,7 +1979,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/product/{bq-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/product/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1992,21 +1992,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Product Instance Reference",
             "required": true,
@@ -2077,7 +2077,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/product/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/product/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2090,21 +2090,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Product Instance Reference",
             "required": true,
@@ -2263,7 +2263,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/disclosures/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/disclosures/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2276,21 +2276,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Disclosures Instance Reference",
             "required": true,
@@ -2454,7 +2454,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/disclosures/{bq-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/disclosures/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2467,21 +2467,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Disclosures Instance Reference",
             "required": true,
@@ -2552,7 +2552,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/disclosures/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/disclosures/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2565,21 +2565,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Disclosures Instance Reference",
             "required": true,
@@ -2727,7 +2727,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/credit/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/credit/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2740,21 +2740,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Credit Instance Reference",
             "required": true,
@@ -2910,7 +2910,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/credit/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/credit/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2923,21 +2923,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Credit Instance Reference",
             "required": true,
@@ -3081,7 +3081,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/underwriting/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/underwriting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3094,21 +3094,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Underwriting Instance Reference",
             "required": true,
@@ -3272,7 +3272,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/underwriting/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/underwriting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3285,21 +3285,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Underwriting Instance Reference",
             "required": true,
@@ -3447,7 +3447,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/compliance/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/compliance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3460,21 +3460,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Compliance Instance Reference",
             "required": true,
@@ -3644,7 +3644,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/compliance/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/compliance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3657,21 +3657,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Compliance Instance Reference",
             "required": true,
@@ -3822,7 +3822,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/audit/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/audit/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3835,21 +3835,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -4019,7 +4019,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/audit/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/audit/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4032,21 +4032,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -4197,7 +4197,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/collateral/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/collateral/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4210,21 +4210,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4392,7 +4392,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/collateral/{bq-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/collateral/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4405,21 +4405,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4490,7 +4490,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/collateral/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/collateral/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4503,21 +4503,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4667,7 +4667,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/booking/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/booking/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4680,21 +4680,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Booking Instance Reference",
             "required": true,
@@ -4852,7 +4852,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/booking/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/booking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4865,21 +4865,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Booking Instance Reference",
             "required": true,
@@ -5024,7 +5024,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/correspondenceanddocuments/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/correspondenceanddocuments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5037,21 +5037,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorrespondenceandDocuments Instance Reference",
             "required": true,
@@ -5221,7 +5221,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/correspondenceanddocuments/{bq-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/correspondenceanddocuments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5234,21 +5234,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorrespondenceandDocuments Instance Reference",
             "required": true,
@@ -5319,7 +5319,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/correspondenceanddocuments/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/correspondenceanddocuments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5332,21 +5332,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorrespondenceandDocuments Instance Reference",
             "required": true,
@@ -5499,7 +5499,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/agreement/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/agreement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5512,21 +5512,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -5676,7 +5676,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/agreement/{bq-reference-id}/exchange": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/agreement/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5689,21 +5689,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -5774,7 +5774,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/agreement/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/agreement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5787,21 +5787,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -5942,7 +5942,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/productinitialization/{bq-reference-id}/update": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/productinitialization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5955,21 +5955,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductInitialization Instance Reference",
             "required": true,
@@ -6109,7 +6109,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/productinitialization/{bq-reference-id}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/productinitialization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6122,21 +6122,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductInitialization Instance Reference",
             "required": true,
@@ -6272,7 +6272,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -6284,7 +6284,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
@@ -6352,7 +6352,7 @@
         }
       }
     },
-    "/customer-offer/{sd-reference-id}/customer-offer-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-offer/{sdReferenceId}/customer-offer-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6364,21 +6364,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Offer Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Offer Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ProductInitialization",
             "required": true,

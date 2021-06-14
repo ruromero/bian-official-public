@@ -162,7 +162,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/configuration": {
+    "/market-information-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketInformationManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/feedback": {
+    "/market-information-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketInformationManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}": {
+    "/market-information-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketInformationManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/creation": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
@@ -774,7 +774,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/update": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -787,14 +787,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -858,7 +858,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/control": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -871,14 +871,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -945,7 +945,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/exchange": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -958,14 +958,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1032,7 +1032,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/execution": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1045,14 +1045,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1126,7 +1126,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/requisition": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1139,14 +1139,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1220,7 +1220,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/grant": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1233,14 +1233,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1320,7 +1320,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1333,14 +1333,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,21 +1476,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1587,7 +1587,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/improvement/{bq-reference-id}/": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/improvement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1600,21 +1600,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Improvement Instance Reference",
             "required": true,
@@ -1718,7 +1718,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/creation": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/creation": {
       "post": {
         "tags": [
           "create"
@@ -1731,14 +1731,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
@@ -1944,7 +1944,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/{bq-reference-id}/update": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1957,21 +1957,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2191,7 +2191,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/{bq-reference-id}/capture": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2204,21 +2204,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2316,7 +2316,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/{bq-reference-id}/execution": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2329,21 +2329,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2564,7 +2564,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/{bq-reference-id}/requisition": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2577,21 +2577,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2812,7 +2812,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/reporting/{bq-reference-id}/": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/reporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2825,21 +2825,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -3001,7 +3001,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3013,7 +3013,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
@@ -3073,7 +3073,7 @@
         }
       }
     },
-    "/market-information-management/{sd-reference-id}/financial-market-information-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/market-information-management/{sdReferenceId}/financial-market-information-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3085,21 +3085,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Information Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Information Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Reporting",
             "required": true,

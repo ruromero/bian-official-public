@@ -162,7 +162,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/configuration": {
+    "/advanced-voice-services-operations/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesOperations Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/feedback": {
+    "/advanced-voice-services-operations/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesOperations Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}": {
+    "/advanced-voice-services-operations/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesOperations Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/initiation": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
@@ -756,7 +756,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/update": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -769,14 +769,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -950,7 +950,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/control": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -963,14 +963,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -1037,7 +1037,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/requisition": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1050,14 +1050,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1208,14 +1208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -1344,7 +1344,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/inbound/initiation": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/inbound/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1357,14 +1357,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -1470,7 +1470,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/inbound/{bq-reference-id}/": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/inbound/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1483,21 +1483,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inbound Instance Reference",
             "required": true,
@@ -1620,7 +1620,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/outbound/initiation": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/outbound/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1633,14 +1633,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
@@ -1757,7 +1757,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/outbound/{bq-reference-id}/": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/outbound/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1770,21 +1770,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Outbound Instance Reference",
             "required": true,
@@ -1909,7 +1909,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -1921,7 +1921,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
@@ -1980,7 +1980,7 @@
         }
       }
     },
-    "/advanced-voice-services-operations/{sd-reference-id}/voice-channel-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/advanced-voice-services-operations/{sdReferenceId}/voice-channel-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1992,21 +1992,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Operations Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Outbound",
             "required": true,

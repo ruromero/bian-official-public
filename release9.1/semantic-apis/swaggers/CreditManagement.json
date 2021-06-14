@@ -162,7 +162,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/configuration": {
+    "/credit-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/feedback": {
+    "/credit-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}": {
+    "/credit-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCreditManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/evaluation": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
@@ -743,7 +743,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/{cr-reference-id}/update": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -756,14 +756,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Pricing Assessment Instance Reference",
             "required": true,
@@ -927,7 +927,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/{cr-reference-id}/exchange": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -940,14 +940,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Pricing Assessment Instance Reference",
             "required": true,
@@ -1014,7 +1014,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/{cr-reference-id}/grant": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1027,14 +1027,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Pricing Assessment Instance Reference",
             "required": true,
@@ -1114,7 +1114,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/{cr-reference-id}": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1127,14 +1127,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Pricing Assessment Instance Reference",
             "required": true,
@@ -1262,7 +1262,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1274,7 +1274,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
@@ -1330,7 +1330,7 @@
         }
       }
     },
-    "/credit-management/{sd-reference-id}/credit-pricing-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/credit-management/{sdReferenceId}/credit-pricing-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1342,21 +1342,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Credit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Pricing Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

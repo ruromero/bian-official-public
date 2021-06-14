@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/configuration": {
+    "/product-deployment/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDeployment Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/feedback": {
+    "/product-deployment/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDeployment Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}": {
+    "/product-deployment/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDeployment Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/creation": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
@@ -767,7 +767,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -780,14 +780,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -933,7 +933,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/control": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -946,14 +946,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1020,7 +1020,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1033,14 +1033,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1107,7 +1107,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/capture": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1120,14 +1120,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1259,7 +1259,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1272,14 +1272,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1435,7 +1435,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/grant": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1448,14 +1448,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1535,7 +1535,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1548,14 +1548,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
@@ -1670,7 +1670,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/systems/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/systems/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1683,21 +1683,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Systems Instance Reference",
             "required": true,
@@ -1861,7 +1861,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/systems/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/systems/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1874,21 +1874,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Systems Instance Reference",
             "required": true,
@@ -1959,7 +1959,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/systems/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/systems/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1972,21 +1972,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Systems Instance Reference",
             "required": true,
@@ -2160,7 +2160,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/systems/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/systems/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2173,21 +2173,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Systems Instance Reference",
             "required": true,
@@ -2321,7 +2321,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/itoperations/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/itoperations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2334,21 +2334,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITOperations Instance Reference",
             "required": true,
@@ -2512,7 +2512,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/itoperations/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/itoperations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2525,21 +2525,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITOperations Instance Reference",
             "required": true,
@@ -2610,7 +2610,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/itoperations/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/itoperations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2623,21 +2623,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITOperations Instance Reference",
             "required": true,
@@ -2811,7 +2811,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/itoperations/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/itoperations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2824,21 +2824,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ITOperations Instance Reference",
             "required": true,
@@ -2972,7 +2972,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/hroperations/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/hroperations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2985,21 +2985,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "HROperations Instance Reference",
             "required": true,
@@ -3163,7 +3163,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/hroperations/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/hroperations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3176,21 +3176,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "HROperations Instance Reference",
             "required": true,
@@ -3261,7 +3261,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/hroperations/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/hroperations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3274,21 +3274,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "HROperations Instance Reference",
             "required": true,
@@ -3462,7 +3462,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/hroperations/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/hroperations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3475,21 +3475,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "HROperations Instance Reference",
             "required": true,
@@ -3623,7 +3623,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/salesandmarketing/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/salesandmarketing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3636,21 +3636,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -3814,7 +3814,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/salesandmarketing/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/salesandmarketing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3827,21 +3827,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -3912,7 +3912,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/salesandmarketing/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/salesandmarketing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3925,21 +3925,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -4113,7 +4113,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/salesandmarketing/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/salesandmarketing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4126,21 +4126,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -4274,7 +4274,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/servicing/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/servicing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4287,21 +4287,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -4465,7 +4465,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/servicing/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/servicing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4478,21 +4478,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -4563,7 +4563,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/servicing/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/servicing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4576,21 +4576,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -4764,7 +4764,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/servicing/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/servicing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4777,21 +4777,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -4925,7 +4925,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/production/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/production/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4938,21 +4938,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -5116,7 +5116,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/production/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/production/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5129,21 +5129,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -5214,7 +5214,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/production/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/production/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5227,21 +5227,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -5415,7 +5415,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/production/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/production/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5428,21 +5428,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -5576,7 +5576,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/productionsupport/{bq-reference-id}/update": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/productionsupport/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5589,21 +5589,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionSupport Instance Reference",
             "required": true,
@@ -5767,7 +5767,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/productionsupport/{bq-reference-id}/exchange": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/productionsupport/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5780,21 +5780,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionSupport Instance Reference",
             "required": true,
@@ -5865,7 +5865,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/productionsupport/{bq-reference-id}/requisition": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/productionsupport/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5878,21 +5878,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionSupport Instance Reference",
             "required": true,
@@ -5966,7 +5966,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/productionsupport/{bq-reference-id}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/productionsupport/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5979,21 +5979,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionSupport Instance Reference",
             "required": true,
@@ -6127,7 +6127,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project": {
       "get": {
         "tags": [
           "retrieve"
@@ -6139,7 +6139,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
@@ -6203,7 +6203,7 @@
         }
       }
     },
-    "/product-deployment/{sd-reference-id}/product-or-service-deployment-project/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-deployment/{sdReferenceId}/product-or-service-deployment-project/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6215,21 +6215,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Deployment Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Or Service Deployment Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ProductionSupport",
             "required": true,

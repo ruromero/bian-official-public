@@ -162,7 +162,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/configuration": {
+    "/party-data-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyDataManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/feedback": {
+    "/party-data-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyDataManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}": {
+    "/party-data-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyDataManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/registration": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/registration": {
       "post": {
         "tags": [
           "register"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
@@ -721,7 +721,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/update": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -734,14 +734,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
@@ -851,7 +851,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/control": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -864,14 +864,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
@@ -938,7 +938,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/exchange": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -951,14 +951,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
@@ -1025,7 +1025,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/requisition": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1038,14 +1038,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
@@ -1145,7 +1145,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1158,14 +1158,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
@@ -1262,7 +1262,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/update": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/reference/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1275,21 +1275,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1505,7 +1505,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/exchange": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/reference/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1518,21 +1518,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1603,7 +1603,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/execution": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/reference/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1616,21 +1616,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1757,7 +1757,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/reference/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1770,21 +1770,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1944,7 +1944,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/profile/{bq-reference-id}/update": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/profile/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1957,21 +1957,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Profile Instance Reference",
             "required": true,
@@ -2137,7 +2137,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/profile/{bq-reference-id}/exchange": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/profile/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2150,21 +2150,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Profile Instance Reference",
             "required": true,
@@ -2235,7 +2235,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/profile/{bq-reference-id}/execution": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/profile/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2248,21 +2248,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Profile Instance Reference",
             "required": true,
@@ -2364,7 +2364,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/profile/{bq-reference-id}/": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/profile/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2377,21 +2377,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Profile Instance Reference",
             "required": true,
@@ -2526,7 +2526,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/update": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/associations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2539,21 +2539,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2725,7 +2725,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/exchange": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/associations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2738,21 +2738,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2823,7 +2823,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/execution": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/associations/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2836,21 +2836,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2955,7 +2955,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/associations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2968,21 +2968,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -3120,7 +3120,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -3132,7 +3132,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
@@ -3192,7 +3192,7 @@
         }
       }
     },
-    "/party-data-management/{sd-reference-id}/party-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/party-data-management/{sdReferenceId}/party-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3204,21 +3204,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Associations",
             "required": true,

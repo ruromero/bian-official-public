@@ -162,7 +162,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/configuration": {
+    "/servicing-mandate/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingMandate Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/feedback": {
+    "/servicing-mandate/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingMandate Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}": {
+    "/servicing-mandate/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingMandate Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/evaluation": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
@@ -747,7 +747,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/update": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -760,14 +760,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -927,7 +927,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/control": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -940,14 +940,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1014,7 +1014,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/exchange": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1027,14 +1027,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1101,7 +1101,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/requisition": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1114,14 +1114,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1291,7 +1291,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/grant": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1304,14 +1304,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1391,7 +1391,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1404,14 +1404,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/evaluation": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1546,14 +1546,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
@@ -1680,7 +1680,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/{bq-reference-id}/update": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1693,21 +1693,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerMandate Instance Reference",
             "required": true,
@@ -1821,7 +1821,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/{bq-reference-id}/control": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1834,21 +1834,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerMandate Instance Reference",
             "required": true,
@@ -1919,7 +1919,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/{bq-reference-id}/exchange": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1932,21 +1932,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerMandate Instance Reference",
             "required": true,
@@ -2017,7 +2017,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/{bq-reference-id}/grant": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2030,21 +2030,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerMandate Instance Reference",
             "required": true,
@@ -2124,7 +2124,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/customermandate/{bq-reference-id}/": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/customermandate/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2137,21 +2137,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerMandate Instance Reference",
             "required": true,
@@ -2299,7 +2299,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2311,7 +2311,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
@@ -2369,7 +2369,7 @@
         }
       }
     },
-    "/servicing-mandate/{sd-reference-id}/servicing-mandate-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/servicing-mandate/{sdReferenceId}/servicing-mandate-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2381,21 +2381,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Mandate Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Mandate Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CustomerMandate",
             "required": true,

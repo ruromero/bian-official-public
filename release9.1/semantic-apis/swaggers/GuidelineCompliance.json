@@ -162,7 +162,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/configuration": {
+    "/guideline-compliance/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDGuidelineCompliance Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/feedback": {
+    "/guideline-compliance/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDGuidelineCompliance Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}": {
+    "/guideline-compliance/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDGuidelineCompliance Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/evaluation": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
@@ -734,7 +734,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/{cr-reference-id}/update": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -747,14 +747,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Guideline Compliance Assessment Instance Reference",
             "required": true,
@@ -882,7 +882,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/{cr-reference-id}/exchange": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -895,14 +895,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Guideline Compliance Assessment Instance Reference",
             "required": true,
@@ -969,7 +969,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/{cr-reference-id}/requisition": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -982,14 +982,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Guideline Compliance Assessment Instance Reference",
             "required": true,
@@ -1131,7 +1131,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/{cr-reference-id}": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1144,14 +1144,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Guideline Compliance Assessment Instance Reference",
             "required": true,
@@ -1261,7 +1261,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1273,7 +1273,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
@@ -1329,7 +1329,7 @@
         }
       }
     },
-    "/guideline-compliance/{sd-reference-id}/guideline-compliance-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/guideline-compliance/{sdReferenceId}/guideline-compliance-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1341,21 +1341,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Guideline Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Guideline Compliance Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

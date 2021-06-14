@@ -162,7 +162,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/configuration": {
+    "/advanced-voice-services-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/feedback": {
+    "/advanced-voice-services-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}": {
+    "/advanced-voice-services-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvancedVoiceServicesManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/creation": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
@@ -725,7 +725,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/update": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -738,14 +738,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
@@ -809,7 +809,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/exchange": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -822,14 +822,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
@@ -896,7 +896,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/requisition": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -909,14 +909,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
@@ -990,7 +990,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1003,14 +1003,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
@@ -1108,7 +1108,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/update": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1121,21 +1121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1239,7 +1239,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/requisition": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1252,21 +1252,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1364,7 +1364,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/capacityplanning/{bq-reference-id}/": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/capacityplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1377,21 +1377,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanning Instance Reference",
             "required": true,
@@ -1511,7 +1511,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/maintenanceandupgrades/creation": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/maintenanceandupgrades/creation": {
       "post": {
         "tags": [
           "create"
@@ -1524,14 +1524,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
@@ -1684,7 +1684,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/maintenanceandupgrades/{bq-reference-id}/update": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/maintenanceandupgrades/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1697,21 +1697,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrades Instance Reference",
             "required": true,
@@ -1833,7 +1833,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/maintenanceandupgrades/{bq-reference-id}/requisition": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/maintenanceandupgrades/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1846,21 +1846,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrades Instance Reference",
             "required": true,
@@ -1988,7 +1988,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/maintenanceandupgrades/{bq-reference-id}/": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/maintenanceandupgrades/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2001,21 +2001,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintenanceAndUpgrades Instance Reference",
             "required": true,
@@ -2128,7 +2128,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2141,21 +2141,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2245,7 +2245,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2258,21 +2258,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2372,7 +2372,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2385,21 +2385,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2496,7 +2496,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2508,7 +2508,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
@@ -2568,7 +2568,7 @@
         }
       }
     },
-    "/advanced-voice-services-management/{sd-reference-id}/voice-channel-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/advanced-voice-services-management/{sdReferenceId}/voice-channel-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2580,21 +2580,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advanced Voice Services Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Voice Channel Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Troubleshooting",
             "required": true,

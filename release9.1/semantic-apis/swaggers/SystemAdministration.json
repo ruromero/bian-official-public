@@ -168,7 +168,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/configuration": {
+    "/system-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemAdministration Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/feedback": {
+    "/system-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemAdministration Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}": {
+    "/system-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemAdministration Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/initiation": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/update": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -850,7 +850,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/control": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -863,14 +863,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/exchange": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -1084,7 +1084,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/capture": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1097,14 +1097,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/requisition": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -1332,7 +1332,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/grant": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1345,14 +1345,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,14 +1476,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
@@ -1576,7 +1576,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/inventory/{bq-reference-id}/update": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/inventory/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1589,21 +1589,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -1749,7 +1749,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/inventory/{bq-reference-id}/capture": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/inventory/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1762,21 +1762,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -1933,7 +1933,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/inventory/{bq-reference-id}/requisition": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/inventory/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1946,21 +1946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -2117,7 +2117,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/inventory/{bq-reference-id}/": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/inventory/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2130,21 +2130,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -2271,7 +2271,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/update": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2284,21 +2284,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -2444,7 +2444,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/capture": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2457,21 +2457,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -2628,7 +2628,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/requisition": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2641,21 +2641,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -2812,7 +2812,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/assurance/{bq-reference-id}/": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/assurance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2825,21 +2825,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assurance Instance Reference",
             "required": true,
@@ -2966,7 +2966,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/configuration/{bq-reference-id}/update": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/configuration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2979,21 +2979,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Configuration Instance Reference",
             "required": true,
@@ -3139,7 +3139,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/configuration/{bq-reference-id}/capture": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/configuration/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3152,21 +3152,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Configuration Instance Reference",
             "required": true,
@@ -3323,7 +3323,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/configuration/{bq-reference-id}/requisition": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/configuration/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3336,21 +3336,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Configuration Instance Reference",
             "required": true,
@@ -3507,7 +3507,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/configuration/{bq-reference-id}/": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/configuration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3520,21 +3520,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Configuration Instance Reference",
             "required": true,
@@ -3661,7 +3661,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/capacityplanningandresilience/{bq-reference-id}/update": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/capacityplanningandresilience/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3674,21 +3674,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanningandResilience Instance Reference",
             "required": true,
@@ -3826,7 +3826,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/capacityplanningandresilience/{bq-reference-id}/capture": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/capacityplanningandresilience/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3839,21 +3839,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanningandResilience Instance Reference",
             "required": true,
@@ -4002,7 +4002,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/capacityplanningandresilience/{bq-reference-id}/requisition": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/capacityplanningandresilience/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4015,21 +4015,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanningandResilience Instance Reference",
             "required": true,
@@ -4178,7 +4178,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/capacityplanningandresilience/{bq-reference-id}/": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/capacityplanningandresilience/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4191,21 +4191,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CapacityPlanningandResilience Instance Reference",
             "required": true,
@@ -4328,7 +4328,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -4340,7 +4340,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
@@ -4401,7 +4401,7 @@
         }
       }
     },
-    "/system-administration/{sd-reference-id}/itsystem-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/system-administration/{sdReferenceId}/itsystem-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4413,21 +4413,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "ITSystem Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Inventory",
             "required": true,

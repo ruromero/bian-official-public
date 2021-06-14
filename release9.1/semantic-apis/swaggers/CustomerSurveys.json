@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/configuration": {
+    "/customer-surveys/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerSurveys Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/feedback": {
+    "/customer-surveys/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerSurveys Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}": {
+    "/customer-surveys/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerSurveys Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/initiation": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
@@ -789,7 +789,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/update": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -802,14 +802,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -981,7 +981,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/control": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -994,14 +994,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -1068,7 +1068,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/requisition": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1081,14 +1081,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -1270,7 +1270,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1283,14 +1283,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -1418,7 +1418,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/definition/{bq-reference-id}/update": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/definition/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1431,21 +1431,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Definition Instance Reference",
             "required": true,
@@ -1625,7 +1625,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/definition/{bq-reference-id}/exchange": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/definition/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1638,21 +1638,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Definition Instance Reference",
             "required": true,
@@ -1723,7 +1723,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/definition/{bq-reference-id}/": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/definition/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1736,21 +1736,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Definition Instance Reference",
             "required": true,
@@ -1892,7 +1892,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/reviewerselection/{bq-reference-id}/update": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/reviewerselection/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1905,21 +1905,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewerSelection Instance Reference",
             "required": true,
@@ -1983,7 +1983,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/reviewerselection/{bq-reference-id}/requisition": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/reviewerselection/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1996,21 +1996,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewerSelection Instance Reference",
             "required": true,
@@ -2084,7 +2084,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/reviewerselection/{bq-reference-id}/": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/reviewerselection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2097,21 +2097,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReviewerSelection Instance Reference",
             "required": true,
@@ -2195,7 +2195,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/initiation": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2208,14 +2208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -2433,7 +2433,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/{bq-reference-id}/update": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2446,21 +2446,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2584,7 +2584,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/{bq-reference-id}/capture": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2597,21 +2597,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2745,7 +2745,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/{bq-reference-id}/execution": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2758,21 +2758,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2906,7 +2906,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/{bq-reference-id}/requisition": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2919,21 +2919,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -3067,7 +3067,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/execution/{bq-reference-id}/": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/execution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3080,21 +3080,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -3208,7 +3208,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/surveyanalysis/initiation": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/surveyanalysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3221,14 +3221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
@@ -3411,7 +3411,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/surveyanalysis/{bq-reference-id}/update": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/surveyanalysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3424,21 +3424,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SurveyAnalysis Instance Reference",
             "required": true,
@@ -3518,7 +3518,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/surveyanalysis/{bq-reference-id}/requisition": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/surveyanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3531,21 +3531,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SurveyAnalysis Instance Reference",
             "required": true,
@@ -3635,7 +3635,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/surveyanalysis/{bq-reference-id}/": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/surveyanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3648,21 +3648,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SurveyAnalysis Instance Reference",
             "required": true,
@@ -3754,7 +3754,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3766,7 +3766,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
@@ -3827,7 +3827,7 @@
         }
       }
     },
-    "/customer-surveys/{sd-reference-id}/customer-survey-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-surveys/{sdReferenceId}/customer-survey-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3839,21 +3839,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Surveys Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Survey Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- SurveyAnalysis",
             "required": true,

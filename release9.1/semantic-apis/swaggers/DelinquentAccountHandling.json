@@ -162,7 +162,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/configuration": {
+    "/delinquent-account-handling/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDelinquentAccountHandling Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/feedback": {
+    "/delinquent-account-handling/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDelinquentAccountHandling Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}": {
+    "/delinquent-account-handling/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDelinquentAccountHandling Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/initiation": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
@@ -864,7 +864,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/update": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -877,14 +877,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -1280,7 +1280,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/control": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1293,14 +1293,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -1367,7 +1367,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/execution": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1380,14 +1380,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -1640,7 +1640,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1653,14 +1653,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -1900,7 +1900,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/assessment/{bq-reference-id}/": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/assessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1913,21 +1913,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assessment Instance Reference",
             "required": true,
@@ -2190,7 +2190,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/contact/initiation": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/contact/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2203,14 +2203,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -2499,7 +2499,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/contact/{bq-reference-id}/requisition": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/contact/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2512,21 +2512,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2678,7 +2678,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/contact/{bq-reference-id}/": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/contact/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2691,21 +2691,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2994,7 +2994,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/payment/initiation": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/payment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3007,14 +3007,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
@@ -3121,7 +3121,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/payment/{bq-reference-id}/update": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/payment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3134,21 +3134,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -3238,7 +3238,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/payment/{bq-reference-id}/exchange": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/payment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3251,21 +3251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -3336,7 +3336,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/payment/{bq-reference-id}/": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/payment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3349,21 +3349,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -3491,7 +3491,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/resolution/{bq-reference-id}/update": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/resolution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3504,21 +3504,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3614,7 +3614,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/resolution/{bq-reference-id}/exchange": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/resolution/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3627,21 +3627,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3712,7 +3712,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/resolution/{bq-reference-id}/": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/resolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3725,21 +3725,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -4005,7 +4005,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -4017,7 +4017,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
@@ -4078,7 +4078,7 @@
         }
       }
     },
-    "/delinquent-account-handling/{sd-reference-id}/delinquent-account-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/delinquent-account-handling/{sdReferenceId}/delinquent-account-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4090,21 +4090,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Delinquent Account Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Delinquent Account Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Resolution",
             "required": true,

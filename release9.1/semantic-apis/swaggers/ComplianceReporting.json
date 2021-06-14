@@ -168,7 +168,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/configuration": {
+    "/compliance-reporting/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDComplianceReporting Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/feedback": {
+    "/compliance-reporting/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDComplianceReporting Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}": {
+    "/compliance-reporting/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDComplianceReporting Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/initiation": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/update": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
@@ -850,7 +850,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/capture": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -863,14 +863,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
@@ -974,7 +974,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/requisition": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -987,14 +987,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
@@ -1098,7 +1098,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1111,14 +1111,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
@@ -1211,7 +1211,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/update": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1224,21 +1224,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1384,7 +1384,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/capture": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1397,21 +1397,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1568,7 +1568,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/requisition": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1581,21 +1581,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1752,7 +1752,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1765,21 +1765,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1906,7 +1906,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/remediation/initiation": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/remediation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1919,14 +1919,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
@@ -2067,7 +2067,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/remediation/{bq-reference-id}/update": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/remediation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2080,21 +2080,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Remediation Instance Reference",
             "required": true,
@@ -2240,7 +2240,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/remediation/{bq-reference-id}/capture": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/remediation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2253,21 +2253,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Remediation Instance Reference",
             "required": true,
@@ -2424,7 +2424,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/remediation/{bq-reference-id}/requisition": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/remediation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2437,21 +2437,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Remediation Instance Reference",
             "required": true,
@@ -2608,7 +2608,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/remediation/{bq-reference-id}/": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/remediation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2621,21 +2621,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Remediation Instance Reference",
             "required": true,
@@ -2762,7 +2762,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/complianceassessment/{bq-reference-id}/update": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/complianceassessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2775,21 +2775,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ComplianceAssessment Instance Reference",
             "required": true,
@@ -2927,7 +2927,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/complianceassessment/{bq-reference-id}/capture": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/complianceassessment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2940,21 +2940,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ComplianceAssessment Instance Reference",
             "required": true,
@@ -3103,7 +3103,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/complianceassessment/{bq-reference-id}/requisition": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/complianceassessment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3116,21 +3116,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ComplianceAssessment Instance Reference",
             "required": true,
@@ -3279,7 +3279,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/complianceassessment/{bq-reference-id}/": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/complianceassessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3292,21 +3292,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ComplianceAssessment Instance Reference",
             "required": true,
@@ -3429,7 +3429,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3441,7 +3441,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
@@ -3501,7 +3501,7 @@
         }
       }
     },
-    "/compliance-reporting/{sd-reference-id}/compliance-reporting-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/compliance-reporting/{sdReferenceId}/compliance-reporting-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3513,21 +3513,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Compliance Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Compliance Reporting Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Consolidation",
             "required": true,

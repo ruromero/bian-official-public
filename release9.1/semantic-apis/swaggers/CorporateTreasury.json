@@ -162,7 +162,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/configuration": {
+    "/corporate-treasury/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTreasury Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/feedback": {
+    "/corporate-treasury/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTreasury Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}": {
+    "/corporate-treasury/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateTreasury Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/initiation": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/update": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
@@ -853,7 +853,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/capture": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -866,14 +866,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
@@ -971,7 +971,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -984,14 +984,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
@@ -1101,7 +1101,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/liquidity/{bq-reference-id}/capture": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/liquidity/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1114,21 +1114,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Liquidity Instance Reference",
             "required": true,
@@ -1210,7 +1210,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/liquidity/{bq-reference-id}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/liquidity/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1223,21 +1223,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Liquidity Instance Reference",
             "required": true,
@@ -1353,7 +1353,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/tacticalfunding/{bq-reference-id}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/tacticalfunding/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1366,21 +1366,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TacticalFunding Instance Reference",
             "required": true,
@@ -1484,7 +1484,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/strategicfunding/{bq-reference-id}/capture": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/strategicfunding/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1497,21 +1497,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StrategicFunding Instance Reference",
             "required": true,
@@ -1597,7 +1597,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/strategicfunding/{bq-reference-id}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/strategicfunding/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1610,21 +1610,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StrategicFunding Instance Reference",
             "required": true,
@@ -1732,7 +1732,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/securitization/{bq-reference-id}/update": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/securitization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1745,21 +1745,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -1849,7 +1849,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/securitization/{bq-reference-id}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/securitization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1862,21 +1862,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -1982,7 +1982,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/bankrates/{bq-reference-id}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/bankrates/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1995,21 +1995,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BankRates Instance Reference",
             "required": true,
@@ -2129,7 +2129,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2141,7 +2141,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
@@ -2203,7 +2203,7 @@
         }
       }
     },
-    "/corporate-treasury/{sd-reference-id}/corporate-treasury-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/corporate-treasury/{sdReferenceId}/corporate-treasury-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2215,21 +2215,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Treasury Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Treasury Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- BankRates",
             "required": true,

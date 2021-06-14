@@ -168,7 +168,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/configuration": {
+    "/accounts-receivable/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountsReceivable Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/feedback": {
+    "/accounts-receivable/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountsReceivable Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}": {
+    "/accounts-receivable/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountsReceivable Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/initiation": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
@@ -811,7 +811,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/update": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -824,14 +824,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/control": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -1189,7 +1189,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/exchange": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1202,14 +1202,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/execution": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/requisition": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1591,14 +1591,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -1776,7 +1776,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1789,14 +1789,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -1955,7 +1955,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/customernegotiation/initiation": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/customernegotiation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1968,14 +1968,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -2116,7 +2116,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/bqcustomernegotiation/{bq-reference-id}/update": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/bqcustomernegotiation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2129,21 +2129,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BQCustomerNegotiation Instance Reference",
             "required": true,
@@ -2289,7 +2289,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/bqcustomernegotiation/{bq-reference-id}/exchange": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/bqcustomernegotiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2302,21 +2302,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BQCustomerNegotiation Instance Reference",
             "required": true,
@@ -2429,7 +2429,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/bqcustomernegotiation/{bq-reference-id}/requisition": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/bqcustomernegotiation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2442,21 +2442,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BQCustomerNegotiation Instance Reference",
             "required": true,
@@ -2613,7 +2613,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/bqcustomernegotiation/{bq-reference-id}/": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/bqcustomernegotiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2626,21 +2626,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BQCustomerNegotiation Instance Reference",
             "required": true,
@@ -2767,7 +2767,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/resolution/initiation": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/resolution/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2780,14 +2780,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -2887,7 +2887,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/resolution/{bq-reference-id}/update": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/resolution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2900,21 +2900,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3052,7 +3052,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/resolution/{bq-reference-id}/": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/resolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3065,21 +3065,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3202,7 +3202,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/payment/initiation": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/payment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3215,14 +3215,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -3355,7 +3355,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/payment/{bq-reference-id}/update": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/payment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3368,21 +3368,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -3483,7 +3483,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/payment/{bq-reference-id}/": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/payment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3496,21 +3496,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -3633,7 +3633,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/receivablesevaluation/initiation": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/receivablesevaluation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3646,14 +3646,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
@@ -3786,7 +3786,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/receivablesevaluation/{bq-reference-id}/update": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/receivablesevaluation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3799,21 +3799,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReceivablesEvaluation Instance Reference",
             "required": true,
@@ -3951,7 +3951,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/receivablesevaluation/{bq-reference-id}/exchange": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/receivablesevaluation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3964,21 +3964,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReceivablesEvaluation Instance Reference",
             "required": true,
@@ -4124,7 +4124,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/receivablesevaluation/{bq-reference-id}/": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/receivablesevaluation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4137,21 +4137,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ReceivablesEvaluation Instance Reference",
             "required": true,
@@ -4274,7 +4274,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -4286,7 +4286,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
@@ -4347,7 +4347,7 @@
         }
       }
     },
-    "/accounts-receivable/{sd-reference-id}/accounts-receivable-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/accounts-receivable/{sdReferenceId}/accounts-receivable-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4359,21 +4359,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Accounts Receivable Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Accounts Receivable Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ReceivablesEvaluation",
             "required": true,

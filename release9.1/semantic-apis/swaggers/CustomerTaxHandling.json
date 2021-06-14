@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/configuration": {
+    "/customer-tax-handling/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerTaxHandling Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/feedback": {
+    "/customer-tax-handling/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerTaxHandling Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}": {
+    "/customer-tax-handling/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerTaxHandling Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/initiation": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
@@ -731,7 +731,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -744,14 +744,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -881,7 +881,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -894,14 +894,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -968,7 +968,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/execution": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -981,14 +981,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1080,7 +1080,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1093,14 +1093,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1192,7 +1192,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1205,14 +1205,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1323,7 +1323,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/consolidation/{bq-reference-id}/update": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/consolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1336,21 +1336,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1558,7 +1558,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1571,21 +1571,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1743,7 +1743,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/analysis/{bq-reference-id}/update": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/analysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1756,21 +1756,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -1920,7 +1920,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/analysis/{bq-reference-id}/exchange": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/analysis/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1933,21 +1933,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -2018,7 +2018,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/analysis/{bq-reference-id}/": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/analysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2031,21 +2031,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -2174,7 +2174,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/reporting/{bq-reference-id}/update": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/reporting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2187,21 +2187,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2387,7 +2387,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/reporting/{bq-reference-id}/exchange": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/reporting/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2400,21 +2400,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2485,7 +2485,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/reporting/{bq-reference-id}/": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/reporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2498,21 +2498,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2659,7 +2659,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2671,7 +2671,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
@@ -2731,7 +2731,7 @@
         }
       }
     },
-    "/customer-tax-handling/{sd-reference-id}/customer-tax-obligation-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-tax-handling/{sdReferenceId}/customer-tax-obligation-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2743,21 +2743,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Tax Handling Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Tax Obligation Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Reporting",
             "required": true,

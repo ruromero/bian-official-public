@@ -162,7 +162,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/configuration": {
+    "/savings-account/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSavingsAccount Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/feedback": {
+    "/savings-account/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSavingsAccount Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}": {
+    "/savings-account/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSavingsAccount Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
@@ -847,7 +847,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -860,14 +860,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1187,7 +1187,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1200,14 +1200,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1274,7 +1274,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1287,14 +1287,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1496,7 +1496,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1509,21 +1509,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1665,7 +1665,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1678,14 +1678,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1870,7 +1870,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1883,21 +1883,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2074,7 +2074,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2087,21 +2087,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2252,7 +2252,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountlien/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountlien/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2265,14 +2265,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2487,7 +2487,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2500,21 +2500,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2664,7 +2664,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/exchange": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2677,21 +2677,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2762,7 +2762,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2775,21 +2775,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2920,7 +2920,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountsweep/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2933,14 +2933,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3118,7 +3118,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3131,21 +3131,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3309,7 +3309,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/execution": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3322,21 +3322,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3432,7 +3432,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3445,21 +3445,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3593,7 +3593,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3606,14 +3606,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3766,7 +3766,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3779,21 +3779,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -3997,7 +3997,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/execution": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4010,21 +4010,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -4178,7 +4178,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4191,21 +4191,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -4359,7 +4359,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/payments/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4372,14 +4372,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -4594,7 +4594,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4607,21 +4607,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4879,7 +4879,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4892,21 +4892,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4977,7 +4977,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/execution": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4990,21 +4990,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5158,7 +5158,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5171,21 +5171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5372,7 +5372,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5385,14 +5385,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -5614,7 +5614,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5627,21 +5627,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5777,7 +5777,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/requisition": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5790,21 +5790,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5938,7 +5938,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5951,21 +5951,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -6085,7 +6085,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -6097,7 +6097,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
@@ -6161,7 +6161,7 @@
         }
       }
     },
-    "/savings-account/{sd-reference-id}/savings-account-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/savings-account/{sdReferenceId}/savings-account-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6173,21 +6173,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Savings Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Savings Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- IssuedDevice",
             "required": true,

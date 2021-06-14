@@ -162,7 +162,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/configuration": {
+    "/correspondent-bank-data-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBankDataManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/feedback": {
+    "/correspondent-bank-data-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBankDataManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}": {
+    "/correspondent-bank-data-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBankDataManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry/registration": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry/registration": {
       "post": {
         "tags": [
           "register"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
@@ -733,7 +733,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry/{cr-reference-id}/update": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -746,14 +746,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Directory Entry Instance Reference",
             "required": true,
@@ -913,7 +913,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry/{cr-reference-id}/requisition": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -926,14 +926,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Directory Entry Instance Reference",
             "required": true,
@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry/{cr-reference-id}": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1116,14 +1116,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Directory Entry Instance Reference",
             "required": true,
@@ -1245,7 +1245,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -1257,7 +1257,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
@@ -1313,7 +1313,7 @@
         }
       }
     },
-    "/correspondent-bank-data-management/{sd-reference-id}/correspondent-bank-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/correspondent-bank-data-management/{sdReferenceId}/correspondent-bank-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1325,21 +1325,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

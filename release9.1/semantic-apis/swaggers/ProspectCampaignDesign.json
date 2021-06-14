@@ -162,7 +162,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/configuration": {
+    "/prospect-campaign-design/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignDesign Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/feedback": {
+    "/prospect-campaign-design/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignDesign Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}": {
+    "/prospect-campaign-design/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignDesign Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/creation": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
@@ -827,7 +827,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/update": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -840,14 +840,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1105,7 +1105,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/control": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1118,14 +1118,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1192,7 +1192,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/exchange": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1205,14 +1205,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1279,7 +1279,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/capture": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1292,14 +1292,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1427,7 +1427,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/execution": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1440,14 +1440,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1663,7 +1663,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/requisition": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1676,14 +1676,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -1899,7 +1899,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1912,14 +1912,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
@@ -2090,7 +2090,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -2102,7 +2102,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
@@ -2158,7 +2158,7 @@
         }
       }
     },
-    "/prospect-campaign-design/{sd-reference-id}/prospect-campaign-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/prospect-campaign-design/{sdReferenceId}/prospect-campaign-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2170,21 +2170,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Design Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

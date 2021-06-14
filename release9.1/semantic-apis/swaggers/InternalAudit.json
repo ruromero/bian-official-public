@@ -168,7 +168,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/configuration": {
+    "/internal-audit/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInternalAudit Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/feedback": {
+    "/internal-audit/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInternalAudit Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}": {
+    "/internal-audit/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInternalAudit Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/initiation": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
@@ -763,7 +763,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/update": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -776,14 +776,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -902,7 +902,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/exchange": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -915,14 +915,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1045,7 +1045,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/execution": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1058,14 +1058,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/requisition": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1208,14 +1208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1345,7 +1345,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/grant": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1358,14 +1358,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1502,7 +1502,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1515,14 +1515,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1641,7 +1641,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/initiation": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1654,14 +1654,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
@@ -1784,7 +1784,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/update": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1797,21 +1797,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -1939,7 +1939,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/exchange": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1952,21 +1952,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -2102,7 +2102,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/execution": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2115,21 +2115,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -2268,7 +2268,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/requisition": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2281,21 +2281,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -2434,7 +2434,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/grant": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2447,21 +2447,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -2607,7 +2607,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/audit/{bq-reference-id}/": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/audit/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2620,21 +2620,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Audit Instance Reference",
             "required": true,
@@ -2752,7 +2752,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -2764,7 +2764,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
@@ -2822,7 +2822,7 @@
         }
       }
     },
-    "/internal-audit/{sd-reference-id}/internal-audit-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/internal-audit/{sdReferenceId}/internal-audit-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2834,21 +2834,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Internal Audit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Internal Audit Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Audit",
             "required": true,

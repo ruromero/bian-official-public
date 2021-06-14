@@ -162,7 +162,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/configuration": {
+    "/sales-product-agreement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSalesProductAgreement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/feedback": {
+    "/sales-product-agreement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSalesProductAgreement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}": {
+    "/sales-product-agreement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSalesProductAgreement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/evaluation": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
@@ -758,7 +758,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/update": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -771,14 +771,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -952,7 +952,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/control": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -965,14 +965,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1039,7 +1039,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/exchange": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1052,14 +1052,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1126,7 +1126,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/requisition": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1139,14 +1139,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1330,7 +1330,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/grant": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1343,14 +1343,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1430,7 +1430,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1443,14 +1443,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1579,7 +1579,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/legalterms/evaluation": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/legalterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1592,14 +1592,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -1734,7 +1734,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/update": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/legalterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1747,21 +1747,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -1961,7 +1961,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/requisition": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/legalterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1974,21 +1974,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -2096,7 +2096,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/legalterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2109,21 +2109,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -2279,7 +2279,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/regulatoryterms/evaluation": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/regulatoryterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -2292,14 +2292,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -2434,7 +2434,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/update": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2447,21 +2447,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2661,7 +2661,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/requisition": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2674,21 +2674,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2796,7 +2796,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2809,21 +2809,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2979,7 +2979,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/policyterms/evaluation": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/policyterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -2992,14 +2992,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
@@ -3134,7 +3134,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/update": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/policyterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3147,21 +3147,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -3361,7 +3361,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/requisition": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/policyterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3374,21 +3374,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -3496,7 +3496,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/policyterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3509,21 +3509,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -3679,7 +3679,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3691,7 +3691,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
@@ -3751,7 +3751,7 @@
         }
       }
     },
-    "/sales-product-agreement/{sd-reference-id}/sales-product-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/sales-product-agreement/{sdReferenceId}/sales-product-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3763,21 +3763,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Sales Product Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PolicyTerms",
             "required": true,

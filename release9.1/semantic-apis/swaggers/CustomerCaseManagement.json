@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/configuration": {
+    "/customer-case-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCaseManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/feedback": {
+    "/customer-case-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCaseManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}": {
+    "/customer-case-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCaseManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/creation": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
@@ -749,7 +749,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/update": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -762,14 +762,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
@@ -897,7 +897,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/exchange": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -910,14 +910,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
@@ -984,7 +984,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/requisition": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -997,14 +997,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
@@ -1142,7 +1142,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1155,14 +1155,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
@@ -1268,7 +1268,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/rules/{bq-reference-id}/update": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/rules/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1281,21 +1281,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rules Instance Reference",
             "required": true,
@@ -1415,7 +1415,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/rules/{bq-reference-id}/requisition": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/rules/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1428,21 +1428,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rules Instance Reference",
             "required": true,
@@ -1572,7 +1572,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/rules/{bq-reference-id}/": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/rules/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1585,21 +1585,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rules Instance Reference",
             "required": true,
@@ -1711,7 +1711,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/performance/{bq-reference-id}/update": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/performance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1724,21 +1724,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -1866,7 +1866,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/performance/{bq-reference-id}/requisition": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/performance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1879,21 +1879,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -2031,7 +2031,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/performance/{bq-reference-id}/": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/performance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2044,21 +2044,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -2174,7 +2174,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2186,7 +2186,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
@@ -2245,7 +2245,7 @@
         }
       }
     },
-    "/customer-case-management/{sd-reference-id}/customer-case-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-case-management/{sdReferenceId}/customer-case-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2257,21 +2257,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Performance",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/configuration": {
+    "/customer-billing/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBilling Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/feedback": {
+    "/customer-billing/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBilling Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}": {
+    "/customer-billing/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBilling Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/initiation": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
@@ -758,7 +758,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/update": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -771,14 +771,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -972,7 +972,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/control": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -985,14 +985,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -1059,7 +1059,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/execution": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1072,14 +1072,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -1283,7 +1283,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/requisition": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1296,14 +1296,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -1507,7 +1507,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1520,14 +1520,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -1666,7 +1666,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/invoicing/{bq-reference-id}/update": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/invoicing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1679,21 +1679,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Invoicing Instance Reference",
             "required": true,
@@ -1819,7 +1819,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/invoicing/{bq-reference-id}/": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/invoicing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1832,21 +1832,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Invoicing Instance Reference",
             "required": true,
@@ -2026,7 +2026,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/trackingandreminders/initiation": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/trackingandreminders/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2039,14 +2039,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -2263,7 +2263,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/trackingandreminders/{bq-reference-id}/exchange": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/trackingandreminders/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2276,21 +2276,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandReminders Instance Reference",
             "required": true,
@@ -2361,7 +2361,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/trackingandreminders/{bq-reference-id}/": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/trackingandreminders/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2374,21 +2374,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrackingandReminders Instance Reference",
             "required": true,
@@ -2593,7 +2593,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/payments/initiation": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2606,14 +2606,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
@@ -2771,7 +2771,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2784,21 +2784,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -2888,7 +2888,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2901,21 +2901,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -2986,7 +2986,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2999,21 +2999,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -3175,7 +3175,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3187,7 +3187,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
@@ -3247,7 +3247,7 @@
         }
       }
     },
-    "/customer-billing/{sd-reference-id}/customer-billing-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-billing/{sdReferenceId}/customer-billing-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3259,21 +3259,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Billing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Billing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Payments",
             "required": true,

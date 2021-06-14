@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/configuration": {
+    "/card-terminal-operation/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalOperation Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/feedback": {
+    "/card-terminal-operation/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalOperation Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}": {
+    "/card-terminal-operation/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTerminalOperation Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/initiation": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
@@ -701,7 +701,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/update": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -714,14 +714,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -785,7 +785,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/control": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -798,14 +798,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -872,7 +872,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -885,14 +885,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -974,7 +974,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/capture/initiation": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/capture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -987,14 +987,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -1148,7 +1148,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/capture/{bq-reference-id}/update": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/capture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1161,21 +1161,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -1413,7 +1413,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/capture/{bq-reference-id}/requisition": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/capture/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1426,21 +1426,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -1688,7 +1688,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/capture/{bq-reference-id}/": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/capture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1701,21 +1701,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -1894,7 +1894,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/authorization/initiation": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/authorization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1907,14 +1907,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -2086,7 +2086,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/authorization/{bq-reference-id}/requisition": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/authorization/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2099,21 +2099,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authorization Instance Reference",
             "required": true,
@@ -2379,7 +2379,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/authorization/{bq-reference-id}/": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/authorization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2392,21 +2392,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authorization Instance Reference",
             "required": true,
@@ -2594,7 +2594,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/batch/initiation": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/batch/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2607,14 +2607,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
@@ -2786,7 +2786,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/batch/{bq-reference-id}/update": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/batch/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2799,21 +2799,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Batch Instance Reference",
             "required": true,
@@ -3069,7 +3069,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/batch/{bq-reference-id}/requisition": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/batch/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3082,21 +3082,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Batch Instance Reference",
             "required": true,
@@ -3362,7 +3362,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/batch/{bq-reference-id}/": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/batch/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3375,21 +3375,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Batch Instance Reference",
             "required": true,
@@ -3573,7 +3573,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -3585,7 +3585,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
@@ -3645,7 +3645,7 @@
         }
       }
     },
-    "/card-terminal-operation/{sd-reference-id}/card-pos-network-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-terminal-operation/{sdReferenceId}/card-pos-network-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3657,21 +3657,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Terminal Operation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card POS Network Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Batch",
             "required": true,

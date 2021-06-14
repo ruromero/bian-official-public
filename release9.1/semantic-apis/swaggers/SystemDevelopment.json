@@ -162,7 +162,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/configuration": {
+    "/system-development/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemDevelopment Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/feedback": {
+    "/system-development/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemDevelopment Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}": {
+    "/system-development/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSystemDevelopment Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/creation": {
+    "/system-development/{sdReferenceId}/it-system-development-project/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
@@ -767,7 +767,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -780,14 +780,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
@@ -933,7 +933,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/control": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -946,14 +946,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
@@ -1020,7 +1020,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1033,14 +1033,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
@@ -1107,7 +1107,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1120,14 +1120,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
@@ -1283,7 +1283,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1296,14 +1296,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
@@ -1418,7 +1418,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/functionalspecification/{bq-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/functionalspecification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1431,21 +1431,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalSpecification Instance Reference",
             "required": true,
@@ -1551,7 +1551,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/functionalspecification/{bq-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/functionalspecification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1564,21 +1564,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalSpecification Instance Reference",
             "required": true,
@@ -1649,7 +1649,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/functionalspecification/{bq-reference-id}/capture": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/functionalspecification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1662,21 +1662,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalSpecification Instance Reference",
             "required": true,
@@ -1866,7 +1866,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/functionalspecification/{bq-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/functionalspecification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1879,21 +1879,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalSpecification Instance Reference",
             "required": true,
@@ -2009,7 +2009,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/functionalspecification/{bq-reference-id}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/functionalspecification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2022,21 +2022,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalSpecification Instance Reference",
             "required": true,
@@ -2182,7 +2182,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/technicalspecification/{bq-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/technicalspecification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2195,21 +2195,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnicalSpecification Instance Reference",
             "required": true,
@@ -2315,7 +2315,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/technicalspecification/{bq-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/technicalspecification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2328,21 +2328,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnicalSpecification Instance Reference",
             "required": true,
@@ -2413,7 +2413,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/technicalspecification/{bq-reference-id}/capture": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/technicalspecification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2426,21 +2426,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnicalSpecification Instance Reference",
             "required": true,
@@ -2630,7 +2630,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/technicalspecification/{bq-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/technicalspecification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2643,21 +2643,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnicalSpecification Instance Reference",
             "required": true,
@@ -2773,7 +2773,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/technicalspecification/{bq-reference-id}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/technicalspecification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2786,21 +2786,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnicalSpecification Instance Reference",
             "required": true,
@@ -2946,7 +2946,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/softwareanddataspecification/{bq-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/softwareanddataspecification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2959,21 +2959,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SoftwareandDataspecification Instance Reference",
             "required": true,
@@ -3079,7 +3079,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/softwareanddataspecification/{bq-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/softwareanddataspecification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3092,21 +3092,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SoftwareandDataspecification Instance Reference",
             "required": true,
@@ -3177,7 +3177,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/softwareanddataspecification/{bq-reference-id}/capture": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/softwareanddataspecification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3190,21 +3190,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SoftwareandDataspecification Instance Reference",
             "required": true,
@@ -3394,7 +3394,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/softwareanddataspecification/{bq-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/softwareanddataspecification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3407,21 +3407,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SoftwareandDataspecification Instance Reference",
             "required": true,
@@ -3537,7 +3537,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/softwareanddataspecification/{bq-reference-id}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/softwareanddataspecification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3550,21 +3550,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SoftwareandDataspecification Instance Reference",
             "required": true,
@@ -3710,7 +3710,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/testingspecification/{bq-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/testingspecification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3723,21 +3723,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TestingSpecification Instance Reference",
             "required": true,
@@ -3843,7 +3843,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/testingspecification/{bq-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/testingspecification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3856,21 +3856,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TestingSpecification Instance Reference",
             "required": true,
@@ -3941,7 +3941,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/testingspecification/{bq-reference-id}/capture": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/testingspecification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3954,21 +3954,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TestingSpecification Instance Reference",
             "required": true,
@@ -4158,7 +4158,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/testingspecification/{bq-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/testingspecification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4171,21 +4171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TestingSpecification Instance Reference",
             "required": true,
@@ -4301,7 +4301,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/testingspecification/{bq-reference-id}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/testingspecification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4314,21 +4314,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TestingSpecification Instance Reference",
             "required": true,
@@ -4474,7 +4474,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/usagespecification/{bq-reference-id}/update": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/usagespecification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4487,21 +4487,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsageSpecification Instance Reference",
             "required": true,
@@ -4607,7 +4607,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/usagespecification/{bq-reference-id}/exchange": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/usagespecification/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4620,21 +4620,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsageSpecification Instance Reference",
             "required": true,
@@ -4705,7 +4705,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/usagespecification/{bq-reference-id}/capture": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/usagespecification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4718,21 +4718,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsageSpecification Instance Reference",
             "required": true,
@@ -4922,7 +4922,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/usagespecification/{bq-reference-id}/requisition": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/usagespecification/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4935,21 +4935,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsageSpecification Instance Reference",
             "required": true,
@@ -5065,7 +5065,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/usagespecification/{bq-reference-id}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/usagespecification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5078,21 +5078,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsageSpecification Instance Reference",
             "required": true,
@@ -5238,7 +5238,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project": {
+    "/system-development/{sdReferenceId}/it-system-development-project": {
       "get": {
         "tags": [
           "retrieve"
@@ -5250,7 +5250,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
@@ -5312,7 +5312,7 @@
         }
       }
     },
-    "/system-development/{sd-reference-id}/it-system-development-project/{cr-reference-id}/{behavior-qualifier}/": {
+    "/system-development/{sdReferenceId}/it-system-development-project/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5324,21 +5324,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "System Development Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Development Project Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- UsageSpecification",
             "required": true,

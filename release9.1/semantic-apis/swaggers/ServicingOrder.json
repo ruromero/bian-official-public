@@ -162,7 +162,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/configuration": {
+    "/servicing-order/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingOrder Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/feedback": {
+    "/servicing-order/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingOrder Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}": {
+    "/servicing-order/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingOrder Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/initiation": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
@@ -761,7 +761,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/update": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -774,14 +774,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -845,7 +845,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/control": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -858,14 +858,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -932,7 +932,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/exchange": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -945,14 +945,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -1019,7 +1019,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/execution": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1032,14 +1032,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -1113,7 +1113,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/requisition": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1126,14 +1126,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -1207,7 +1207,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1220,14 +1220,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
@@ -1364,7 +1364,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -1376,7 +1376,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
@@ -1432,7 +1432,7 @@
         }
       }
     },
-    "/servicing-order/{sd-reference-id}/servicing-order-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/servicing-order/{sdReferenceId}/servicing-order-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1444,21 +1444,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Order Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

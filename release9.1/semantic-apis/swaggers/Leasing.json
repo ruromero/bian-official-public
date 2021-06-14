@@ -168,7 +168,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/configuration": {
+    "/leasing/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasing Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/feedback": {
+    "/leasing/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasing Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}": {
+    "/leasing/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeasing Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/control": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/exchange": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/execution": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/requisition": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/interest/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/interest/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -2054,7 +2054,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2067,14 +2067,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -2205,7 +2205,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2218,21 +2218,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -2368,7 +2368,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2381,21 +2381,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -2517,7 +2517,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/fees/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/fees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2530,14 +2530,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -2668,7 +2668,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/fees/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/fees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2681,21 +2681,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -2831,7 +2831,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/fees/{bq-reference-id}/exchange": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/fees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2844,21 +2844,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3002,7 +3002,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/fees/{bq-reference-id}/requisition": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/fees/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3015,21 +3015,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3176,7 +3176,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/fees/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/fees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3189,21 +3189,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3325,7 +3325,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/payments/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3338,14 +3338,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -3476,7 +3476,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3489,21 +3489,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -3639,7 +3639,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3652,21 +3652,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -3810,7 +3810,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3823,21 +3823,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -3959,7 +3959,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/collateral/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/collateral/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3972,14 +3972,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -4110,7 +4110,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/collateral/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4123,21 +4123,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4273,7 +4273,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/requisition": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/collateral/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4286,21 +4286,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4447,7 +4447,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/collateral/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/collateral/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4460,21 +4460,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Collateral Instance Reference",
             "required": true,
@@ -4596,7 +4596,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/lien/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/lien/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4609,14 +4609,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -4747,7 +4747,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/lien/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/lien/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4760,21 +4760,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -4910,7 +4910,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/lien/{bq-reference-id}/exchange": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/lien/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4923,21 +4923,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -5081,7 +5081,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/lien/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/lien/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5094,21 +5094,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Lien Instance Reference",
             "required": true,
@@ -5230,7 +5230,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/sweep/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/sweep/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5243,14 +5243,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -5381,7 +5381,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/sweep/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5394,21 +5394,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -5544,7 +5544,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/exchange": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/sweep/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5557,21 +5557,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -5715,7 +5715,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/sweep/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/sweep/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5728,21 +5728,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sweep Instance Reference",
             "required": true,
@@ -5864,7 +5864,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/deposits/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/deposits/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5877,14 +5877,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -6015,7 +6015,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/deposits/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/deposits/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -6028,21 +6028,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposits Instance Reference",
             "required": true,
@@ -6178,7 +6178,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/deposits/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/deposits/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6191,21 +6191,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposits Instance Reference",
             "required": true,
@@ -6327,7 +6327,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/withdrawals/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/withdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -6340,14 +6340,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -6478,7 +6478,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/withdrawals/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/withdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -6491,21 +6491,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawals Instance Reference",
             "required": true,
@@ -6641,7 +6641,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/withdrawals/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/withdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6654,21 +6654,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawals Instance Reference",
             "required": true,
@@ -6790,7 +6790,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/corporateaction/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/corporateaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -6803,14 +6803,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -6941,7 +6941,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/corporateaction/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/corporateaction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -6954,21 +6954,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateAction Instance Reference",
             "required": true,
@@ -7104,7 +7104,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/corporateaction/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/corporateaction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -7117,21 +7117,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CorporateAction Instance Reference",
             "required": true,
@@ -7253,7 +7253,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/financialinstrument/initiation": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/financialinstrument/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -7266,14 +7266,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
@@ -7388,7 +7388,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/financialinstrument/{bq-reference-id}/update": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/financialinstrument/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -7401,21 +7401,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialInstrument Instance Reference",
             "required": true,
@@ -7535,7 +7535,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/financialinstrument/{bq-reference-id}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/financialinstrument/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -7548,21 +7548,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialInstrument Instance Reference",
             "required": true,
@@ -7676,7 +7676,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement": {
+    "/leasing/{sdReferenceId}/leasing-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -7688,7 +7688,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
@@ -7757,7 +7757,7 @@
         }
       }
     },
-    "/leasing/{sd-reference-id}/leasing-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/leasing/{sdReferenceId}/leasing-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -7769,21 +7769,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Leasing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Leasing Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Interest",
             "required": true,

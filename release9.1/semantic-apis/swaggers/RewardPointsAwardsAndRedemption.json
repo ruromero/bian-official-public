@@ -168,7 +168,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/configuration": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAwardsAndRedemption Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/feedback": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAwardsAndRedemption Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAwardsAndRedemption Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/initiation": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/update": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -856,7 +856,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/exchange": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -869,14 +869,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -976,7 +976,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/execution": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -989,14 +989,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/requisition": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1116,14 +1116,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -1230,7 +1230,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1243,14 +1243,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -1346,7 +1346,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/redemption/initiation": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/redemption/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1359,14 +1359,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -1497,7 +1497,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/redemption/{bq-reference-id}/update": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/redemption/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1510,21 +1510,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Redemption Instance Reference",
             "required": true,
@@ -1660,7 +1660,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/redemption/{bq-reference-id}/exchange": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/redemption/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1673,21 +1673,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Redemption Instance Reference",
             "required": true,
@@ -1831,7 +1831,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/redemption/{bq-reference-id}/": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/redemption/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1844,21 +1844,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Redemption Instance Reference",
             "required": true,
@@ -1980,7 +1980,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/award/initiation": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/award/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1993,14 +1993,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
@@ -2123,7 +2123,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/award/{bq-reference-id}/update": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/award/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2136,21 +2136,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Award Instance Reference",
             "required": true,
@@ -2278,7 +2278,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/award/{bq-reference-id}/exchange": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/award/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2291,21 +2291,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Award Instance Reference",
             "required": true,
@@ -2441,7 +2441,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/award/{bq-reference-id}/": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/award/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2454,21 +2454,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Award Instance Reference",
             "required": true,
@@ -2586,7 +2586,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -2598,7 +2598,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
@@ -2657,7 +2657,7 @@
         }
       }
     },
-    "/reward-points-awards-and-redemption/{sd-reference-id}/reward-points-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/reward-points-awards-and-redemption/{sdReferenceId}/reward-points-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2669,21 +2669,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Awards And Redemption Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Award",
             "required": true,

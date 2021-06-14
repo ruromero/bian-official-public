@@ -162,7 +162,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/configuration": {
+    "/underwriting/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDUnderwriting Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/feedback": {
+    "/underwriting/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDUnderwriting Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}": {
+    "/underwriting/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDUnderwriting Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/evaluation": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
@@ -815,7 +815,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/update": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -828,14 +828,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1061,7 +1061,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/exchange": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1074,14 +1074,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1148,7 +1148,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/execution": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1161,14 +1161,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1242,7 +1242,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/requisition": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1255,14 +1255,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1336,7 +1336,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/grant": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1349,14 +1349,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1436,7 +1436,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1449,14 +1449,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
@@ -1647,7 +1647,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1659,7 +1659,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
@@ -1715,7 +1715,7 @@
         }
       }
     },
-    "/underwriting/{sd-reference-id}/underwriting-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/underwriting/{sdReferenceId}/underwriting-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1727,21 +1727,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Underwriting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Underwriting Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

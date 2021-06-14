@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/configuration": {
+    "/card-collections/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCollections Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/feedback": {
+    "/card-collections/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCollections Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}": {
+    "/card-collections/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCollections Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/initiation": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
@@ -772,7 +772,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/update": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -785,14 +785,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -1014,7 +1014,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/control": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1027,14 +1027,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -1101,7 +1101,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/execution": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1114,14 +1114,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -1282,7 +1282,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/requisition": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1295,14 +1295,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,14 +1476,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -1636,7 +1636,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1649,21 +1649,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1856,7 +1856,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/paymentterms/{bq-reference-id}/exchange": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/paymentterms/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1869,21 +1869,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentTerms Instance Reference",
             "required": true,
@@ -1954,7 +1954,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/paymentterms/{bq-reference-id}/": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/paymentterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1967,21 +1967,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentTerms Instance Reference",
             "required": true,
@@ -2191,7 +2191,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/payment/initiation": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/payment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2204,14 +2204,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
@@ -2335,7 +2335,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/payment/{bq-reference-id}/update": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/payment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2348,21 +2348,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2462,7 +2462,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/payment/{bq-reference-id}/exchange": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/payment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2475,21 +2475,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2560,7 +2560,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/payment/{bq-reference-id}/": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/payment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2573,21 +2573,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2728,7 +2728,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/resolution/{bq-reference-id}/update": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/resolution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2741,21 +2741,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -2843,7 +2843,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/resolution/{bq-reference-id}/": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/resolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2856,21 +2856,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3045,7 +3045,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3057,7 +3057,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
@@ -3118,7 +3118,7 @@
         }
       }
     },
-    "/card-collections/{sd-reference-id}/card-collections-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-collections/{sdReferenceId}/card-collections-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3130,21 +3130,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "CardCollectionsProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Resolution",
             "required": true,

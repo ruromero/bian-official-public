@@ -162,7 +162,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/configuration": {
+    "/payment-order/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentOrder Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/feedback": {
+    "/payment-order/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentOrder Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}": {
+    "/payment-order/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPaymentOrder Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/initiation": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}/update": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
@@ -1020,7 +1020,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1033,14 +1033,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
@@ -1192,7 +1192,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}/orderconfirmation/{bq-reference-id}/": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}/orderconfirmation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1205,21 +1205,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OrderConfirmation Instance Reference",
             "required": true,
@@ -1397,7 +1397,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}/executioninitiation/{bq-reference-id}/control": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}/executioninitiation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1410,21 +1410,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExecutionInitiation Instance Reference",
             "required": true,
@@ -1495,7 +1495,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}/executioninitiation/{bq-reference-id}/": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}/executioninitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1508,21 +1508,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExecutionInitiation Instance Reference",
             "required": true,
@@ -1701,7 +1701,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -1713,7 +1713,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
@@ -1772,7 +1772,7 @@
         }
       }
     },
-    "/payment-order/{sd-reference-id}/payment-order-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/payment-order/{sdReferenceId}/payment-order-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1784,21 +1784,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Payment Order Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Payment Order Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ExecutionInitiation",
             "required": true,

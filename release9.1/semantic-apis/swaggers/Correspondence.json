@@ -162,7 +162,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/configuration": {
+    "/correspondence/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondence Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/feedback": {
+    "/correspondence/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondence Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}": {
+    "/correspondence/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondence Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/initiation": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
@@ -715,7 +715,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/update": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -728,14 +728,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -843,7 +843,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/control": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -856,14 +856,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -930,7 +930,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/exchange": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -943,14 +943,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -1039,7 +1039,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/requisition": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1052,14 +1052,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -1133,7 +1133,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1146,14 +1146,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -1329,7 +1329,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outbound/initiation": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outbound/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1342,14 +1342,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -1521,7 +1521,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outbound/{bq-reference-id}/update": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outbound/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1534,21 +1534,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Outbound Instance Reference",
             "required": true,
@@ -1788,7 +1788,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outbound/{bq-reference-id}/": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outbound/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1801,21 +1801,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Outbound Instance Reference",
             "required": true,
@@ -1987,7 +1987,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outboundwithresponse/initiation": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outboundwithresponse/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2000,14 +2000,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -2185,7 +2185,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outboundwithresponse/{bq-reference-id}/update": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outboundwithresponse/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2198,21 +2198,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundWithResponse Instance Reference",
             "required": true,
@@ -2480,7 +2480,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/outboundwithresponse/{bq-reference-id}/": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/outboundwithresponse/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2493,21 +2493,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundWithResponse Instance Reference",
             "required": true,
@@ -2693,7 +2693,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/inbound/initiation": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/inbound/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2706,14 +2706,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -2849,7 +2849,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/inbound/{bq-reference-id}/update": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/inbound/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2862,21 +2862,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inbound Instance Reference",
             "required": true,
@@ -3044,7 +3044,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/inbound/{bq-reference-id}/": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/inbound/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3057,21 +3057,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inbound Instance Reference",
             "required": true,
@@ -3207,7 +3207,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/blockmailing/initiation": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/blockmailing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3220,14 +3220,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
@@ -3412,7 +3412,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/blockmailing/{bq-reference-id}/update": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/blockmailing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3425,21 +3425,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BlockMailing Instance Reference",
             "required": true,
@@ -3687,7 +3687,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/blockmailing/{bq-reference-id}/": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/blockmailing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3700,21 +3700,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BlockMailing Instance Reference",
             "required": true,
@@ -3890,7 +3890,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -3902,7 +3902,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
@@ -3963,7 +3963,7 @@
         }
       }
     },
-    "/correspondence/{sd-reference-id}/correspondence-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/correspondence/{sdReferenceId}/correspondence-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3975,21 +3975,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondence Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondence Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- BlockMailing",
             "required": true,

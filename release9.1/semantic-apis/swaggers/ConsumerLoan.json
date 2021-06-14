@@ -162,7 +162,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/configuration": {
+    "/consumer-loan/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerLoan Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/feedback": {
+    "/consumer-loan/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerLoan Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}": {
+    "/consumer-loan/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerLoan Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/initiation": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
@@ -879,7 +879,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -892,14 +892,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1309,7 +1309,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1322,14 +1322,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1396,7 +1396,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1409,14 +1409,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1663,7 +1663,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1676,21 +1676,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1898,7 +1898,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1911,21 +1911,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2098,7 +2098,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2111,21 +2111,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2348,7 +2348,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/disbursement/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/disbursement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2361,21 +2361,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Disbursement Instance Reference",
             "required": true,
@@ -2534,7 +2534,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/maintenance/{bq-reference-id}/requisition": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/maintenance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2547,21 +2547,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -3039,7 +3039,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/maintenance/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/maintenance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3052,21 +3052,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -3352,7 +3352,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/update": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3365,21 +3365,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -3915,7 +3915,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/execution": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3928,21 +3928,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4091,7 +4091,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/requisition": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4104,21 +4104,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4267,7 +4267,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4280,21 +4280,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4497,7 +4497,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/update": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4510,21 +4510,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4698,7 +4698,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/execution": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4711,21 +4711,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4841,7 +4841,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/requisition": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4854,21 +4854,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4984,7 +4984,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4997,21 +4997,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -5193,7 +5193,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/initiation": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/restructuring/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5206,14 +5206,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -5494,7 +5494,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/update": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5507,21 +5507,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -5963,7 +5963,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/exchange": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5976,21 +5976,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6061,7 +6061,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/requisition": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -6074,21 +6074,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6186,7 +6186,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6199,21 +6199,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6486,7 +6486,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -6498,7 +6498,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
@@ -6562,7 +6562,7 @@
         }
       }
     },
-    "/consumer-loan/{sd-reference-id}/consumer-loan-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/consumer-loan/{sdReferenceId}/consumer-loan-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6574,21 +6574,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Restructuring",
             "required": true,

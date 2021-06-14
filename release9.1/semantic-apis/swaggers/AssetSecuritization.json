@@ -168,7 +168,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/configuration": {
+    "/asset-securitization/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetSecuritization Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/feedback": {
+    "/asset-securitization/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetSecuritization Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}": {
+    "/asset-securitization/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetSecuritization Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/initiation": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/update": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -856,7 +856,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/control": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -869,14 +869,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -976,7 +976,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/exchange": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -989,14 +989,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/execution": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -1223,7 +1223,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/requisition": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1236,14 +1236,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -1350,7 +1350,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1363,14 +1363,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -1466,7 +1466,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/placement/initiation": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/placement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1479,14 +1479,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -1617,7 +1617,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/placement/{bq-reference-id}/update": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/placement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1630,21 +1630,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -1780,7 +1780,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/placement/{bq-reference-id}/exchange": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/placement/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1793,21 +1793,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -1951,7 +1951,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/placement/{bq-reference-id}/requisition": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/placement/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1964,21 +1964,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -2125,7 +2125,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/placement/{bq-reference-id}/": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/placement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2138,21 +2138,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Placement Instance Reference",
             "required": true,
@@ -2274,7 +2274,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/securitization/initiation": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/securitization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2287,14 +2287,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -2425,7 +2425,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/securitization/{bq-reference-id}/update": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/securitization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2438,21 +2438,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -2588,7 +2588,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/securitization/{bq-reference-id}/exchange": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/securitization/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2601,21 +2601,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -2759,7 +2759,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/securitization/{bq-reference-id}/requisition": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/securitization/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2772,21 +2772,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -2933,7 +2933,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/securitization/{bq-reference-id}/": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/securitization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2946,21 +2946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Securitization Instance Reference",
             "required": true,
@@ -3082,7 +3082,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/selection/initiation": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/selection/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3095,14 +3095,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
@@ -3225,7 +3225,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/selection/{bq-reference-id}/update": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/selection/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3238,21 +3238,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Selection Instance Reference",
             "required": true,
@@ -3380,7 +3380,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/selection/{bq-reference-id}/exchange": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/selection/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3393,21 +3393,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Selection Instance Reference",
             "required": true,
@@ -3543,7 +3543,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/selection/{bq-reference-id}/requisition": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/selection/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3556,21 +3556,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Selection Instance Reference",
             "required": true,
@@ -3709,7 +3709,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/selection/{bq-reference-id}/": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/selection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3722,21 +3722,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Selection Instance Reference",
             "required": true,
@@ -3854,7 +3854,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -3866,7 +3866,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
@@ -3926,7 +3926,7 @@
         }
       }
     },
-    "/asset-securitization/{sd-reference-id}/asset-securitization-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/asset-securitization/{sdReferenceId}/asset-securitization-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3938,21 +3938,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset Securitization Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset Securitization Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Selection",
             "required": true,

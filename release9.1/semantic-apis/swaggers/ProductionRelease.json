@@ -162,7 +162,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/configuration": {
+    "/production-release/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductionRelease Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/feedback": {
+    "/production-release/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductionRelease Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}": {
+    "/production-release/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductionRelease Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/initiation": {
+    "/production-release/{sdReferenceId}/it-system-assessment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
@@ -766,7 +766,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/update": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -779,14 +779,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
@@ -946,7 +946,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/exchange": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -959,14 +959,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
@@ -1033,7 +1033,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/requisition": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1046,14 +1046,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/grant": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
@@ -1356,7 +1356,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1369,14 +1369,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
@@ -1450,7 +1450,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/functionalrisk/{bq-reference-id}/exchange": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/functionalrisk/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1463,21 +1463,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRisk Instance Reference",
             "required": true,
@@ -1616,7 +1616,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/functionalrisk/{bq-reference-id}/": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/functionalrisk/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1629,21 +1629,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalRisk Instance Reference",
             "required": true,
@@ -1727,7 +1727,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/productionrisk/{bq-reference-id}/exchange": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/productionrisk/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1740,21 +1740,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionRisk Instance Reference",
             "required": true,
@@ -1893,7 +1893,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/productionrisk/{bq-reference-id}/": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/productionrisk/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1906,21 +1906,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductionRisk Instance Reference",
             "required": true,
@@ -2004,7 +2004,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/businessrisk/{bq-reference-id}/exchange": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/businessrisk/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2017,21 +2017,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessRisk Instance Reference",
             "required": true,
@@ -2170,7 +2170,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/businessrisk/{bq-reference-id}/": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/businessrisk/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2183,21 +2183,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessRisk Instance Reference",
             "required": true,
@@ -2281,7 +2281,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/operationalrisk/{bq-reference-id}/exchange": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/operationalrisk/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2294,21 +2294,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationalRisk Instance Reference",
             "required": true,
@@ -2447,7 +2447,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/operationalrisk/{bq-reference-id}/": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/operationalrisk/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2460,21 +2460,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationalRisk Instance Reference",
             "required": true,
@@ -2558,7 +2558,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment": {
+    "/production-release/{sdReferenceId}/it-system-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -2570,7 +2570,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
@@ -2631,7 +2631,7 @@
         }
       }
     },
-    "/production-release/{sd-reference-id}/it-system-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/production-release/{sdReferenceId}/it-system-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2643,21 +2643,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Production Release Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "IT System Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- OperationalRisk",
             "required": true,

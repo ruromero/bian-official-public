@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/configuration": {
+    "/customer-workbench/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerWorkbench Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/feedback": {
+    "/customer-workbench/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerWorkbench Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}": {
+    "/customer-workbench/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerWorkbench Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
@@ -735,7 +735,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/update": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -748,14 +748,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -903,7 +903,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/control": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -916,14 +916,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -990,7 +990,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1003,14 +1003,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -1126,7 +1126,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/swupdate/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/swupdate/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1139,14 +1139,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -1294,7 +1294,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/swupdate/{bq-reference-id}/exchange": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/swupdate/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1307,21 +1307,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SWUpdate Instance Reference",
             "required": true,
@@ -1392,7 +1392,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/swupdate/{bq-reference-id}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/swupdate/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1405,21 +1405,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SWUpdate Instance Reference",
             "required": true,
@@ -1566,7 +1566,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/broadcast/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/broadcast/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1579,14 +1579,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -1752,7 +1752,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/broadcast/{bq-reference-id}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/broadcast/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1765,21 +1765,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Broadcast Instance Reference",
             "required": true,
@@ -1919,7 +1919,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/browsing/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/browsing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1932,14 +1932,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -2106,7 +2106,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/browsing/{bq-reference-id}/execution": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/browsing/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2119,21 +2119,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Browsing Instance Reference",
             "required": true,
@@ -2231,7 +2231,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/browsing/{bq-reference-id}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/browsing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2244,21 +2244,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Browsing Instance Reference",
             "required": true,
@@ -2396,7 +2396,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/contact/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/contact/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2409,14 +2409,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -2585,7 +2585,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/contact/{bq-reference-id}/update": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/contact/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2598,21 +2598,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2676,7 +2676,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/contact/{bq-reference-id}/execution": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/contact/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2689,21 +2689,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2803,7 +2803,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/contact/{bq-reference-id}/requisition": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/contact/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2816,21 +2816,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -2930,7 +2930,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/contact/{bq-reference-id}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/contact/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2943,21 +2943,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -3096,7 +3096,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/productserviceaccess/initiation": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/productserviceaccess/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3109,14 +3109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
@@ -3323,7 +3323,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/productserviceaccess/{bq-reference-id}/update": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/productserviceaccess/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3336,21 +3336,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductServiceAccess Instance Reference",
             "required": true,
@@ -3414,7 +3414,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/productserviceaccess/{bq-reference-id}/execution": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/productserviceaccess/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3427,21 +3427,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductServiceAccess Instance Reference",
             "required": true,
@@ -3579,7 +3579,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/productserviceaccess/{bq-reference-id}/requisition": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/productserviceaccess/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3592,21 +3592,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductServiceAccess Instance Reference",
             "required": true,
@@ -3744,7 +3744,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/productserviceaccess/{bq-reference-id}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/productserviceaccess/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3757,21 +3757,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductServiceAccess Instance Reference",
             "required": true,
@@ -3935,7 +3935,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -3947,7 +3947,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
@@ -4009,7 +4009,7 @@
         }
       }
     },
-    "/customer-workbench/{sd-reference-id}/customer-workbench-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-workbench/{sdReferenceId}/customer-workbench-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4021,21 +4021,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Workbench Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Workbench Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ProductServiceAccess",
             "required": true,

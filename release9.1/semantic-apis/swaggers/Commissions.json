@@ -168,7 +168,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/configuration": {
+    "/commissions/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissions Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/feedback": {
+    "/commissions/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissions Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}": {
+    "/commissions/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissions Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/initiation": {
+    "/commissions/{sdReferenceId}/commission-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/update": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -856,7 +856,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/control": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -869,14 +869,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -976,7 +976,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/exchange": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -989,14 +989,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/execution": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -1223,7 +1223,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/requisition": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1236,14 +1236,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -1350,7 +1350,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1363,14 +1363,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -1466,7 +1466,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/calculation/{bq-reference-id}/update": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/calculation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1479,21 +1479,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Calculation Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/calculation/{bq-reference-id}/exchange": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/calculation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1642,21 +1642,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Calculation Instance Reference",
             "required": true,
@@ -1800,7 +1800,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/calculation/{bq-reference-id}/": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/calculation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1813,21 +1813,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Calculation Instance Reference",
             "required": true,
@@ -1949,7 +1949,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/payment/{bq-reference-id}/update": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/payment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1962,21 +1962,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2112,7 +2112,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/payment/{bq-reference-id}/exchange": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/payment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2125,21 +2125,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2283,7 +2283,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/payment/{bq-reference-id}/": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/payment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2296,21 +2296,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payment Instance Reference",
             "required": true,
@@ -2432,7 +2432,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/check/initiation": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/check/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2445,14 +2445,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
@@ -2575,7 +2575,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/check/{bq-reference-id}/update": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/check/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2588,21 +2588,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Check Instance Reference",
             "required": true,
@@ -2730,7 +2730,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/check/{bq-reference-id}/exchange": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/check/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2743,21 +2743,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Check Instance Reference",
             "required": true,
@@ -2893,7 +2893,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/check/{bq-reference-id}/": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/check/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2906,21 +2906,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Check Instance Reference",
             "required": true,
@@ -3038,7 +3038,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction": {
+    "/commissions/{sdReferenceId}/commission-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -3050,7 +3050,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
@@ -3110,7 +3110,7 @@
         }
       }
     },
-    "/commissions/{sd-reference-id}/commission-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/commissions/{sdReferenceId}/commission-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3122,21 +3122,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commissions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Commission Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Check",
             "required": true,

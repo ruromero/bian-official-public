@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/configuration": {
+    "/customer-relationship-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/feedback": {
+    "/customer-relationship-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}": {
+    "/customer-relationship-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerRelationshipManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/creation": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
@@ -751,7 +751,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/update": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -764,14 +764,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -835,7 +835,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/control": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -848,14 +848,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -922,7 +922,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/exchange": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -935,14 +935,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -1009,7 +1009,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/requisition": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1022,14 +1022,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/grant": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1116,14 +1116,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -1203,7 +1203,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1216,14 +1216,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -1351,7 +1351,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/development/creation": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/development/creation": {
       "post": {
         "tags": [
           "create"
@@ -1364,14 +1364,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/development/{bq-reference-id}/update": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/development/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1591,21 +1591,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -1843,7 +1843,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/development/{bq-reference-id}/exchange": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/development/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1856,21 +1856,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -1941,7 +1941,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/development/{bq-reference-id}/requisition": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/development/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1954,21 +1954,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -2091,7 +2091,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/development/{bq-reference-id}/": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/development/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2104,21 +2104,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -2289,7 +2289,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/creation": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/creation": {
       "post": {
         "tags": [
           "create"
@@ -2302,14 +2302,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -2510,7 +2510,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/{bq-reference-id}/update": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2523,21 +2523,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Incident Instance Reference",
             "required": true,
@@ -2661,7 +2661,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/{bq-reference-id}/control": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2674,21 +2674,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Incident Instance Reference",
             "required": true,
@@ -2759,7 +2759,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/{bq-reference-id}/exchange": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2772,21 +2772,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Incident Instance Reference",
             "required": true,
@@ -2857,7 +2857,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/{bq-reference-id}/capture": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2870,21 +2870,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Incident Instance Reference",
             "required": true,
@@ -2996,7 +2996,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/incident/{bq-reference-id}/": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/incident/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3009,21 +3009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Incident Instance Reference",
             "required": true,
@@ -3191,7 +3191,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/contact/creation": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/contact/creation": {
       "post": {
         "tags": [
           "create"
@@ -3204,14 +3204,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
@@ -3294,7 +3294,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/update": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3307,21 +3307,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -3437,7 +3437,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/requisition": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3450,21 +3450,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -3581,7 +3581,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/contact/{bq-reference-id}/": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/contact/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3594,21 +3594,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Contact Instance Reference",
             "required": true,
@@ -3780,7 +3780,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3792,7 +3792,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
@@ -3852,7 +3852,7 @@
         }
       }
     },
-    "/customer-relationship-management/{sd-reference-id}/customer-relationship-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-relationship-management/{sdReferenceId}/customer-relationship-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3864,21 +3864,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Relationship Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Contact",
             "required": true,

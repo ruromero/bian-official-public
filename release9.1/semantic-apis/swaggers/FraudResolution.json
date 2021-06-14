@@ -162,7 +162,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/configuration": {
+    "/fraud-resolution/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudResolution Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/feedback": {
+    "/fraud-resolution/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudResolution Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}": {
+    "/fraud-resolution/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudResolution Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/initiation": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
@@ -774,7 +774,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/update": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -787,14 +787,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
@@ -996,7 +996,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/exchange": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1009,14 +1009,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
@@ -1083,7 +1083,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1096,14 +1096,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
@@ -1246,7 +1246,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/caseanalysis/{bq-reference-id}/": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/caseanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1259,21 +1259,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaseAnalysis Instance Reference",
             "required": true,
@@ -1434,7 +1434,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/casedetermination/{bq-reference-id}/exchange": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/casedetermination/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1447,21 +1447,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaseDetermination Instance Reference",
             "required": true,
@@ -1532,7 +1532,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/casedetermination/{bq-reference-id}/": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/casedetermination/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1545,21 +1545,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaseDetermination Instance Reference",
             "required": true,
@@ -1756,7 +1756,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/caseresolution/{bq-reference-id}/requisition": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/caseresolution/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1769,21 +1769,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaseResolution Instance Reference",
             "required": true,
@@ -1965,7 +1965,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/caseresolution/{bq-reference-id}/": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/caseresolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1978,21 +1978,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CaseResolution Instance Reference",
             "required": true,
@@ -2201,7 +2201,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2213,7 +2213,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
@@ -2273,7 +2273,7 @@
         }
       }
     },
-    "/fraud-resolution/{sd-reference-id}/fraud-resolution-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/fraud-resolution/{sdReferenceId}/fraud-resolution-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2285,21 +2285,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Resolution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Resolution Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CaseResolution",
             "required": true,

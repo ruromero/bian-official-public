@@ -162,7 +162,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/configuration": {
+    "/regulatory-compliance/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryCompliance Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/feedback": {
+    "/regulatory-compliance/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryCompliance Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}": {
+    "/regulatory-compliance/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryCompliance Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/evaluation": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/{cr-reference-id}/update": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/{cr-reference-id}/exchange": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Instance Reference",
             "required": true,
@@ -1023,7 +1023,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/{cr-reference-id}/requisition": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1036,14 +1036,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Instance Reference",
             "required": true,
@@ -1205,7 +1205,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/{cr-reference-id}": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1218,14 +1218,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Instance Reference",
             "required": true,
@@ -1365,7 +1365,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance": {
       "get": {
         "tags": [
           "retrieve"
@@ -1377,7 +1377,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
@@ -1433,7 +1433,7 @@
         }
       }
     },
-    "/regulatory-compliance/{sd-reference-id}/regulatory-compliance/{cr-reference-id}/{behavior-qualifier}/": {
+    "/regulatory-compliance/{sdReferenceId}/regulatory-compliance/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1445,21 +1445,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

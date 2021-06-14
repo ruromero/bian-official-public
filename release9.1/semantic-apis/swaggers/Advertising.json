@@ -162,7 +162,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/configuration": {
+    "/advertising/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvertising Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/feedback": {
+    "/advertising/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvertising Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}": {
+    "/advertising/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAdvertising Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/creation": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
@@ -771,7 +771,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/update": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -784,14 +784,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -953,7 +953,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/requisition": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -966,14 +966,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -1087,7 +1087,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/grant": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1100,14 +1100,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -1187,7 +1187,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1200,14 +1200,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -1330,7 +1330,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/update": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1343,21 +1343,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1491,7 +1491,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/execution": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1504,21 +1504,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1653,7 +1653,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/requisition": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1666,21 +1666,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1815,7 +1815,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/markettracking/{bq-reference-id}/": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/markettracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1828,21 +1828,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketTracking Instance Reference",
             "required": true,
@@ -1961,7 +1961,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/performanceassessment/creation": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/performanceassessment/creation": {
       "post": {
         "tags": [
           "create"
@@ -1974,14 +1974,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -2086,7 +2086,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/update": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2099,21 +2099,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2227,7 +2227,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/execution": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2240,21 +2240,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2374,7 +2374,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/requisition": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2387,21 +2387,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2521,7 +2521,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/performanceassessment/{bq-reference-id}/": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/performanceassessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2534,21 +2534,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAssessment Instance Reference",
             "required": true,
@@ -2657,7 +2657,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/campaigndirection/creation": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/campaigndirection/creation": {
       "post": {
         "tags": [
           "create"
@@ -2670,14 +2670,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
@@ -2760,7 +2760,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/update": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2773,21 +2773,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -2875,7 +2875,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/requisition": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2888,21 +2888,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -3000,7 +3000,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/campaigndirection/{bq-reference-id}/": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/campaigndirection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3013,21 +3013,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CampaignDirection Instance Reference",
             "required": true,
@@ -3123,7 +3123,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -3135,7 +3135,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
@@ -3195,7 +3195,7 @@
         }
       }
     },
-    "/advertising/{sd-reference-id}/advertising-campaign-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/advertising/{sdReferenceId}/advertising-campaign-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3207,21 +3207,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Advertising Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Advertising Campaign Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CampaignDirection",
             "required": true,

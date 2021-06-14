@@ -162,7 +162,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/configuration": {
+    "/investment-portfolio-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/feedback": {
+    "/investment-portfolio-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}": {
+    "/investment-portfolio-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/initiation": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
@@ -751,7 +751,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -764,14 +764,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -919,7 +919,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -932,14 +932,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1006,7 +1006,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/exchange": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1019,14 +1019,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1093,7 +1093,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/execution": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1106,14 +1106,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1261,7 +1261,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1274,14 +1274,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1429,7 +1429,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1442,14 +1442,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1565,7 +1565,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/track/{bq-reference-id}/": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/track/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1578,21 +1578,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Track Instance Reference",
             "required": true,
@@ -1734,7 +1734,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/marketopportunity/{bq-reference-id}/": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/marketopportunity/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1747,21 +1747,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MarketOpportunity Instance Reference",
             "required": true,
@@ -1887,7 +1887,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/tradeinitiation/initiation": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/tradeinitiation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1900,14 +1900,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2060,7 +2060,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/tradeinitiation/{bq-reference-id}/update": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/tradeinitiation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2073,21 +2073,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2267,7 +2267,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/tradeinitiation/{bq-reference-id}/exchange": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/tradeinitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2280,21 +2280,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2481,7 +2481,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/tradeinitiation/{bq-reference-id}/requisition": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/tradeinitiation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2494,21 +2494,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2698,7 +2698,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/tradeinitiation/{bq-reference-id}/": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/tradeinitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2711,21 +2711,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2867,7 +2867,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2879,7 +2879,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
@@ -2939,7 +2939,7 @@
         }
       }
     },
-    "/investment-portfolio-management/{sd-reference-id}/managed-investment-portfolio-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/investment-portfolio-management/{sdReferenceId}/managed-investment-portfolio-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2951,21 +2951,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TradeInitiation",
             "required": true,

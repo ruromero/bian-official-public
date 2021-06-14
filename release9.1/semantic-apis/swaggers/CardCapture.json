@@ -168,7 +168,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/configuration": {
+    "/card-capture/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCapture Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/feedback": {
+    "/card-capture/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCapture Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}": {
+    "/card-capture/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCapture Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/initiation": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/update": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -856,7 +856,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/control": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -869,14 +869,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -976,7 +976,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/exchange": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -989,14 +989,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/execution": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -1223,7 +1223,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/requisition": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1236,14 +1236,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -1350,7 +1350,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1363,14 +1363,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -1466,7 +1466,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactioncapture/initiation": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactioncapture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1479,14 +1479,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -1617,7 +1617,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactioncapture/{bq-reference-id}/update": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactioncapture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1630,21 +1630,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1780,7 +1780,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactioncapture/{bq-reference-id}/": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactioncapture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1793,21 +1793,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1929,7 +1929,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionauthorization/initiation": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionauthorization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1942,14 +1942,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -2080,7 +2080,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionauthorization/{bq-reference-id}/update": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionauthorization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2093,21 +2093,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAuthorization Instance Reference",
             "required": true,
@@ -2243,7 +2243,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionauthorization/{bq-reference-id}/": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionauthorization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2256,21 +2256,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAuthorization Instance Reference",
             "required": true,
@@ -2392,7 +2392,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/initiation": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2405,14 +2405,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -2543,7 +2543,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/{bq-reference-id}/update": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2556,21 +2556,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionConsolidation Instance Reference",
             "required": true,
@@ -2706,7 +2706,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/{bq-reference-id}/control": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2719,21 +2719,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionConsolidation Instance Reference",
             "required": true,
@@ -2877,7 +2877,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/{bq-reference-id}/exchange": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2890,21 +2890,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionConsolidation Instance Reference",
             "required": true,
@@ -3048,7 +3048,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/{bq-reference-id}/execution": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3061,21 +3061,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionConsolidation Instance Reference",
             "required": true,
@@ -3222,7 +3222,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionconsolidation/{bq-reference-id}/": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionconsolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3235,21 +3235,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionConsolidation Instance Reference",
             "required": true,
@@ -3371,7 +3371,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionreversal/initiation": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionreversal/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3384,14 +3384,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
@@ -3514,7 +3514,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionreversal/{bq-reference-id}/update": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionreversal/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3527,21 +3527,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionReversal Instance Reference",
             "required": true,
@@ -3669,7 +3669,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/transactionreversal/{bq-reference-id}/": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/transactionreversal/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3682,21 +3682,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionReversal Instance Reference",
             "required": true,
@@ -3814,7 +3814,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -3826,7 +3826,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
@@ -3887,7 +3887,7 @@
         }
       }
     },
-    "/card-capture/{sd-reference-id}/credit-card-financial-capture-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-capture/{sdReferenceId}/credit-card-financial-capture-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3899,21 +3899,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Capture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Credit Card Financial Capture Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionCapture",
             "required": true,

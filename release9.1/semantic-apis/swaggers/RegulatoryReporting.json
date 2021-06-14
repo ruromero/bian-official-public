@@ -162,7 +162,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/configuration": {
+    "/regulatory-reporting/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryReporting Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/feedback": {
+    "/regulatory-reporting/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryReporting Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}": {
+    "/regulatory-reporting/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryReporting Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/update": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -622,14 +622,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/requisition": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
@@ -848,7 +848,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -861,14 +861,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
@@ -991,7 +991,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/capture": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1004,21 +1004,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1146,7 +1146,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1159,21 +1159,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1306,7 +1306,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/consolidation/{bq-reference-id}/update": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/consolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1319,21 +1319,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1405,7 +1405,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/authoring/{bq-reference-id}/exchange": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/authoring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1418,21 +1418,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authoring Instance Reference",
             "required": true,
@@ -1503,7 +1503,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/authoring/{bq-reference-id}/": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/authoring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1516,21 +1516,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authoring Instance Reference",
             "required": true,
@@ -1700,7 +1700,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/enquiries/initiation": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/enquiries/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1713,14 +1713,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
@@ -1836,7 +1836,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/enquiries/{bq-reference-id}/update": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/enquiries/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1849,21 +1849,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Enquiries Instance Reference",
             "required": true,
@@ -1945,7 +1945,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/enquiries/{bq-reference-id}/exchange": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/enquiries/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1958,21 +1958,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Enquiries Instance Reference",
             "required": true,
@@ -2043,7 +2043,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/enquiries/{bq-reference-id}/capture": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/enquiries/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2056,21 +2056,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Enquiries Instance Reference",
             "required": true,
@@ -2152,7 +2152,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/enquiries/{bq-reference-id}/": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/enquiries/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2165,21 +2165,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Enquiries Instance Reference",
             "required": true,
@@ -2312,7 +2312,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2324,7 +2324,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
@@ -2384,7 +2384,7 @@
         }
       }
     },
-    "/regulatory-reporting/{sd-reference-id}/regulatory-compliance-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/regulatory-reporting/{sdReferenceId}/regulatory-compliance-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2396,21 +2396,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory Reporting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory Compliance Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Enquiries",
             "required": true,

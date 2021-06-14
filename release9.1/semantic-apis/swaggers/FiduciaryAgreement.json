@@ -168,7 +168,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/configuration": {
+    "/fiduciary-agreement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFiduciaryAgreement Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/feedback": {
+    "/fiduciary-agreement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFiduciaryAgreement Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}": {
+    "/fiduciary-agreement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFiduciaryAgreement Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/initiation": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/update": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/control": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/exchange": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/execution": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/requisition": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fees/{bq-reference-id}/exchange": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -1913,7 +1913,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fees/{bq-reference-id}/requisition": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fees/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1926,21 +1926,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -2087,7 +2087,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fees/{bq-reference-id}/": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2100,21 +2100,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -2236,7 +2236,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/agreement/initiation": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/agreement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2249,14 +2249,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -2387,7 +2387,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/agreement/{bq-reference-id}/update": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/agreement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2400,21 +2400,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -2550,7 +2550,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/agreement/{bq-reference-id}/exchange": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/agreement/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2563,21 +2563,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -2721,7 +2721,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/agreement/{bq-reference-id}/requisition": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/agreement/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2734,21 +2734,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -2895,7 +2895,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/agreement/{bq-reference-id}/": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/agreement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2908,21 +2908,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Agreement Instance Reference",
             "required": true,
@@ -3044,7 +3044,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/assessmentandreporting/initiation": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/assessmentandreporting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3057,14 +3057,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
@@ -3195,7 +3195,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/assessmentandreporting/{bq-reference-id}/": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/assessmentandreporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3208,21 +3208,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AssessmentandReporting Instance Reference",
             "required": true,
@@ -3344,7 +3344,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/exchange": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3357,21 +3357,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3507,7 +3507,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/requisition": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3520,21 +3520,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3673,7 +3673,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3686,21 +3686,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3818,7 +3818,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3830,7 +3830,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
@@ -3891,7 +3891,7 @@
         }
       }
     },
-    "/fiduciary-agreement/{sd-reference-id}/fiduciary-relationship-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/fiduciary-agreement/{sdReferenceId}/fiduciary-relationship-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3903,21 +3903,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fiduciary Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fiduciary Relationship Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Agreement",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/configuration": {
+    "/customer-access-entitlement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerAccessEntitlement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/feedback": {
+    "/customer-access-entitlement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerAccessEntitlement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}": {
+    "/customer-access-entitlement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerAccessEntitlement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/evaluation": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
@@ -736,7 +736,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/update": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -749,14 +749,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -876,7 +876,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/control": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -889,14 +889,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -963,7 +963,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/exchange": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -976,14 +976,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -1050,7 +1050,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/requisition": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1063,14 +1063,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/grant": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1208,14 +1208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -1295,7 +1295,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1308,14 +1308,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -1417,7 +1417,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/restrictions/evaluation": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/restrictions/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1430,14 +1430,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -1580,7 +1580,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/restrictions/{bq-reference-id}/update": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/restrictions/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1593,21 +1593,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restrictions Instance Reference",
             "required": true,
@@ -1765,7 +1765,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/restrictions/{bq-reference-id}/": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/restrictions/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1778,21 +1778,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restrictions Instance Reference",
             "required": true,
@@ -1923,7 +1923,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/preferences/evaluation": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/preferences/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1936,14 +1936,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
@@ -2081,7 +2081,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/preferences/{bq-reference-id}/update": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/preferences/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2094,21 +2094,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Preferences Instance Reference",
             "required": true,
@@ -2210,7 +2210,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/preferences/{bq-reference-id}/": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/preferences/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2223,21 +2223,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Preferences Instance Reference",
             "required": true,
@@ -2374,7 +2374,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2386,7 +2386,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
@@ -2445,7 +2445,7 @@
         }
       }
     },
-    "/customer-access-entitlement/{sd-reference-id}/customer-access-profile-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-access-entitlement/{sdReferenceId}/customer-access-profile-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2457,21 +2457,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Access Entitlement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Access Profile Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Preferences",
             "required": true,

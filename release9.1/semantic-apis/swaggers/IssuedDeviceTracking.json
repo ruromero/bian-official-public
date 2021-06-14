@@ -162,7 +162,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/configuration": {
+    "/issued-device-tracking/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceTracking Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/feedback": {
+    "/issued-device-tracking/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceTracking Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}": {
+    "/issued-device-tracking/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDIssuedDeviceTracking Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/initiation": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
@@ -724,7 +724,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/update": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -737,14 +737,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
@@ -852,7 +852,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/control": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -865,14 +865,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
@@ -939,7 +939,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -952,14 +952,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
@@ -1055,7 +1055,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/internalnotification/{bq-reference-id}/update": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/internalnotification/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1068,21 +1068,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalNotification Instance Reference",
             "required": true,
@@ -1262,7 +1262,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/internalnotification/{bq-reference-id}/capture": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/internalnotification/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1275,21 +1275,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalNotification Instance Reference",
             "required": true,
@@ -1408,7 +1408,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/internalnotification/{bq-reference-id}/": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/internalnotification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1421,21 +1421,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InternalNotification Instance Reference",
             "required": true,
@@ -1577,7 +1577,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/externalreport/{bq-reference-id}/update": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/externalreport/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1590,21 +1590,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExternalReport Instance Reference",
             "required": true,
@@ -1792,7 +1792,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/externalreport/{bq-reference-id}/capture": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/externalreport/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1805,21 +1805,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExternalReport Instance Reference",
             "required": true,
@@ -1942,7 +1942,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/externalreport/{bq-reference-id}/": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/externalreport/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1955,21 +1955,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ExternalReport Instance Reference",
             "required": true,
@@ -2115,7 +2115,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state": {
       "get": {
         "tags": [
           "retrieve"
@@ -2127,7 +2127,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
@@ -2186,7 +2186,7 @@
         }
       }
     },
-    "/issued-device-tracking/{sd-reference-id}/issued-device-state/{cr-reference-id}/{behavior-qualifier}/": {
+    "/issued-device-tracking/{sdReferenceId}/issued-device-state/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2198,21 +2198,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Issued Device Tracking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Issued Device State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ExternalReport",
             "required": true,

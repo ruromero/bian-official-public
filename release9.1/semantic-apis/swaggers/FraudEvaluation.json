@@ -162,7 +162,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/configuration": {
+    "/fraud-evaluation/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudEvaluation Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/feedback": {
+    "/fraud-evaluation/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudEvaluation Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}": {
+    "/fraud-evaluation/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudEvaluation Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/evaluation": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
@@ -742,7 +742,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/exchange": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -755,14 +755,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
@@ -829,7 +829,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/execution": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -842,14 +842,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
@@ -980,7 +980,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/requisition": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -993,14 +993,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
@@ -1131,7 +1131,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/grant": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1144,14 +1144,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
@@ -1231,7 +1231,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1244,14 +1244,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
@@ -1361,7 +1361,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/rulesetsanddecisiontrees/{bq-reference-id}/": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/rulesetsanddecisiontrees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1374,21 +1374,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RuleSetsandDecisionTrees Instance Reference",
             "required": true,
@@ -1520,7 +1520,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/models/{bq-reference-id}/": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/models/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1533,21 +1533,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Models Instance Reference",
             "required": true,
@@ -1679,7 +1679,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1691,7 +1691,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
@@ -1750,7 +1750,7 @@
         }
       }
     },
-    "/fraud-evaluation/{sd-reference-id}/fraud-evaluation-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/fraud-evaluation/{sdReferenceId}/fraud-evaluation-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1762,21 +1762,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Evaluation Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Models",
             "required": true,

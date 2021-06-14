@@ -168,7 +168,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/configuration": {
+    "/commission-agreement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissionAgreement Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/feedback": {
+    "/commission-agreement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissionAgreement Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}": {
+    "/commission-agreement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCommissionAgreement Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/initiation": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/update": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/control": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/exchange": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/requisition": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/grant": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1597,7 +1597,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1610,14 +1610,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1753,7 +1753,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/initiation": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1766,14 +1766,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
@@ -1880,7 +1880,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/update": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1893,21 +1893,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2019,7 +2019,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/control": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2032,21 +2032,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2166,7 +2166,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/exchange": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2179,21 +2179,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2313,7 +2313,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/requisition": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2326,21 +2326,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2463,7 +2463,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/grant": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -2476,21 +2476,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2620,7 +2620,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/commissionterms/{bq-reference-id}/": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/commissionterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2633,21 +2633,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CommissionTerms Instance Reference",
             "required": true,
@@ -2757,7 +2757,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2769,7 +2769,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
@@ -2827,7 +2827,7 @@
         }
       }
     },
-    "/commission-agreement/{sd-reference-id}/employee-commission-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/commission-agreement/{sdReferenceId}/employee-commission-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2839,21 +2839,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Commission Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Employee Commission Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CommissionTerms",
             "required": true,

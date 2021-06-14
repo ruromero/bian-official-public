@@ -168,7 +168,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/configuration": {
+    "/reward-points-account/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAccount Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/feedback": {
+    "/reward-points-account/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAccount Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}": {
+    "/reward-points-account/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRewardPointsAccount Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/initiation": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
@@ -793,7 +793,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/update": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -806,14 +806,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -962,7 +962,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/control": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -975,14 +975,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -1135,7 +1135,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/exchange": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1148,14 +1148,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -1308,7 +1308,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/capture": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1321,14 +1321,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -1488,7 +1488,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/requisition": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1501,14 +1501,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -1668,7 +1668,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/grant": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1681,14 +1681,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -1855,7 +1855,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1868,14 +1868,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -2007,7 +2007,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/expiration/initiation": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/expiration/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2020,14 +2020,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -2158,7 +2158,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/expiration/{bq-reference-id}/update": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/expiration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2171,21 +2171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Expiration Instance Reference",
             "required": true,
@@ -2321,7 +2321,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/expiration/{bq-reference-id}/capture": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/expiration/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2334,21 +2334,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Expiration Instance Reference",
             "required": true,
@@ -2495,7 +2495,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/expiration/{bq-reference-id}/": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/expiration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2508,21 +2508,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Expiration Instance Reference",
             "required": true,
@@ -2644,7 +2644,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/capture/initiation": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/capture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2657,14 +2657,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
@@ -2787,7 +2787,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/capture/{bq-reference-id}/update": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/capture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2800,21 +2800,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -2942,7 +2942,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/capture/{bq-reference-id}/capture": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/capture/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2955,21 +2955,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -3108,7 +3108,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/capture/{bq-reference-id}/": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/capture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3121,21 +3121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -3253,7 +3253,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -3265,7 +3265,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
@@ -3324,7 +3324,7 @@
         }
       }
     },
-    "/reward-points-account/{sd-reference-id}/reward-points-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/reward-points-account/{sdReferenceId}/reward-points-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3336,21 +3336,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Reward Points Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Reward Points Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Capture",
             "required": true,

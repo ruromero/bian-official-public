@@ -162,7 +162,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/configuration": {
+    "/corporate-current-account/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateCurrentAccount Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/feedback": {
+    "/corporate-current-account/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateCurrentAccount Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}": {
+    "/corporate-current-account/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateCurrentAccount Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
@@ -826,7 +826,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -839,14 +839,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1124,7 +1124,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1137,14 +1137,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1211,7 +1211,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1224,14 +1224,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1412,7 +1412,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1425,21 +1425,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1581,7 +1581,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1594,14 +1594,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1765,7 +1765,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1778,21 +1778,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -1969,7 +1969,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1982,21 +1982,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2147,7 +2147,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountlien/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountlien/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2160,14 +2160,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2382,7 +2382,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2395,21 +2395,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2559,7 +2559,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/exchange": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2572,21 +2572,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2657,7 +2657,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2670,21 +2670,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2815,7 +2815,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountsweep/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2828,14 +2828,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3013,7 +3013,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3026,21 +3026,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3204,7 +3204,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/execution": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3217,21 +3217,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3327,7 +3327,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3340,21 +3340,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3488,7 +3488,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3501,14 +3501,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3645,7 +3645,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3658,21 +3658,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -3736,7 +3736,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/execution": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3749,21 +3749,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -3837,7 +3837,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3850,21 +3850,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsandWithdrawals Instance Reference",
             "required": true,
@@ -3948,7 +3948,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/payments/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3961,14 +3961,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -4179,7 +4179,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4192,21 +4192,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4464,7 +4464,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4477,21 +4477,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4562,7 +4562,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/execution": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4575,21 +4575,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4743,7 +4743,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4756,21 +4756,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4957,7 +4957,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4970,14 +4970,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -5199,7 +5199,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5212,21 +5212,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5362,7 +5362,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/requisition": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5375,21 +5375,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5523,7 +5523,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5536,21 +5536,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5670,7 +5670,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -5682,7 +5682,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
@@ -5746,7 +5746,7 @@
         }
       }
     },
-    "/corporate-current-account/{sd-reference-id}/corporate-current-account-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/corporate-current-account/{sdReferenceId}/corporate-current-account-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5758,21 +5758,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Current Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Current Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- IssuedDevice",
             "required": true,

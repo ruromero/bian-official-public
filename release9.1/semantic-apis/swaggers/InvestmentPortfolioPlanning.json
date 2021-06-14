@@ -162,7 +162,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/configuration": {
+    "/investment-portfolio-planning/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioPlanning Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/feedback": {
+    "/investment-portfolio-planning/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioPlanning Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}": {
+    "/investment-portfolio-planning/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioPlanning Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/evaluation": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
@@ -770,7 +770,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/update": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -783,14 +783,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -964,7 +964,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/control": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -977,14 +977,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/exchange": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1138,7 +1138,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/requisition": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1151,14 +1151,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1317,7 +1317,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/grant": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1330,14 +1330,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1417,7 +1417,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1430,14 +1430,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1566,7 +1566,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/investmentterms/evaluation": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/investmentterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1579,14 +1579,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
@@ -1787,7 +1787,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/investmentterms/{bq-reference-id}/update": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/investmentterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1800,21 +1800,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InvestmentTerms Instance Reference",
             "required": true,
@@ -2020,7 +2020,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/investmentterms/{bq-reference-id}/requisition": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/investmentterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2033,21 +2033,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InvestmentTerms Instance Reference",
             "required": true,
@@ -2263,7 +2263,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/investmentterms/{bq-reference-id}/": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/investmentterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2276,21 +2276,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InvestmentTerms Instance Reference",
             "required": true,
@@ -2445,7 +2445,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2457,7 +2457,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
@@ -2515,7 +2515,7 @@
         }
       }
     },
-    "/investment-portfolio-planning/{sd-reference-id}/managed-investment-portfolio-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/investment-portfolio-planning/{sdReferenceId}/managed-investment-portfolio-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2527,21 +2527,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Planning Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- InvestmentTerms",
             "required": true,

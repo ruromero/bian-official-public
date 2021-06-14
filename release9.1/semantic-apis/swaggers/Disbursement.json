@@ -162,7 +162,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/configuration": {
+    "/disbursement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDisbursement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/feedback": {
+    "/disbursement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDisbursement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}": {
+    "/disbursement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDisbursement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/initiation": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
@@ -748,7 +748,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/update": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -761,14 +761,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -940,7 +940,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/control": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -953,14 +953,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -1027,7 +1027,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/exchange": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1040,14 +1040,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -1114,7 +1114,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/execution": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1127,14 +1127,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -1316,7 +1316,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/requisition": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1329,14 +1329,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -1518,7 +1518,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1531,14 +1531,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
@@ -1666,7 +1666,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -1678,7 +1678,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
@@ -1734,7 +1734,7 @@
         }
       }
     },
-    "/disbursement/{sd-reference-id}/disbursement-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/disbursement/{sdReferenceId}/disbursement-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1746,21 +1746,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Disbursement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Disbursement Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

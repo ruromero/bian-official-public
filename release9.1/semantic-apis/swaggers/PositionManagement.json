@@ -162,7 +162,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/configuration": {
+    "/position-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/feedback": {
+    "/position-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}": {
+    "/position-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/initiation": {
+    "/position-management/{sdReferenceId}/financial-position-state/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
@@ -749,7 +749,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/update": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -762,14 +762,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
@@ -927,7 +927,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/control": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -940,14 +940,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
@@ -1014,7 +1014,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1027,14 +1027,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
@@ -1164,7 +1164,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/trialtransaction/initiation": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/trialtransaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1177,14 +1177,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
@@ -1394,7 +1394,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/trialtransaction/{bq-reference-id}/update": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/trialtransaction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1407,21 +1407,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrialTransaction Instance Reference",
             "required": true,
@@ -1547,7 +1547,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/trialtransaction/{bq-reference-id}/": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/trialtransaction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1560,21 +1560,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TrialTransaction Instance Reference",
             "required": true,
@@ -1693,7 +1693,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/transactionapplication/initiation": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/transactionapplication/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1706,14 +1706,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
@@ -1923,7 +1923,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/transactionapplication/{bq-reference-id}/update": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/transactionapplication/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1936,21 +1936,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionApplication Instance Reference",
             "required": true,
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/transactionapplication/{bq-reference-id}/": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/transactionapplication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2089,21 +2089,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionApplication Instance Reference",
             "required": true,
@@ -2222,7 +2222,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state": {
+    "/position-management/{sdReferenceId}/financial-position-state": {
       "get": {
         "tags": [
           "retrieve"
@@ -2234,7 +2234,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
@@ -2293,7 +2293,7 @@
         }
       }
     },
-    "/position-management/{sd-reference-id}/financial-position-state/{cr-reference-id}/{behavior-qualifier}/": {
+    "/position-management/{sdReferenceId}/financial-position-state/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2305,21 +2305,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionApplication",
             "required": true,

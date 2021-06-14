@@ -168,7 +168,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/configuration": {
+    "/product-quality-assurance/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductQualityAssurance Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/feedback": {
+    "/product-quality-assurance/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductQualityAssurance Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}": {
+    "/product-quality-assurance/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductQualityAssurance Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/initiation": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
@@ -763,7 +763,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/update": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -776,14 +776,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -902,7 +902,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/exchange": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -915,14 +915,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1045,7 +1045,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/execution": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1058,14 +1058,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/requisition": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1208,14 +1208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1345,7 +1345,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/grant": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1358,14 +1358,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1502,7 +1502,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1515,14 +1515,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1641,7 +1641,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/resiliencyandperformancechecks/initiation": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/resiliencyandperformancechecks/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1654,14 +1654,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -1792,7 +1792,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/resiliencyandperformancechecks/{bq-reference-id}/update": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/resiliencyandperformancechecks/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1805,21 +1805,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ResiliencyandPerformanceChecks Instance Reference",
             "required": true,
@@ -1955,7 +1955,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/resiliencyandperformancechecks/{bq-reference-id}/": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/resiliencyandperformancechecks/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1968,21 +1968,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ResiliencyandPerformanceChecks Instance Reference",
             "required": true,
@@ -2104,7 +2104,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/functionalconsistencychecks/initiation": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/functionalconsistencychecks/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2117,14 +2117,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -2247,7 +2247,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/functionalconsistencychecks/{bq-reference-id}/update": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/functionalconsistencychecks/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2260,21 +2260,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalConsistencyChecks Instance Reference",
             "required": true,
@@ -2402,7 +2402,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/functionalconsistencychecks/{bq-reference-id}/": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/functionalconsistencychecks/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2415,21 +2415,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FunctionalConsistencyChecks Instance Reference",
             "required": true,
@@ -2547,7 +2547,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/usabilitychecks/initiation": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/usabilitychecks/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2560,14 +2560,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -2690,7 +2690,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/usabilitychecks/{bq-reference-id}/update": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/usabilitychecks/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2703,21 +2703,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsabilityChecks Instance Reference",
             "required": true,
@@ -2845,7 +2845,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/usabilitychecks/{bq-reference-id}/": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/usabilitychecks/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2858,21 +2858,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "UsabilityChecks Instance Reference",
             "required": true,
@@ -2990,7 +2990,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/processingerrorandintegritychecks/initiation": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/processingerrorandintegritychecks/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3003,14 +3003,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
@@ -3133,7 +3133,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/processingerrorandintegritychecks/{bq-reference-id}/update": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/processingerrorandintegritychecks/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3146,21 +3146,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProcessingErrorandIntegrityChecks Instance Reference",
             "required": true,
@@ -3288,7 +3288,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/processingerrorandintegritychecks/{bq-reference-id}/": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/processingerrorandintegritychecks/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3301,21 +3301,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProcessingErrorandIntegrityChecks Instance Reference",
             "required": true,
@@ -3433,7 +3433,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -3445,7 +3445,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
@@ -3506,7 +3506,7 @@
         }
       }
     },
-    "/product-quality-assurance/{sd-reference-id}/product-and-service-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-quality-assurance/{sdReferenceId}/product-and-service-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3518,21 +3518,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Quality Assurance Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product and Service Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- FunctionalConsistencyChecks",
             "required": true,

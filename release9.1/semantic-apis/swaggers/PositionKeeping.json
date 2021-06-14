@@ -162,7 +162,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/configuration": {
+    "/position-keeping/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionKeeping Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/feedback": {
+    "/position-keeping/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionKeeping Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}": {
+    "/position-keeping/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPositionKeeping Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/initiation": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
@@ -806,7 +806,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/update": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -819,14 +819,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
@@ -1082,7 +1082,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/control": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1095,14 +1095,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
@@ -1169,7 +1169,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1182,14 +1182,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
@@ -1363,7 +1363,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/transactioncapture/{bq-reference-id}/update": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/transactioncapture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1376,21 +1376,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1488,7 +1488,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/transactioncapture/{bq-reference-id}/capture": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/transactioncapture/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1501,21 +1501,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1623,7 +1623,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/transactioncapture/{bq-reference-id}/": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/transactioncapture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1636,21 +1636,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1751,7 +1751,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log": {
+    "/position-keeping/{sdReferenceId}/financial-position-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -1763,7 +1763,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
@@ -1821,7 +1821,7 @@
         }
       }
     },
-    "/position-keeping/{sd-reference-id}/financial-position-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/position-keeping/{sdReferenceId}/financial-position-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1833,21 +1833,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Position Keeping Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Position Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionCapture",
             "required": true,

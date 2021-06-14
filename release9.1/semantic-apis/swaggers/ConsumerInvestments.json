@@ -162,7 +162,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/configuration": {
+    "/consumer-investments/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerInvestments Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/feedback": {
+    "/consumer-investments/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerInvestments Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}": {
+    "/consumer-investments/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerInvestments Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/initiation": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
@@ -806,7 +806,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/update": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -819,14 +819,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
@@ -1036,7 +1036,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1049,14 +1049,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
@@ -1203,7 +1203,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/quote/{bq-reference-id}/": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/quote/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1216,21 +1216,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Quote Instance Reference",
             "required": true,
@@ -1395,7 +1395,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/compliance/{bq-reference-id}/": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/compliance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1408,21 +1408,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Compliance Instance Reference",
             "required": true,
@@ -1595,7 +1595,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/fundingcheck/{bq-reference-id}/": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/fundingcheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1608,21 +1608,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FundingCheck Instance Reference",
             "required": true,
@@ -1787,7 +1787,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/orderinitiation/{bq-reference-id}/exchange": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/orderinitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1800,21 +1800,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OrderInitiation Instance Reference",
             "required": true,
@@ -1885,7 +1885,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/orderinitiation/{bq-reference-id}/": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/orderinitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1898,21 +1898,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OrderInitiation Instance Reference",
             "required": true,
@@ -2086,7 +2086,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -2098,7 +2098,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
@@ -2159,7 +2159,7 @@
         }
       }
     },
-    "/consumer-investments/{sd-reference-id}/consumer-securities-order-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/consumer-investments/{sdReferenceId}/consumer-securities-order-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2171,21 +2171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Investments Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Securities Order Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- OrderInitiation",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/configuration": {
+    "/customer-reference-data-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/feedback": {
+    "/customer-reference-data-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}": {
+    "/customer-reference-data-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerReferenceDataManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/initiation": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
@@ -716,7 +716,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/update": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -729,14 +729,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
@@ -836,7 +836,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/control": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -849,14 +849,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
@@ -923,7 +923,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/exchange": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -936,14 +936,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
@@ -1010,7 +1010,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/requisition": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1023,14 +1023,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
@@ -1130,7 +1130,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1143,14 +1143,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
@@ -1242,7 +1242,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/update": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/reference/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1255,21 +1255,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/exchange": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/reference/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1546,21 +1546,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1631,7 +1631,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/execution": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/reference/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1644,21 +1644,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -1823,7 +1823,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/reference/{bq-reference-id}/": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/reference/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1836,21 +1836,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reference Instance Reference",
             "required": true,
@@ -2043,7 +2043,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/update": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/associations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2056,21 +2056,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2240,7 +2240,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/exchange": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/associations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2253,21 +2253,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2338,7 +2338,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/execution": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/associations/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2351,21 +2351,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2479,7 +2479,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/associations/{bq-reference-id}/": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/associations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2492,21 +2492,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Associations Instance Reference",
             "required": true,
@@ -2648,7 +2648,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/demographics/{bq-reference-id}/update": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/demographics/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2661,21 +2661,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Demographics Instance Reference",
             "required": true,
@@ -2821,7 +2821,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/demographics/{bq-reference-id}/exchange": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/demographics/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2834,21 +2834,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Demographics Instance Reference",
             "required": true,
@@ -2919,7 +2919,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/demographics/{bq-reference-id}/execution": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/demographics/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2932,21 +2932,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Demographics Instance Reference",
             "required": true,
@@ -3048,7 +3048,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/demographics/{bq-reference-id}/": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/demographics/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3061,21 +3061,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Demographics Instance Reference",
             "required": true,
@@ -3205,7 +3205,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/bankrelations/{bq-reference-id}/update": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/bankrelations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3218,21 +3218,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BankRelations Instance Reference",
             "required": true,
@@ -3348,7 +3348,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/bankrelations/{bq-reference-id}/exchange": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/bankrelations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3361,21 +3361,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BankRelations Instance Reference",
             "required": true,
@@ -3446,7 +3446,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/bankrelations/{bq-reference-id}/execution": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/bankrelations/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3459,21 +3459,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BankRelations Instance Reference",
             "required": true,
@@ -3560,7 +3560,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/bankrelations/{bq-reference-id}/": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/bankrelations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3573,21 +3573,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BankRelations Instance Reference",
             "required": true,
@@ -3702,7 +3702,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -3714,7 +3714,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
@@ -3775,7 +3775,7 @@
         }
       }
     },
-    "/customer-reference-data-management/{sd-reference-id}/customer-reference-data-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-reference-data-management/{sdReferenceId}/customer-reference-data-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3787,21 +3787,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Reference Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Reference Data Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- BankRelations",
             "required": true,

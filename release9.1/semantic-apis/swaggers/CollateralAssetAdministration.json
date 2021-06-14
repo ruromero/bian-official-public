@@ -162,7 +162,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/configuration": {
+    "/collateral-asset-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAssetAdministration Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/feedback": {
+    "/collateral-asset-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAssetAdministration Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}": {
+    "/collateral-asset-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollateralAssetAdministration Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/creation": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
@@ -777,7 +777,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/update": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -790,14 +790,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
@@ -1021,7 +1021,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1034,14 +1034,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
@@ -1195,7 +1195,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/valuation/creation": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/valuation/creation": {
       "post": {
         "tags": [
           "create"
@@ -1208,14 +1208,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/update": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1393,21 +1393,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -1529,7 +1529,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/requisition": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1542,21 +1542,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -1672,7 +1672,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/valuation/{bq-reference-id}/": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/valuation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1685,21 +1685,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Valuation Instance Reference",
             "required": true,
@@ -1885,7 +1885,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/maintenance/creation": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/maintenance/creation": {
       "post": {
         "tags": [
           "create"
@@ -1898,14 +1898,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
@@ -2066,7 +2066,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/update": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2079,21 +2079,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -2207,7 +2207,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/exchange": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2220,21 +2220,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -2305,7 +2305,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/requisition": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2318,21 +2318,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -2456,7 +2456,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/maintenance/{bq-reference-id}/": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/maintenance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2469,21 +2469,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -2665,7 +2665,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2677,7 +2677,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
@@ -2736,7 +2736,7 @@
         }
       }
     },
-    "/collateral-asset-administration/{sd-reference-id}/collateral-asset-administrative-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/collateral-asset-administration/{sdReferenceId}/collateral-asset-administrative-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2748,21 +2748,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collateral Asset Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Administrative Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Maintenance",
             "required": true,

@@ -168,7 +168,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/configuration": {
+    "/currency-exchange/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCurrencyExchange Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/feedback": {
+    "/currency-exchange/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCurrencyExchange Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}": {
+    "/currency-exchange/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCurrencyExchange Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/initiation": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
@@ -740,7 +740,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/update": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -753,14 +753,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -856,7 +856,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/control": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -869,14 +869,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -976,7 +976,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/exchange": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -989,14 +989,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/execution": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -1223,7 +1223,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/requisition": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1236,14 +1236,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -1350,7 +1350,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1363,14 +1363,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -1466,7 +1466,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactionpricing/initiation": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactionpricing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1479,14 +1479,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -1617,7 +1617,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactionpricing/{bq-reference-id}/update": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactionpricing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1630,21 +1630,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXTransactionPricing Instance Reference",
             "required": true,
@@ -1780,7 +1780,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactionpricing/{bq-reference-id}/": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactionpricing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1793,21 +1793,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXTransactionPricing Instance Reference",
             "required": true,
@@ -1929,7 +1929,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/documenthandling/initiation": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/documenthandling/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1942,14 +1942,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -2080,7 +2080,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/documenthandling/{bq-reference-id}/update": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/documenthandling/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2093,21 +2093,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DocumentHandling Instance Reference",
             "required": true,
@@ -2243,7 +2243,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/documenthandling/{bq-reference-id}/execution": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/documenthandling/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2256,21 +2256,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DocumentHandling Instance Reference",
             "required": true,
@@ -2417,7 +2417,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/documenthandling/{bq-reference-id}/": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/documenthandling/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2430,21 +2430,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DocumentHandling Instance Reference",
             "required": true,
@@ -2566,7 +2566,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactioncapture/initiation": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactioncapture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2579,14 +2579,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
@@ -2709,7 +2709,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactioncapture/{bq-reference-id}/update": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactioncapture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2722,21 +2722,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXTransactionCapture Instance Reference",
             "required": true,
@@ -2864,7 +2864,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactioncapture/{bq-reference-id}/exchange": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactioncapture/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2877,21 +2877,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXTransactionCapture Instance Reference",
             "required": true,
@@ -3027,7 +3027,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/fxtransactioncapture/{bq-reference-id}/": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/fxtransactioncapture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3040,21 +3040,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXTransactionCapture Instance Reference",
             "required": true,
@@ -3172,7 +3172,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -3184,7 +3184,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
@@ -3244,7 +3244,7 @@
         }
       }
     },
-    "/currency-exchange/{sd-reference-id}/currency-exchange-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/currency-exchange/{sdReferenceId}/currency-exchange-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3256,21 +3256,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Currency Exchange Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Currency Exchange Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- FXTransactionPricing",
             "required": true,

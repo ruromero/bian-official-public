@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/configuration": {
+    "/card-network-participant-facility/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardNetworkParticipantFacility Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/feedback": {
+    "/card-network-participant-facility/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardNetworkParticipantFacility Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}": {
+    "/card-network-participant-facility/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardNetworkParticipantFacility Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/initiation": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
@@ -758,7 +758,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -771,14 +771,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -940,7 +940,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -953,14 +953,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1027,7 +1027,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1040,14 +1040,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1170,7 +1170,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantaccount/{bq-reference-id}/update": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantaccount/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1183,21 +1183,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantAccount Instance Reference",
             "required": true,
@@ -1313,7 +1313,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantaccount/{bq-reference-id}/execution": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantaccount/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1326,21 +1326,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantAccount Instance Reference",
             "required": true,
@@ -1453,7 +1453,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantaccount/{bq-reference-id}/": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantaccount/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1466,21 +1466,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantAccount Instance Reference",
             "required": true,
@@ -1639,7 +1639,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantservice/{bq-reference-id}/update": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantservice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1652,21 +1652,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantService Instance Reference",
             "required": true,
@@ -1790,7 +1790,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantservice/{bq-reference-id}/execution": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantservice/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1803,21 +1803,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantService Instance Reference",
             "required": true,
@@ -1934,7 +1934,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantservice/{bq-reference-id}/requisition": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantservice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1947,21 +1947,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantService Instance Reference",
             "required": true,
@@ -2078,7 +2078,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/participantservice/{bq-reference-id}/": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/participantservice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2091,21 +2091,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ParticipantService Instance Reference",
             "required": true,
@@ -2268,7 +2268,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -2280,7 +2280,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
@@ -2339,7 +2339,7 @@
         }
       }
     },
-    "/card-network-participant-facility/{sd-reference-id}/card-network-participant-facility-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-network-participant-facility/{sdReferenceId}/card-network-participant-facility-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2351,21 +2351,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Network Participant Facility Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ParticipantService",
             "required": true,

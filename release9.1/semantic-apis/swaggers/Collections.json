@@ -168,7 +168,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/configuration": {
+    "/collections/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollections Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/feedback": {
+    "/collections/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollections Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}": {
+    "/collections/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCollections Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/initiation": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
@@ -811,7 +811,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -824,14 +824,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/control": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -1189,7 +1189,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/exchange": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1202,14 +1202,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/execution": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -1578,7 +1578,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/requisition": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1591,14 +1591,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -1776,7 +1776,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1789,14 +1789,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -1955,7 +1955,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralliquidation/initiation": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralliquidation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1968,14 +1968,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -2108,7 +2108,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralliquidation/{bq-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralliquidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2121,21 +2121,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralLiquidation Instance Reference",
             "required": true,
@@ -2273,7 +2273,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralliquidation/{bq-reference-id}/exchange": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralliquidation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2286,21 +2286,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralLiquidation Instance Reference",
             "required": true,
@@ -2446,7 +2446,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralliquidation/{bq-reference-id}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralliquidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2459,21 +2459,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralLiquidation Instance Reference",
             "required": true,
@@ -2596,7 +2596,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collectionsaccountupdate/{bq-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collectionsaccountupdate/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2609,21 +2609,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollectionsAccountUpdate Instance Reference",
             "required": true,
@@ -2761,7 +2761,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collectionsaccountupdate/{bq-reference-id}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collectionsaccountupdate/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2774,21 +2774,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollectionsAccountUpdate Instance Reference",
             "required": true,
@@ -2911,7 +2911,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collectionsassessment/initiation": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collectionsassessment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2924,14 +2924,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -3064,7 +3064,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collectionsassessment/{bq-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collectionsassessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3077,21 +3077,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollectionsAssessment Instance Reference",
             "required": true,
@@ -3229,7 +3229,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collectionsassessment/{bq-reference-id}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collectionsassessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3242,21 +3242,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollectionsAssessment Instance Reference",
             "required": true,
@@ -3379,7 +3379,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralvaluation/initiation": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralvaluation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3392,14 +3392,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -3532,7 +3532,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralvaluation/{bq-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralvaluation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3545,21 +3545,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralValuation Instance Reference",
             "required": true,
@@ -3697,7 +3697,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralvaluation/{bq-reference-id}/exchange": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralvaluation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3710,21 +3710,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralValuation Instance Reference",
             "required": true,
@@ -3870,7 +3870,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/collateralvaluation/{bq-reference-id}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/collateralvaluation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3883,21 +3883,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CollateralValuation Instance Reference",
             "required": true,
@@ -4020,7 +4020,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/debtfactoring/initiation": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/debtfactoring/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4033,14 +4033,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
@@ -4165,7 +4165,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/debtfactoring/{bq-reference-id}/update": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/debtfactoring/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4178,21 +4178,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DebtFactoring Instance Reference",
             "required": true,
@@ -4322,7 +4322,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/debtfactoring/{bq-reference-id}/exchange": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/debtfactoring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4335,21 +4335,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DebtFactoring Instance Reference",
             "required": true,
@@ -4487,7 +4487,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/debtfactoring/{bq-reference-id}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/debtfactoring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4500,21 +4500,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DebtFactoring Instance Reference",
             "required": true,
@@ -4633,7 +4633,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -4645,7 +4645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
@@ -4707,7 +4707,7 @@
         }
       }
     },
-    "/collections/{sd-reference-id}/collateral-asset-liquidation-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/collections/{sdReferenceId}/collateral-asset-liquidation-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4719,21 +4719,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Collections Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Collateral Asset Liquidation Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CollectionsAssessment",
             "required": true,

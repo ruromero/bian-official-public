@@ -162,7 +162,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/configuration": {
+    "/consumer-advisory-services/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerAdvisoryServices Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/feedback": {
+    "/consumer-advisory-services/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerAdvisoryServices Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}": {
+    "/consumer-advisory-services/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDConsumerAdvisoryServices Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/initiation": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
@@ -775,7 +775,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -788,14 +788,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -987,7 +987,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1000,14 +1000,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1074,7 +1074,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/requisition": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1087,14 +1087,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1281,7 +1281,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1294,14 +1294,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1439,7 +1439,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/financialplanning/initiation": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/financialplanning/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1452,14 +1452,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1648,7 +1648,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/financialplanning/{bq-reference-id}/update": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/financialplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1661,21 +1661,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialPlanning Instance Reference",
             "required": true,
@@ -1765,7 +1765,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/financialplanning/{bq-reference-id}/requisition": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/financialplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1778,21 +1778,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialPlanning Instance Reference",
             "required": true,
@@ -1892,7 +1892,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/financialplanning/{bq-reference-id}/": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/financialplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1905,21 +1905,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FinancialPlanning Instance Reference",
             "required": true,
@@ -2016,7 +2016,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/taxoptimization/initiation": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/taxoptimization/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2029,14 +2029,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2225,7 +2225,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/update": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2238,21 +2238,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -2342,7 +2342,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/requisition": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2355,21 +2355,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -2469,7 +2469,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/taxoptimization/{bq-reference-id}/": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/taxoptimization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2482,21 +2482,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TaxOptimization Instance Reference",
             "required": true,
@@ -2593,7 +2593,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/productguidance/initiation": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/productguidance/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2606,14 +2606,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2829,7 +2829,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/productguidance/{bq-reference-id}/update": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/productguidance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2842,21 +2842,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductGuidance Instance Reference",
             "required": true,
@@ -2982,7 +2982,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/productguidance/{bq-reference-id}/requisition": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/productguidance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2995,21 +2995,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductGuidance Instance Reference",
             "required": true,
@@ -3145,7 +3145,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/productguidance/{bq-reference-id}/": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/productguidance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3158,21 +3158,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductGuidance Instance Reference",
             "required": true,
@@ -3287,7 +3287,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3300,14 +3300,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3416,7 +3416,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/update": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3429,21 +3429,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3557,7 +3557,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/exchange": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3570,21 +3570,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3655,7 +3655,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3668,21 +3668,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3797,7 +3797,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3810,21 +3810,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -3933,7 +3933,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3945,7 +3945,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
@@ -4006,7 +4006,7 @@
         }
       }
     },
-    "/consumer-advisory-services/{sd-reference-id}/consumer-advice-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/consumer-advisory-services/{sdReferenceId}/consumer-advice-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4018,21 +4018,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Consumer Advisory Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Consumer Advice Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- ServiceFees",
             "required": true,

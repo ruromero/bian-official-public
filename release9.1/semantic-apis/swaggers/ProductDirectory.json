@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/configuration": {
+    "/product-directory/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDirectory Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/feedback": {
+    "/product-directory/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDirectory Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}": {
+    "/product-directory/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductDirectory Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/registration": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/registration": {
       "post": {
         "tags": [
           "register"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
@@ -709,7 +709,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/update": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -722,14 +722,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -817,7 +817,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/requisition": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -830,14 +830,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -935,7 +935,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -948,14 +948,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -1041,7 +1041,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/operations/registration": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/operations/registration": {
       "post": {
         "tags": [
           "register"
@@ -1054,14 +1054,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -1152,7 +1152,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/operations/{bq-reference-id}/update": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/operations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1165,21 +1165,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Operations Instance Reference",
             "required": true,
@@ -1307,7 +1307,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/operations/{bq-reference-id}/requisition": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/operations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1320,21 +1320,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Operations Instance Reference",
             "required": true,
@@ -1472,7 +1472,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/operations/{bq-reference-id}/": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/operations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1485,21 +1485,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Operations Instance Reference",
             "required": true,
@@ -1615,7 +1615,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/salesandmarketing/registration": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/salesandmarketing/registration": {
       "post": {
         "tags": [
           "register"
@@ -1628,14 +1628,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/salesandmarketing/{bq-reference-id}/update": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/salesandmarketing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/salesandmarketing/{bq-reference-id}/requisition": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/salesandmarketing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -2078,7 +2078,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/salesandmarketing/{bq-reference-id}/": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/salesandmarketing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2091,21 +2091,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SalesandMarketing Instance Reference",
             "required": true,
@@ -2237,7 +2237,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/servicing/registration": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/servicing/registration": {
       "post": {
         "tags": [
           "register"
@@ -2250,14 +2250,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -2348,7 +2348,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/servicing/{bq-reference-id}/update": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/servicing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2361,21 +2361,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2479,7 +2479,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/servicing/{bq-reference-id}/requisition": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/servicing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2492,21 +2492,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2620,7 +2620,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/servicing/{bq-reference-id}/": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/servicing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2633,21 +2633,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2763,7 +2763,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/production/registration": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/production/registration": {
       "post": {
         "tags": [
           "register"
@@ -2776,14 +2776,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
@@ -2870,7 +2870,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/production/{bq-reference-id}/update": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/production/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2883,21 +2883,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -2993,7 +2993,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/production/{bq-reference-id}/requisition": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/production/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3006,21 +3006,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -3126,7 +3126,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/production/{bq-reference-id}/": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/production/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3139,21 +3139,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Production Instance Reference",
             "required": true,
@@ -3265,7 +3265,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry": {
+    "/product-directory/{sdReferenceId}/product-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -3277,7 +3277,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
@@ -3338,7 +3338,7 @@
         }
       }
     },
-    "/product-directory/{sd-reference-id}/product-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-directory/{sdReferenceId}/product-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3350,21 +3350,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Directory Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Production",
             "required": true,

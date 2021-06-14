@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/configuration": {
+    "/card-clearing/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardClearing Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/feedback": {
+    "/card-clearing/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardClearing Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}": {
+    "/card-clearing/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardClearing Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/initiation": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
@@ -743,7 +743,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/update": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -756,14 +756,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
@@ -907,7 +907,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -920,14 +920,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
@@ -1041,7 +1041,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/capture/{bq-reference-id}/update": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/capture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1054,21 +1054,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -1296,7 +1296,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/capture/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/capture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1309,21 +1309,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Capture Instance Reference",
             "required": true,
@@ -1503,7 +1503,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/addressing/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/addressing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1516,21 +1516,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Addressing Instance Reference",
             "required": true,
@@ -1665,7 +1665,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/fxconversion/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/fxconversion/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1678,21 +1678,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FXConversion Instance Reference",
             "required": true,
@@ -1884,7 +1884,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/fees/{bq-reference-id}/update": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/fees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1897,21 +1897,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -1999,7 +1999,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/fees/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/fees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2012,21 +2012,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -2218,7 +2218,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/matching/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/matching/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2231,21 +2231,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Matching Instance Reference",
             "required": true,
@@ -2433,7 +2433,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/reconciliation/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/reconciliation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2446,21 +2446,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliation Instance Reference",
             "required": true,
@@ -2648,7 +2648,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/routing/{bq-reference-id}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/routing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2661,21 +2661,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Routing Instance Reference",
             "required": true,
@@ -2863,7 +2863,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2875,7 +2875,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
@@ -2939,7 +2939,7 @@
         }
       }
     },
-    "/card-clearing/{sd-reference-id}/card-clearing-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-clearing/{sdReferenceId}/card-clearing-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2951,21 +2951,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Clearing Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Clearing Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Routing",
             "required": true,

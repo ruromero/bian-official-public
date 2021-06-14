@@ -168,7 +168,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/configuration": {
+    "/custody-administration/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustodyAdministration Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/feedback": {
+    "/custody-administration/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustodyAdministration Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}": {
+    "/custody-administration/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustodyAdministration Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/initiation": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/update": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/control": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/exchange": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/execution": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/requisition": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/safekeeping/{bq-reference-id}/update": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/safekeeping/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeKeeping Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/safekeeping/{bq-reference-id}/control": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/safekeeping/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeKeeping Instance Reference",
             "required": true,
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/safekeeping/{bq-reference-id}/requisition": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/safekeeping/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2089,21 +2089,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeKeeping Instance Reference",
             "required": true,
@@ -2250,7 +2250,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/safekeeping/{bq-reference-id}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/safekeeping/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2263,21 +2263,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SafeKeeping Instance Reference",
             "required": true,
@@ -2399,7 +2399,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/dividendsandinterest/initiation": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/dividendsandinterest/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2412,14 +2412,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -2550,7 +2550,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/dividendsandinterest/{bq-reference-id}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/dividendsandinterest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2563,21 +2563,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DividendsandInterest Instance Reference",
             "required": true,
@@ -2699,7 +2699,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/securitiesreporting/initiation": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/securitiesreporting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2712,14 +2712,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -2850,7 +2850,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/securitiesreporting/{bq-reference-id}/execution": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/securitiesreporting/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2863,21 +2863,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SecuritiesReporting Instance Reference",
             "required": true,
@@ -3024,7 +3024,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/securitiesreporting/{bq-reference-id}/requisition": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/securitiesreporting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3037,21 +3037,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SecuritiesReporting Instance Reference",
             "required": true,
@@ -3198,7 +3198,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/securitiesreporting/{bq-reference-id}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/securitiesreporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3211,21 +3211,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "SecuritiesReporting Instance Reference",
             "required": true,
@@ -3347,7 +3347,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/fees/initiation": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/fees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3360,14 +3360,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -3498,7 +3498,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/fees/{bq-reference-id}/update": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/fees/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3511,21 +3511,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3661,7 +3661,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/fees/{bq-reference-id}/exchange": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/fees/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3674,21 +3674,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3832,7 +3832,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/fees/{bq-reference-id}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/fees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3845,21 +3845,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fees Instance Reference",
             "required": true,
@@ -3981,7 +3981,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/settlement/initiation": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/settlement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3994,14 +3994,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
@@ -4124,7 +4124,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/update": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/settlement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4137,21 +4137,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -4279,7 +4279,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/execution": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/settlement/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4292,21 +4292,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -4445,7 +4445,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/requisition": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/settlement/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4458,21 +4458,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -4611,7 +4611,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/settlement/{bq-reference-id}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/settlement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4624,21 +4624,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Settlement Instance Reference",
             "required": true,
@@ -4756,7 +4756,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -4768,7 +4768,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
@@ -4830,7 +4830,7 @@
         }
       }
     },
-    "/custody-administration/{sd-reference-id}/custody-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/custody-administration/{sdReferenceId}/custody-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4842,21 +4842,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Custody Administration Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Custody Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Settlement",
             "required": true,

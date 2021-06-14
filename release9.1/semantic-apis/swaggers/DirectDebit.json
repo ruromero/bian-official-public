@@ -168,7 +168,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/configuration": {
+    "/direct-debit/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDirectDebit Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/feedback": {
+    "/direct-debit/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDirectDebit Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}": {
+    "/direct-debit/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDirectDebit Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/initiation": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/update": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/control": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/exchange": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/execution": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/requisition": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/reporting/initiation": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/reporting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1755,14 +1755,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -1893,7 +1893,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/reporting/{bq-reference-id}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/reporting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1906,21 +1906,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reporting Instance Reference",
             "required": true,
@@ -2042,7 +2042,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymenttracking/initiation": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymenttracking/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2055,14 +2055,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
@@ -2193,7 +2193,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymenttracking/{bq-reference-id}/control": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymenttracking/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2206,21 +2206,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentTracking Instance Reference",
             "required": true,
@@ -2364,7 +2364,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymenttracking/{bq-reference-id}/execution": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymenttracking/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2377,21 +2377,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentTracking Instance Reference",
             "required": true,
@@ -2538,7 +2538,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymenttracking/{bq-reference-id}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymenttracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2551,21 +2551,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentTracking Instance Reference",
             "required": true,
@@ -2687,7 +2687,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymentinitiation/{bq-reference-id}/exchange": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymentinitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2700,21 +2700,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentInitiation Instance Reference",
             "required": true,
@@ -2858,7 +2858,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/paymentinitiation/{bq-reference-id}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/paymentinitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2871,21 +2871,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PaymentInitiation Instance Reference",
             "required": true,
@@ -3007,7 +3007,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/verifymandate/{bq-reference-id}/exchange": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/verifymandate/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3020,21 +3020,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "VerifyMandate Instance Reference",
             "required": true,
@@ -3178,7 +3178,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/verifymandate/{bq-reference-id}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/verifymandate/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3191,21 +3191,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "VerifyMandate Instance Reference",
             "required": true,
@@ -3327,7 +3327,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/fundsavailablecheck/{bq-reference-id}/exchange": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/fundsavailablecheck/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3340,21 +3340,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FundsAvailableCheck Instance Reference",
             "required": true,
@@ -3482,7 +3482,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/fundsavailablecheck/{bq-reference-id}/requisition": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/fundsavailablecheck/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3495,21 +3495,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FundsAvailableCheck Instance Reference",
             "required": true,
@@ -3640,7 +3640,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/fundsavailablecheck/{bq-reference-id}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/fundsavailablecheck/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3653,21 +3653,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "FundsAvailableCheck Instance Reference",
             "required": true,
@@ -3781,7 +3781,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3793,7 +3793,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
@@ -3855,7 +3855,7 @@
         }
       }
     },
-    "/direct-debit/{sd-reference-id}/direct-debit-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/direct-debit/{sdReferenceId}/direct-debit-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3867,21 +3867,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Direct Debit Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Direct Debit Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- VerifyMandate",
             "required": true,

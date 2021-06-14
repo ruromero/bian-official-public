@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/configuration": {
+    "/customer-case/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCase Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/feedback": {
+    "/customer-case/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCase Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}": {
+    "/customer-case/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerCase Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/initiation": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
@@ -749,7 +749,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/update": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -762,14 +762,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -935,7 +935,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/control": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -948,14 +948,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -1022,7 +1022,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/exchange": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1035,14 +1035,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -1109,7 +1109,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/execution": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1122,14 +1122,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -1267,7 +1267,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/requisition": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1280,14 +1280,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -1425,7 +1425,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1438,14 +1438,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
@@ -1570,7 +1570,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/analysis/{bq-reference-id}/update": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/analysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1583,21 +1583,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -1695,7 +1695,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/analysis/{bq-reference-id}/": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/analysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1708,21 +1708,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -1874,7 +1874,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/determination/{bq-reference-id}/update": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/determination/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1887,21 +1887,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Determination Instance Reference",
             "required": true,
@@ -2007,7 +2007,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/determination/{bq-reference-id}/": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/determination/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2020,21 +2020,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Determination Instance Reference",
             "required": true,
@@ -2198,7 +2198,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/update": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2211,21 +2211,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -2353,7 +2353,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/exchange": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2366,21 +2366,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -2451,7 +2451,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2464,21 +2464,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -2661,7 +2661,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2673,7 +2673,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
@@ -2733,7 +2733,7 @@
         }
       }
     },
-    "/customer-case/{sd-reference-id}/customer-case-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-case/{sdReferenceId}/customer-case-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2745,21 +2745,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Resolution",
             "required": true,

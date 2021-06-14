@@ -162,7 +162,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/configuration": {
+    "/business-unit-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessUnitManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/feedback": {
+    "/business-unit-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessUnitManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}": {
+    "/business-unit-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessUnitManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/creation": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/creation": {
       "post": {
         "tags": [
           "create"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
@@ -749,7 +749,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/update": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -762,14 +762,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
@@ -897,7 +897,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/exchange": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -910,14 +910,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
@@ -984,7 +984,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/requisition": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -997,14 +997,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
@@ -1142,7 +1142,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1155,14 +1155,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
@@ -1268,7 +1268,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/performance/{bq-reference-id}/update": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/performance/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1281,21 +1281,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/performance/{bq-reference-id}/requisition": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/performance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,21 +1436,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -1588,7 +1588,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/performance/{bq-reference-id}/": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/performance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1601,21 +1601,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Performance Instance Reference",
             "required": true,
@@ -1731,7 +1731,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/troubleshooting/creation": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/troubleshooting/creation": {
       "post": {
         "tags": [
           "create"
@@ -1744,14 +1744,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
@@ -1900,7 +1900,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1913,21 +1913,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2017,7 +2017,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2030,21 +2030,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2144,7 +2144,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2157,21 +2157,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2268,7 +2268,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -2280,7 +2280,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
@@ -2339,7 +2339,7 @@
         }
       }
     },
-    "/business-unit-management/{sd-reference-id}/business-unit-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/business-unit-management/{sdReferenceId}/business-unit-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2351,21 +2351,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Unit Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Unit Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Troubleshooting",
             "required": true,

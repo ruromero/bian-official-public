@@ -162,7 +162,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/configuration": {
+    "/asset-and-liability-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetAndLiabilityManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/feedback": {
+    "/asset-and-liability-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetAndLiabilityManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}": {
+    "/asset-and-liability-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAssetAndLiabilityManagement Servicing Session Reference",
             "required": true,
@@ -670,7 +670,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/update": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -683,14 +683,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
@@ -834,7 +834,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/requisition": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -847,14 +847,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
@@ -996,7 +996,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/grant": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1009,14 +1009,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
@@ -1230,7 +1230,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/transactionaignment/creation": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/transactionaignment/creation": {
       "post": {
         "tags": [
           "create"
@@ -1243,14 +1243,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
@@ -1365,7 +1365,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/transactionaignment/{bq-reference-id}/exchange": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/transactionaignment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1378,21 +1378,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAignment Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/transactionaignment/{bq-reference-id}/requisition": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/transactionaignment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1476,21 +1476,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAignment Instance Reference",
             "required": true,
@@ -1564,7 +1564,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/transactionaignment/{bq-reference-id}/": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/transactionaignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1577,21 +1577,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionAignment Instance Reference",
             "required": true,
@@ -1703,7 +1703,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy": {
       "get": {
         "tags": [
           "retrieve"
@@ -1715,7 +1715,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
@@ -1773,7 +1773,7 @@
         }
       }
     },
-    "/asset-and-liability-management/{sd-reference-id}/asset-and-liability-portfolio-strategy/{cr-reference-id}/{behavior-qualifier}/": {
+    "/asset-and-liability-management/{sdReferenceId}/asset-and-liability-portfolio-strategy/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1785,21 +1785,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Asset And Liability Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Asset And Liability Portfolio Strategy Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionAignment",
             "required": true,

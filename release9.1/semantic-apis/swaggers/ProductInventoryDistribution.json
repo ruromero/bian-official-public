@@ -168,7 +168,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/configuration": {
+    "/product-inventory-distribution/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryDistribution Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/feedback": {
+    "/product-inventory-distribution/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryDistribution Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}": {
+    "/product-inventory-distribution/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductInventoryDistribution Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/initiation": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/update": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -850,7 +850,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/control": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -863,14 +863,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/exchange": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1084,7 +1084,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/capture": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1097,14 +1097,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1208,7 +1208,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/requisition": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1221,14 +1221,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1332,7 +1332,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/grant": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1345,14 +1345,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1463,7 +1463,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1476,14 +1476,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1576,7 +1576,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/distribution/initiation": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/distribution/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1589,14 +1589,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -1737,7 +1737,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/distribution/{bq-reference-id}/update": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/distribution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1750,21 +1750,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -1910,7 +1910,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/distribution/{bq-reference-id}/capture": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/distribution/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1923,21 +1923,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2094,7 +2094,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/distribution/{bq-reference-id}/": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/distribution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2107,21 +2107,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Distribution Instance Reference",
             "required": true,
@@ -2248,7 +2248,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/provisioning/initiation": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/provisioning/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2261,14 +2261,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -2409,7 +2409,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/provisioning/{bq-reference-id}/update": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/provisioning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2422,21 +2422,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Provisioning Instance Reference",
             "required": true,
@@ -2582,7 +2582,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/provisioning/{bq-reference-id}/capture": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/provisioning/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2595,21 +2595,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Provisioning Instance Reference",
             "required": true,
@@ -2766,7 +2766,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/provisioning/{bq-reference-id}/": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/provisioning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2779,21 +2779,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Provisioning Instance Reference",
             "required": true,
@@ -2920,7 +2920,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/oversight/initiation": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/oversight/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2933,14 +2933,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -3081,7 +3081,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/oversight/{bq-reference-id}/update": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/oversight/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3094,21 +3094,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Oversight Instance Reference",
             "required": true,
@@ -3254,7 +3254,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/oversight/{bq-reference-id}/capture": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/oversight/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3267,21 +3267,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Oversight Instance Reference",
             "required": true,
@@ -3438,7 +3438,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/oversight/{bq-reference-id}/": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/oversight/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3451,21 +3451,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Oversight Instance Reference",
             "required": true,
@@ -3592,7 +3592,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/mailing/initiation": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/mailing/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3605,14 +3605,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
@@ -3737,7 +3737,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/mailing/{bq-reference-id}/update": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/mailing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3750,21 +3750,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Mailing Instance Reference",
             "required": true,
@@ -3894,7 +3894,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/mailing/{bq-reference-id}/capture": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/mailing/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3907,21 +3907,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Mailing Instance Reference",
             "required": true,
@@ -4062,7 +4062,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/mailing/{bq-reference-id}/": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/mailing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4075,21 +4075,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Mailing Instance Reference",
             "required": true,
@@ -4208,7 +4208,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan": {
       "get": {
         "tags": [
           "retrieve"
@@ -4220,7 +4220,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
@@ -4281,7 +4281,7 @@
         }
       }
     },
-    "/product-inventory-distribution/{sd-reference-id}/product-inventory-distribution-administrativeplan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-inventory-distribution/{sdReferenceId}/product-inventory-distribution-administrativeplan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4293,21 +4293,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Inventory Distribution AdministrativePlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Oversight",
             "required": true,

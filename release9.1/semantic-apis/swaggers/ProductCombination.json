@@ -168,7 +168,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/configuration": {
+    "/product-combination/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductCombination Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/feedback": {
+    "/product-combination/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductCombination Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}": {
+    "/product-combination/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductCombination Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/initiation": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
@@ -780,7 +780,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/update": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -793,14 +793,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -936,7 +936,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/control": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -949,14 +949,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -1096,7 +1096,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/exchange": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1109,14 +1109,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -1256,7 +1256,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/execution": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1269,14 +1269,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/requisition": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -1590,7 +1590,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1603,14 +1603,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -1742,7 +1742,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/transferpricing/{bq-reference-id}/update": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/transferpricing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1755,21 +1755,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransferPricing Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/transferpricing/{bq-reference-id}/exchange": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/transferpricing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransferPricing Instance Reference",
             "required": true,
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/transferpricing/{bq-reference-id}/requisition": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/transferpricing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2089,21 +2089,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransferPricing Instance Reference",
             "required": true,
@@ -2250,7 +2250,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/transferpricing/{bq-reference-id}/": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/transferpricing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2263,21 +2263,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransferPricing Instance Reference",
             "required": true,
@@ -2399,7 +2399,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/initiation": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2412,14 +2412,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -2550,7 +2550,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/update": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2563,21 +2563,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -2713,7 +2713,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/control": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2726,21 +2726,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -2884,7 +2884,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/exchange": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2897,21 +2897,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3055,7 +3055,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/execution": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3068,21 +3068,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3229,7 +3229,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/requisition": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3242,21 +3242,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3403,7 +3403,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/fulfillment/{bq-reference-id}/": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/fulfillment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3416,21 +3416,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fulfillment Instance Reference",
             "required": true,
@@ -3552,7 +3552,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/embeddedproductcontrol/initiation": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/embeddedproductcontrol/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3565,14 +3565,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
@@ -3695,7 +3695,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/embeddedproductcontrol/{bq-reference-id}/update": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/embeddedproductcontrol/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3708,21 +3708,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EmbeddedProductControl Instance Reference",
             "required": true,
@@ -3850,7 +3850,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/embeddedproductcontrol/{bq-reference-id}/": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/embeddedproductcontrol/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3863,21 +3863,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EmbeddedProductControl Instance Reference",
             "required": true,
@@ -3995,7 +3995,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -4007,7 +4007,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
@@ -4067,7 +4067,7 @@
         }
       }
     },
-    "/product-combination/{sd-reference-id}/product-combination-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-combination/{sdReferenceId}/product-combination-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4079,21 +4079,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Combination Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Combination Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- EmbeddedProductControl",
             "required": true,

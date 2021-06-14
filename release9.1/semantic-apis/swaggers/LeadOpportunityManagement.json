@@ -162,7 +162,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/configuration": {
+    "/lead-opportunity-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeadOpportunityManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/feedback": {
+    "/lead-opportunity-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeadOpportunityManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}": {
+    "/lead-opportunity-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLeadOpportunityManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/initiation": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
@@ -737,7 +737,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/update": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -750,14 +750,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
@@ -909,7 +909,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/control": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -922,14 +922,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
@@ -996,7 +996,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/exchange": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1009,14 +1009,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
@@ -1083,7 +1083,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1096,14 +1096,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
@@ -1221,7 +1221,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/development/initiation": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/development/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1234,14 +1234,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
@@ -1401,7 +1401,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/development/{bq-reference-id}/update": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/development/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1414,21 +1414,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -1580,7 +1580,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/development/{bq-reference-id}/execution": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/development/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1593,21 +1593,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -1738,7 +1738,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/development/{bq-reference-id}/requisition": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/development/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1751,21 +1751,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -1896,7 +1896,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/development/{bq-reference-id}/": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/development/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1909,21 +1909,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Development Instance Reference",
             "required": true,
@@ -2095,7 +2095,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2107,7 +2107,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
@@ -2165,7 +2165,7 @@
         }
       }
     },
-    "/lead-opportunity-management/{sd-reference-id}/lead-opportunity-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/lead-opportunity-management/{sdReferenceId}/lead-opportunity-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2177,21 +2177,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Lead Opportunity Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Lead Opportunity Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Development",
             "required": true,

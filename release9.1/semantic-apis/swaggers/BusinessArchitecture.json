@@ -168,7 +168,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/configuration": {
+    "/business-architecture/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessArchitecture Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/feedback": {
+    "/business-architecture/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessArchitecture Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}": {
+    "/business-architecture/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBusinessArchitecture Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/initiation": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
@@ -765,7 +765,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -778,14 +778,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -906,7 +906,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/control": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -919,14 +919,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/exchange": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -1196,7 +1196,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1209,14 +1209,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -1348,7 +1348,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1361,14 +1361,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -1500,7 +1500,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1513,14 +1513,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/organization/{bq-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/organization/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1642,21 +1642,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Organization Instance Reference",
             "required": true,
@@ -1784,7 +1784,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/organization/{bq-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/organization/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1797,21 +1797,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Organization Instance Reference",
             "required": true,
@@ -1950,7 +1950,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/organization/{bq-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/organization/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1963,21 +1963,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Organization Instance Reference",
             "required": true,
@@ -2116,7 +2116,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/organization/{bq-reference-id}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/organization/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2129,21 +2129,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Organization Instance Reference",
             "required": true,
@@ -2261,7 +2261,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/businessarchitecture/{bq-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/businessarchitecture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2274,21 +2274,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessArchitecture Instance Reference",
             "required": true,
@@ -2416,7 +2416,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/businessarchitecture/{bq-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/businessarchitecture/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2429,21 +2429,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessArchitecture Instance Reference",
             "required": true,
@@ -2582,7 +2582,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/businessarchitecture/{bq-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/businessarchitecture/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2595,21 +2595,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessArchitecture Instance Reference",
             "required": true,
@@ -2748,7 +2748,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/businessarchitecture/{bq-reference-id}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/businessarchitecture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2761,21 +2761,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "BusinessArchitecture Instance Reference",
             "required": true,
@@ -2893,7 +2893,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/applicationarchitecture/{bq-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/applicationarchitecture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2906,21 +2906,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ApplicationArchitecture Instance Reference",
             "required": true,
@@ -3056,7 +3056,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/applicationarchitecture/{bq-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/applicationarchitecture/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3069,21 +3069,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ApplicationArchitecture Instance Reference",
             "required": true,
@@ -3230,7 +3230,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/applicationarchitecture/{bq-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/applicationarchitecture/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3243,21 +3243,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ApplicationArchitecture Instance Reference",
             "required": true,
@@ -3404,7 +3404,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/applicationarchitecture/{bq-reference-id}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/applicationarchitecture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3417,21 +3417,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ApplicationArchitecture Instance Reference",
             "required": true,
@@ -3553,7 +3553,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/informationarchitecture/{bq-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/informationarchitecture/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3566,21 +3566,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InformationArchitecture Instance Reference",
             "required": true,
@@ -3708,7 +3708,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/informationarchitecture/{bq-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/informationarchitecture/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3721,21 +3721,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InformationArchitecture Instance Reference",
             "required": true,
@@ -3874,7 +3874,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/informationarchitecture/{bq-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/informationarchitecture/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3887,21 +3887,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InformationArchitecture Instance Reference",
             "required": true,
@@ -4040,7 +4040,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/informationarchitecture/{bq-reference-id}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/informationarchitecture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4053,21 +4053,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InformationArchitecture Instance Reference",
             "required": true,
@@ -4185,7 +4185,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/technologyinfrastructure/{bq-reference-id}/update": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/technologyinfrastructure/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4198,21 +4198,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnologyInfrastructure Instance Reference",
             "required": true,
@@ -4332,7 +4332,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/technologyinfrastructure/{bq-reference-id}/capture": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/technologyinfrastructure/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4345,21 +4345,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnologyInfrastructure Instance Reference",
             "required": true,
@@ -4490,7 +4490,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/technologyinfrastructure/{bq-reference-id}/requisition": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/technologyinfrastructure/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4503,21 +4503,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnologyInfrastructure Instance Reference",
             "required": true,
@@ -4648,7 +4648,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/technologyinfrastructure/{bq-reference-id}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/technologyinfrastructure/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4661,21 +4661,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TechnologyInfrastructure Instance Reference",
             "required": true,
@@ -4789,7 +4789,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -4801,7 +4801,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
@@ -4863,7 +4863,7 @@
         }
       }
     },
-    "/business-architecture/{sd-reference-id}/business-architecture-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/business-architecture/{sdReferenceId}/business-architecture-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4875,21 +4875,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Business Architecture Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Business Architecture Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Organization",
             "required": true,

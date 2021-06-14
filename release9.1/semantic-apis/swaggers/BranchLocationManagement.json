@@ -168,7 +168,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/configuration": {
+    "/branch-location-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationManagement Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/feedback": {
+    "/branch-location-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationManagement Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}": {
+    "/branch-location-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchLocationManagement Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/initiation": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
@@ -745,7 +745,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/update": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -758,14 +758,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -866,7 +866,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/control": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -879,14 +879,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -991,7 +991,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/exchange": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1004,14 +1004,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -1116,7 +1116,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/capture": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1129,14 +1129,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -1248,7 +1248,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/requisition": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1261,14 +1261,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/grant": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -1519,7 +1519,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1532,14 +1532,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -1640,7 +1640,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/staffandlocationplanning/{bq-reference-id}/update": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/staffandlocationplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1653,21 +1653,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffandLocationPlanning Instance Reference",
             "required": true,
@@ -1813,7 +1813,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/staffandlocationplanning/{bq-reference-id}/capture": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/staffandlocationplanning/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1826,21 +1826,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffandLocationPlanning Instance Reference",
             "required": true,
@@ -1997,7 +1997,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/staffandlocationplanning/{bq-reference-id}/requisition": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/staffandlocationplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2010,21 +2010,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffandLocationPlanning Instance Reference",
             "required": true,
@@ -2181,7 +2181,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/staffandlocationplanning/{bq-reference-id}/": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/staffandlocationplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2194,21 +2194,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffandLocationPlanning Instance Reference",
             "required": true,
@@ -2335,7 +2335,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/troubleshooting/initiation": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/troubleshooting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2348,14 +2348,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -2455,7 +2455,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2468,21 +2468,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2620,7 +2620,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/capture": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2633,21 +2633,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2796,7 +2796,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2809,21 +2809,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2972,7 +2972,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2985,21 +2985,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -3122,7 +3122,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/customerliaison/initiation": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/customerliaison/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3135,14 +3135,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
@@ -3238,7 +3238,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/customerliaison/{bq-reference-id}/update": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/customerliaison/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3251,21 +3251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerLiaison Instance Reference",
             "required": true,
@@ -3411,7 +3411,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/customerliaison/{bq-reference-id}/capture": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/customerliaison/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3424,21 +3424,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerLiaison Instance Reference",
             "required": true,
@@ -3595,7 +3595,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/customerliaison/{bq-reference-id}/requisition": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/customerliaison/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3608,21 +3608,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerLiaison Instance Reference",
             "required": true,
@@ -3779,7 +3779,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/customerliaison/{bq-reference-id}/": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/customerliaison/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3792,21 +3792,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerLiaison Instance Reference",
             "required": true,
@@ -3933,7 +3933,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/productandserviceplanning/{bq-reference-id}/update": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/productandserviceplanning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3946,21 +3946,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductandServicePlanning Instance Reference",
             "required": true,
@@ -4065,7 +4065,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/productandserviceplanning/{bq-reference-id}/control": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/productandserviceplanning/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -4078,21 +4078,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductandServicePlanning Instance Reference",
             "required": true,
@@ -4238,7 +4238,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/productandserviceplanning/{bq-reference-id}/capture": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/productandserviceplanning/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4251,21 +4251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductandServicePlanning Instance Reference",
             "required": true,
@@ -4414,7 +4414,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/productandserviceplanning/{bq-reference-id}/requisition": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/productandserviceplanning/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4427,21 +4427,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductandServicePlanning Instance Reference",
             "required": true,
@@ -4590,7 +4590,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/productandserviceplanning/{bq-reference-id}/": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/productandserviceplanning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4603,21 +4603,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductandServicePlanning Instance Reference",
             "required": true,
@@ -4740,7 +4740,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan": {
       "get": {
         "tags": [
           "retrieve"
@@ -4752,7 +4752,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
@@ -4813,7 +4813,7 @@
         }
       }
     },
-    "/branch-location-management/{sd-reference-id}/branch-location-management-plan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/branch-location-management/{sdReferenceId}/branch-location-management-plan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4825,21 +4825,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Location Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Location Management Plan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- StaffandLocationPlanning",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/configuration": {
+    "/servicing-event-history/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingEventHistory Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/feedback": {
+    "/servicing-event-history/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingEventHistory Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}": {
+    "/servicing-event-history/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDServicingEventHistory Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/initiation": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
@@ -699,7 +699,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/update": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -712,14 +712,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
@@ -783,7 +783,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/control": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -796,14 +796,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
@@ -870,7 +870,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -883,14 +883,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
@@ -978,7 +978,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/assignment/{bq-reference-id}/update": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/assignment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -991,21 +991,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1103,7 +1103,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/assignment/{bq-reference-id}/capture": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/assignment/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1116,21 +1116,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1221,7 +1221,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/assignment/{bq-reference-id}/": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/assignment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1234,21 +1234,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assignment Instance Reference",
             "required": true,
@@ -1349,7 +1349,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/session/{bq-reference-id}/update": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/session/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1362,21 +1362,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Session Instance Reference",
             "required": true,
@@ -1544,7 +1544,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/session/{bq-reference-id}/capture": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/session/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1557,21 +1557,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Session Instance Reference",
             "required": true,
@@ -1697,7 +1697,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/session/{bq-reference-id}/": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/session/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1710,21 +1710,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Session Instance Reference",
             "required": true,
@@ -1860,7 +1860,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/issue/{bq-reference-id}/update": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/issue/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1873,21 +1873,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Issue Instance Reference",
             "required": true,
@@ -2021,7 +2021,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/issue/{bq-reference-id}/capture": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/issue/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2034,21 +2034,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Issue Instance Reference",
             "required": true,
@@ -2166,7 +2166,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/issue/{bq-reference-id}/": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/issue/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2179,21 +2179,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Issue Instance Reference",
             "required": true,
@@ -2312,7 +2312,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/facility/{bq-reference-id}/update": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/facility/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2325,21 +2325,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Facility Instance Reference",
             "required": true,
@@ -2439,7 +2439,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/facility/{bq-reference-id}/capture": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/facility/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2452,21 +2452,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Facility Instance Reference",
             "required": true,
@@ -2567,7 +2567,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/facility/{bq-reference-id}/": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/facility/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2580,21 +2580,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Facility Instance Reference",
             "required": true,
@@ -2696,7 +2696,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -2708,7 +2708,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
@@ -2769,7 +2769,7 @@
         }
       }
     },
-    "/servicing-event-history/{sd-reference-id}/servicing-event-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/servicing-event-history/{sdReferenceId}/servicing-event-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2781,21 +2781,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Servicing Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Servicing Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Facility",
             "required": true,

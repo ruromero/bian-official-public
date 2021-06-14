@@ -162,7 +162,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/configuration": {
+    "/party-life-cycle-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyLifeCycleManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/feedback": {
+    "/party-life-cycle-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyLifeCycleManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}": {
+    "/party-life-cycle-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPartyLifeCycleManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/initiation": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
@@ -743,7 +743,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/update": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -756,14 +756,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -911,7 +911,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/control": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -924,14 +924,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -998,7 +998,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/exchange": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1011,14 +1011,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -1085,7 +1085,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/execution": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1098,14 +1098,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -1237,7 +1237,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/requisition": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1250,14 +1250,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -1389,7 +1389,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1402,14 +1402,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
@@ -1525,7 +1525,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/authentication/{bq-reference-id}/": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/authentication/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1538,21 +1538,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Authentication Instance Reference",
             "required": true,
@@ -1721,7 +1721,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/qualification/{bq-reference-id}/": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/qualification/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1734,21 +1734,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Qualification Instance Reference",
             "required": true,
@@ -1917,7 +1917,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/documentation/{bq-reference-id}/update": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/documentation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1930,21 +1930,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Documentation Instance Reference",
             "required": true,
@@ -2008,7 +2008,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/documentation/{bq-reference-id}/execution": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/documentation/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2021,21 +2021,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Documentation Instance Reference",
             "required": true,
@@ -2201,7 +2201,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/documentation/{bq-reference-id}/requisition": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/documentation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2214,21 +2214,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Documentation Instance Reference",
             "required": true,
@@ -2394,7 +2394,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/documentation/{bq-reference-id}/": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/documentation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2407,21 +2407,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Documentation Instance Reference",
             "required": true,
@@ -2564,7 +2564,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/precedents/{bq-reference-id}/update": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/precedents/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2577,21 +2577,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Precedents Instance Reference",
             "required": true,
@@ -2699,7 +2699,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/precedents/{bq-reference-id}/": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/precedents/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2712,21 +2712,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Precedents Instance Reference",
             "required": true,
@@ -2874,7 +2874,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -2886,7 +2886,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
@@ -2947,7 +2947,7 @@
         }
       }
     },
-    "/party-life-cycle-management/{sd-reference-id}/party-relationship-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/party-life-cycle-management/{sdReferenceId}/party-relationship-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2959,21 +2959,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Party Life Cycle Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party Relationship Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Precedents",
             "required": true,

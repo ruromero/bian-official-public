@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/configuration": {
+    "/customer-behavioral-insights/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehavioralInsights Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/feedback": {
+    "/customer-behavioral-insights/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehavioralInsights Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}": {
+    "/customer-behavioral-insights/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerBehavioralInsights Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/evaluation": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
@@ -709,7 +709,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/exchange": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -722,14 +722,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
@@ -796,7 +796,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/execution": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -809,14 +809,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
@@ -937,7 +937,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/requisition": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -950,14 +950,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
@@ -1078,7 +1078,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1091,14 +1091,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
@@ -1202,7 +1202,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/insight/{bq-reference-id}/exchange": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/insight/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1215,21 +1215,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Insight Instance Reference",
             "required": true,
@@ -1300,7 +1300,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/insight/{bq-reference-id}/execution": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/insight/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1313,21 +1313,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Insight Instance Reference",
             "required": true,
@@ -1467,7 +1467,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/insight/{bq-reference-id}/requisition": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/insight/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1480,21 +1480,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Insight Instance Reference",
             "required": true,
@@ -1634,7 +1634,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/insight/{bq-reference-id}/": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/insight/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1647,21 +1647,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Insight Instance Reference",
             "required": true,
@@ -1829,7 +1829,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -1841,7 +1841,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
@@ -1899,7 +1899,7 @@
         }
       }
     },
-    "/customer-behavioral-insights/{sd-reference-id}/customer-behavior-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-behavioral-insights/{sdReferenceId}/customer-behavior-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1911,21 +1911,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Behavioral Insights Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Behavior Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Insight",
             "required": true,

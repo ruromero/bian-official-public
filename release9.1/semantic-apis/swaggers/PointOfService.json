@@ -162,7 +162,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/configuration": {
+    "/point-of-service/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPointofService Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/feedback": {
+    "/point-of-service/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPointofService Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}": {
+    "/point-of-service/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDPointofService Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/initiation": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
@@ -753,7 +753,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -766,14 +766,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -837,7 +837,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/control": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -850,14 +850,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -924,7 +924,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/execution": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -937,14 +937,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -1018,7 +1018,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/requisition": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1031,14 +1031,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -1112,7 +1112,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1125,14 +1125,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -1258,7 +1258,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/assisted/initiation": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/assisted/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1271,14 +1271,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -1369,7 +1369,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/assisted/{bq-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/assisted/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1382,21 +1382,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assisted Instance Reference",
             "required": true,
@@ -1506,7 +1506,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/assisted/{bq-reference-id}/control": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/assisted/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1519,21 +1519,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assisted Instance Reference",
             "required": true,
@@ -1604,7 +1604,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/assisted/{bq-reference-id}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/assisted/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1617,21 +1617,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assisted Instance Reference",
             "required": true,
@@ -1790,7 +1790,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/automated/initiation": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/automated/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1803,14 +1803,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
@@ -1905,7 +1905,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/automated/{bq-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/automated/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1918,21 +1918,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Automated Instance Reference",
             "required": true,
@@ -2050,7 +2050,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/automated/{bq-reference-id}/control": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/automated/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2063,21 +2063,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Automated Instance Reference",
             "required": true,
@@ -2148,7 +2148,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/automated/{bq-reference-id}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/automated/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2161,21 +2161,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Automated Instance Reference",
             "required": true,
@@ -2338,7 +2338,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/interaction/{bq-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/interaction/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2351,21 +2351,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interaction Instance Reference",
             "required": true,
@@ -2470,7 +2470,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/interaction/{bq-reference-id}/control": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/interaction/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2483,21 +2483,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interaction Instance Reference",
             "required": true,
@@ -2568,7 +2568,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/interaction/{bq-reference-id}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/interaction/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2581,21 +2581,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interaction Instance Reference",
             "required": true,
@@ -2749,7 +2749,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/inventory/{bq-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/inventory/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2762,21 +2762,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -2876,7 +2876,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/inventory/{bq-reference-id}/execution": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/inventory/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2889,21 +2889,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -2999,7 +2999,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/inventory/{bq-reference-id}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/inventory/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3012,21 +3012,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Inventory Instance Reference",
             "required": true,
@@ -3180,7 +3180,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/cashposition/{bq-reference-id}/update": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/cashposition/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3193,21 +3193,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashPosition Instance Reference",
             "required": true,
@@ -3375,7 +3375,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/cashposition/{bq-reference-id}/execution": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/cashposition/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3388,21 +3388,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashPosition Instance Reference",
             "required": true,
@@ -3519,7 +3519,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/cashposition/{bq-reference-id}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/cashposition/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3532,21 +3532,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CashPosition Instance Reference",
             "required": true,
@@ -3734,7 +3734,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -3746,7 +3746,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
@@ -3808,7 +3808,7 @@
         }
       }
     },
-    "/point-of-service/{sd-reference-id}/point-of-service-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/point-of-service/{sdReferenceId}/point-of-service-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3820,21 +3820,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Point of Service Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Point of Service Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CashPosition",
             "required": true,

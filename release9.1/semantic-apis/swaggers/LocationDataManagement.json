@@ -162,7 +162,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/configuration": {
+    "/location-data-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLocationDataManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/feedback": {
+    "/location-data-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLocationDataManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}": {
+    "/location-data-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDLocationDataManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/initiation": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
@@ -716,7 +716,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/update": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -729,14 +729,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
@@ -836,7 +836,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/control": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -849,14 +849,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
@@ -923,7 +923,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/exchange": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -936,14 +936,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
@@ -1010,7 +1010,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/requisition": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1023,14 +1023,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
@@ -1130,7 +1130,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1143,14 +1143,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
@@ -1242,7 +1242,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/location/{bq-reference-id}/update": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/location/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1255,21 +1255,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Location Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/location/{bq-reference-id}/exchange": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/location/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1436,21 +1436,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Location Instance Reference",
             "required": true,
@@ -1521,7 +1521,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/location/{bq-reference-id}/execution": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/location/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1534,21 +1534,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Location Instance Reference",
             "required": true,
@@ -1694,7 +1694,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/location/{bq-reference-id}/": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/location/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1707,21 +1707,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Location Instance Reference",
             "required": true,
@@ -1859,7 +1859,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/use/{bq-reference-id}/update": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/use/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1872,21 +1872,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Use Instance Reference",
             "required": true,
@@ -2000,7 +2000,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/use/{bq-reference-id}/exchange": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/use/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2013,21 +2013,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Use Instance Reference",
             "required": true,
@@ -2098,7 +2098,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/use/{bq-reference-id}/execution": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/use/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2111,21 +2111,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Use Instance Reference",
             "required": true,
@@ -2223,7 +2223,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/use/{bq-reference-id}/": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/use/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2236,21 +2236,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Use Instance Reference",
             "required": true,
@@ -2364,7 +2364,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/occupancy/{bq-reference-id}/update": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/occupancy/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2377,21 +2377,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Occupancy Instance Reference",
             "required": true,
@@ -2551,7 +2551,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/occupancy/{bq-reference-id}/exchange": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/occupancy/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2564,21 +2564,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Occupancy Instance Reference",
             "required": true,
@@ -2649,7 +2649,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/occupancy/{bq-reference-id}/execution": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/occupancy/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2662,21 +2662,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Occupancy Instance Reference",
             "required": true,
@@ -2820,7 +2820,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/occupancy/{bq-reference-id}/": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/occupancy/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2833,21 +2833,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Occupancy Instance Reference",
             "required": true,
@@ -2984,7 +2984,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -2996,7 +2996,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
@@ -3056,7 +3056,7 @@
         }
       }
     },
-    "/location-data-management/{sd-reference-id}/location-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/location-data-management/{sdReferenceId}/location-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3068,21 +3068,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Location Data Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Location Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Occupancy",
             "required": true,

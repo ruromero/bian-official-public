@@ -162,7 +162,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/configuration": {
+    "/channel-activity-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/feedback": {
+    "/channel-activity-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}": {
+    "/channel-activity-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDChannelActivityAnalysis Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/evaluation": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
@@ -731,7 +731,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -744,14 +744,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
@@ -871,7 +871,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/requisition": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -884,14 +884,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
@@ -1011,7 +1011,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1024,14 +1024,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
@@ -1135,7 +1135,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/customerfraud/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/customerfraud/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1148,21 +1148,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerFraud Instance Reference",
             "required": true,
@@ -1304,7 +1304,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/customerfraud/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/customerfraud/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1317,21 +1317,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerFraud Instance Reference",
             "required": true,
@@ -1462,7 +1462,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/merchantfraud/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/merchantfraud/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1475,21 +1475,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MerchantFraud Instance Reference",
             "required": true,
@@ -1631,7 +1631,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/merchantfraud/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/merchantfraud/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1644,21 +1644,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MerchantFraud Instance Reference",
             "required": true,
@@ -1789,7 +1789,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/customerbehavior/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/customerbehavior/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1802,21 +1802,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerBehavior Instance Reference",
             "required": true,
@@ -1958,7 +1958,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/customerbehavior/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/customerbehavior/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1971,21 +1971,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerBehavior Instance Reference",
             "required": true,
@@ -2116,7 +2116,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/merchantbehavior/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/merchantbehavior/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2129,21 +2129,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MerchantBehavior Instance Reference",
             "required": true,
@@ -2285,7 +2285,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/merchantbehavior/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/merchantbehavior/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2298,21 +2298,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MerchantBehavior Instance Reference",
             "required": true,
@@ -2443,7 +2443,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/bot/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/bot/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2456,21 +2456,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Bot Instance Reference",
             "required": true,
@@ -2612,7 +2612,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/bot/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/bot/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2625,21 +2625,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Bot Instance Reference",
             "required": true,
@@ -2770,7 +2770,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/deviceerror/{bq-reference-id}/execution": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/deviceerror/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2783,21 +2783,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceError Instance Reference",
             "required": true,
@@ -2939,7 +2939,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/deviceerror/{bq-reference-id}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/deviceerror/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2952,21 +2952,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DeviceError Instance Reference",
             "required": true,
@@ -3097,7 +3097,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -3109,7 +3109,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
@@ -3172,7 +3172,7 @@
         }
       }
     },
-    "/channel-activity-analysis/{sd-reference-id}/channel-activity-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/channel-activity-analysis/{sdReferenceId}/channel-activity-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3184,21 +3184,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Channel Activity Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- DeviceError",
             "required": true,

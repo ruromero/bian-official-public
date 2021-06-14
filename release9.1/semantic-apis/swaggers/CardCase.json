@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/configuration": {
+    "/card-case/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCase Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/feedback": {
+    "/card-case/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCase Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}": {
+    "/card-case/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardCase Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/initiation": {
+    "/card-case/{sdReferenceId}/card-case-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
@@ -831,7 +831,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/update": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -844,14 +844,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -915,7 +915,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/control": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -928,14 +928,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -1002,7 +1002,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/exchange": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1015,14 +1015,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -1089,7 +1089,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/execution": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1102,14 +1102,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -1183,7 +1183,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/requisition": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1196,14 +1196,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -1277,7 +1277,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1290,14 +1290,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
@@ -1504,7 +1504,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/consolidation/{bq-reference-id}/update": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/consolidation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1517,21 +1517,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1665,7 +1665,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/consolidation/{bq-reference-id}/": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/consolidation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1678,21 +1678,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Consolidation Instance Reference",
             "required": true,
@@ -1944,7 +1944,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/chargeback/{bq-reference-id}/update": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/chargeback/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1957,21 +1957,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Chargeback Instance Reference",
             "required": true,
@@ -2061,7 +2061,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/chargeback/{bq-reference-id}/": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/chargeback/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2074,21 +2074,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Chargeback Instance Reference",
             "required": true,
@@ -2318,7 +2318,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/arbitration/{bq-reference-id}/update": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/arbitration/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2331,21 +2331,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Arbitration Instance Reference",
             "required": true,
@@ -2471,7 +2471,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/arbitration/{bq-reference-id}/exchange": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/arbitration/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2484,21 +2484,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Arbitration Instance Reference",
             "required": true,
@@ -2569,7 +2569,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/arbitration/{bq-reference-id}/": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/arbitration/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2582,21 +2582,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Arbitration Instance Reference",
             "required": true,
@@ -2844,7 +2844,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/update": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2857,21 +2857,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3033,7 +3033,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/exchange": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3046,21 +3046,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3131,7 +3131,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/resolution/{bq-reference-id}/": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/resolution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3144,21 +3144,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Resolution Instance Reference",
             "required": true,
@@ -3424,7 +3424,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure": {
+    "/card-case/{sdReferenceId}/card-case-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3436,7 +3436,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
@@ -3497,7 +3497,7 @@
         }
       }
     },
-    "/card-case/{sd-reference-id}/card-case-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-case/{sdReferenceId}/card-case-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3509,21 +3509,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Case Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Case Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Resolution",
             "required": true,

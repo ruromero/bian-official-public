@@ -168,7 +168,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/configuration": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryAndLegalAuthority Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/feedback": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryAndLegalAuthority Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}": {
+    "/regulatory-and-legal-authority/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDRegulatoryAndLegalAuthority Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/initiation": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
@@ -745,7 +745,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/update": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -758,14 +758,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -866,7 +866,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/control": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -879,14 +879,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -991,7 +991,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/exchange": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1004,14 +1004,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1116,7 +1116,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/capture": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1129,14 +1129,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1248,7 +1248,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/requisition": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1261,14 +1261,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1380,7 +1380,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/grant": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1393,14 +1393,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1519,7 +1519,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1532,14 +1532,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1640,7 +1640,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/troubleshooting/initiation": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/troubleshooting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1653,14 +1653,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -1801,7 +1801,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/troubleshooting/{bq-reference-id}/update": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/troubleshooting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1814,21 +1814,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -1974,7 +1974,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/troubleshooting/{bq-reference-id}/capture": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/troubleshooting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1987,21 +1987,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2158,7 +2158,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/troubleshooting/{bq-reference-id}/requisition": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/troubleshooting/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2171,21 +2171,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2342,7 +2342,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/troubleshooting/{bq-reference-id}/": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/troubleshooting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2355,21 +2355,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Troubleshooting Instance Reference",
             "required": true,
@@ -2496,7 +2496,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/maintainrelations/initiation": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/maintainrelations/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2509,14 +2509,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -2649,7 +2649,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/maintainrelations/{bq-reference-id}/update": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/maintainrelations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2662,21 +2662,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintainRelations Instance Reference",
             "required": true,
@@ -2814,7 +2814,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/maintainrelations/{bq-reference-id}/requisition": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/maintainrelations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2827,21 +2827,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintainRelations Instance Reference",
             "required": true,
@@ -2990,7 +2990,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/maintainrelations/{bq-reference-id}/": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/maintainrelations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3003,21 +3003,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "MaintainRelations Instance Reference",
             "required": true,
@@ -3140,7 +3140,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/establishrelations/initiation": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/establishrelations/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3153,14 +3153,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -3293,7 +3293,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/establishrelations/{bq-reference-id}/update": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/establishrelations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3306,21 +3306,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EstablishRelations Instance Reference",
             "required": true,
@@ -3458,7 +3458,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/establishrelations/{bq-reference-id}/requisition": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/establishrelations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3471,21 +3471,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EstablishRelations Instance Reference",
             "required": true,
@@ -3634,7 +3634,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/establishrelations/{bq-reference-id}/": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/establishrelations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3647,21 +3647,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EstablishRelations Instance Reference",
             "required": true,
@@ -3784,7 +3784,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/representbankinterests/initiation": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/representbankinterests/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3797,14 +3797,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
@@ -3937,7 +3937,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/representbankinterests/{bq-reference-id}/update": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/representbankinterests/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3950,21 +3950,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RepresentBankInterests Instance Reference",
             "required": true,
@@ -4102,7 +4102,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/representbankinterests/{bq-reference-id}/requisition": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/representbankinterests/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4115,21 +4115,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RepresentBankInterests Instance Reference",
             "required": true,
@@ -4278,7 +4278,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/representbankinterests/{bq-reference-id}/": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/representbankinterests/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4291,21 +4291,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RepresentBankInterests Instance Reference",
             "required": true,
@@ -4428,7 +4428,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan": {
       "get": {
         "tags": [
           "retrieve"
@@ -4440,7 +4440,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
@@ -4501,7 +4501,7 @@
         }
       }
     },
-    "/regulatory-and-legal-authority/{sd-reference-id}/regulatory-and-legal-authority-relationship-managementplan/{cr-reference-id}/{behavior-qualifier}/": {
+    "/regulatory-and-legal-authority/{sdReferenceId}/regulatory-and-legal-authority-relationship-managementplan/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4513,21 +4513,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Regulatory And Legal Authority Relationship ManagementPlan Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- EstablishRelations",
             "required": true,

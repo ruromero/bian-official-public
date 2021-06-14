@@ -162,7 +162,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/configuration": {
+    "/prospect-campaign-execution/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignExecution Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/feedback": {
+    "/prospect-campaign-execution/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignExecution Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}": {
+    "/prospect-campaign-execution/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProspectCampaignExecution Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/initiation": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
@@ -794,7 +794,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/update": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -807,14 +807,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -878,7 +878,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/control": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -891,14 +891,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -965,7 +965,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/exchange": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -978,14 +978,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -1052,7 +1052,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/execution": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1065,14 +1065,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -1146,7 +1146,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/requisition": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1159,14 +1159,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -1240,7 +1240,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1253,14 +1253,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -1397,7 +1397,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/candidateselection/{bq-reference-id}/update": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/candidateselection/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1410,21 +1410,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CandidateSelection Instance Reference",
             "required": true,
@@ -1600,7 +1600,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/candidateselection/{bq-reference-id}/exchange": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/candidateselection/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1613,21 +1613,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CandidateSelection Instance Reference",
             "required": true,
@@ -1698,7 +1698,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/candidateselection/{bq-reference-id}/": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/candidateselection/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1711,21 +1711,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CandidateSelection Instance Reference",
             "required": true,
@@ -1865,7 +1865,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/execution/initiation": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/execution/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1878,14 +1878,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -2096,7 +2096,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/execution/{bq-reference-id}/update": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/execution/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2109,21 +2109,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2356,7 +2356,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/execution/{bq-reference-id}/requisition": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/execution/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2369,21 +2369,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2517,7 +2517,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/execution/{bq-reference-id}/": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/execution/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2530,21 +2530,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Execution Instance Reference",
             "required": true,
@@ -2721,7 +2721,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/analysis/initiation": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/analysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2734,14 +2734,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
@@ -2909,7 +2909,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/analysis/{bq-reference-id}/update": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/analysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2922,21 +2922,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -3109,7 +3109,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/analysis/{bq-reference-id}/requisition": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/analysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3122,21 +3122,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -3210,7 +3210,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/analysis/{bq-reference-id}/": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/analysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3223,21 +3223,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Analysis Instance Reference",
             "required": true,
@@ -3384,7 +3384,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3396,7 +3396,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
@@ -3456,7 +3456,7 @@
         }
       }
     },
-    "/prospect-campaign-execution/{sd-reference-id}/prospect-campaign-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/prospect-campaign-execution/{sdReferenceId}/prospect-campaign-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3468,21 +3468,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Prospect Campaign Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Prospect Campaign Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Analysis",
             "required": true,

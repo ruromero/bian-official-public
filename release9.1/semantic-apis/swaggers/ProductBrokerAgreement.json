@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/configuration": {
+    "/product-broker-agreement/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductBrokerAgreement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/feedback": {
+    "/product-broker-agreement/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductBrokerAgreement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}": {
+    "/product-broker-agreement/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductBrokerAgreement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/evaluation": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
@@ -734,7 +734,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/update": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -747,14 +747,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -880,7 +880,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/control": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -893,14 +893,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -967,7 +967,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/exchange": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -980,14 +980,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -1054,7 +1054,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/requisition": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1067,14 +1067,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -1210,7 +1210,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/grant": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1223,14 +1223,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -1310,7 +1310,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1323,14 +1323,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -1435,7 +1435,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/legalterms/evaluation": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/legalterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1448,14 +1448,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -1566,7 +1566,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/update": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/legalterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1579,21 +1579,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -1745,7 +1745,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/requisition": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/legalterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1758,21 +1758,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -1880,7 +1880,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/legalterms/{bq-reference-id}/": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/legalterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1893,21 +1893,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalTerms Instance Reference",
             "required": true,
@@ -2039,7 +2039,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/regulatoryterms/evaluation": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/regulatoryterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -2052,14 +2052,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -2170,7 +2170,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/update": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2183,21 +2183,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2349,7 +2349,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/requisition": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2362,21 +2362,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2484,7 +2484,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/regulatoryterms/{bq-reference-id}/": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/regulatoryterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2497,21 +2497,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "RegulatoryTerms Instance Reference",
             "required": true,
@@ -2643,7 +2643,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/policyterms/evaluation": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/policyterms/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -2656,14 +2656,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
@@ -2774,7 +2774,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/update": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/policyterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2787,21 +2787,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -2953,7 +2953,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/requisition": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/policyterms/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2966,21 +2966,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -3088,7 +3088,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/policyterms/{bq-reference-id}/": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/policyterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3101,21 +3101,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PolicyTerms Instance Reference",
             "required": true,
@@ -3247,7 +3247,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3259,7 +3259,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
@@ -3319,7 +3319,7 @@
         }
       }
     },
-    "/product-broker-agreement/{sd-reference-id}/broker-agreement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-broker-agreement/{sdReferenceId}/broker-agreement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3331,21 +3331,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Broker Agreement Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Broker Agreement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PolicyTerms",
             "required": true,

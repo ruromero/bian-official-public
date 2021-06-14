@@ -162,7 +162,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/configuration": {
+    "/investment-portfolio-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioAnalysis Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/feedback": {
+    "/investment-portfolio-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioAnalysis Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}": {
+    "/investment-portfolio-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDInvestmentPortfolioAnalysis Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/evaluation": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
@@ -777,7 +777,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/exchange": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -790,14 +790,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
@@ -864,7 +864,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/execution": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -877,14 +877,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
@@ -1050,7 +1050,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/requisition": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1063,14 +1063,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
@@ -1236,7 +1236,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1249,14 +1249,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
@@ -1390,7 +1390,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/exchange": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1403,21 +1403,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1488,7 +1488,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/execution": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1501,21 +1501,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1651,7 +1651,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/requisition": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1664,21 +1664,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1810,7 +1810,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1823,21 +1823,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -2020,7 +2020,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2032,7 +2032,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
@@ -2090,7 +2090,7 @@
         }
       }
     },
-    "/investment-portfolio-analysis/{sd-reference-id}/managed-investment-portfolio-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/investment-portfolio-analysis/{sdReferenceId}/managed-investment-portfolio-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2102,21 +2102,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Investment Portfolio Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Managed Investment Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PerformanceAnalysis",
             "required": true,

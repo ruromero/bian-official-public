@@ -162,7 +162,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/configuration": {
+    "/account-recovery/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountRecovery Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/feedback": {
+    "/account-recovery/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountRecovery Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}": {
+    "/account-recovery/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDAccountRecovery Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/initiation": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
@@ -851,7 +851,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -864,14 +864,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
@@ -1189,7 +1189,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/exchange": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1202,14 +1202,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
@@ -1276,7 +1276,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1289,14 +1289,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
@@ -1497,7 +1497,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/assessment/{bq-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/assessment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1510,21 +1510,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assessment Instance Reference",
             "required": true,
@@ -1606,7 +1606,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/assessment/{bq-reference-id}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/assessment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1619,21 +1619,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Assessment Instance Reference",
             "required": true,
@@ -1853,7 +1853,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/writedown/{bq-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/writedown/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1866,21 +1866,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Writedown Instance Reference",
             "required": true,
@@ -1970,7 +1970,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/writedown/{bq-reference-id}/exchange": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/writedown/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1983,21 +1983,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Writedown Instance Reference",
             "required": true,
@@ -2068,7 +2068,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/writedown/{bq-reference-id}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/writedown/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2081,21 +2081,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Writedown Instance Reference",
             "required": true,
@@ -2314,7 +2314,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/planning/{bq-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/planning/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2327,21 +2327,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Planning Instance Reference",
             "required": true,
@@ -2431,7 +2431,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/planning/{bq-reference-id}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/planning/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2444,21 +2444,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Planning Instance Reference",
             "required": true,
@@ -2677,7 +2677,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/negotiation/{bq-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/negotiation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2690,21 +2690,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Negotiation Instance Reference",
             "required": true,
@@ -2830,7 +2830,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/negotiation/{bq-reference-id}/exchange": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/negotiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2843,21 +2843,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Negotiation Instance Reference",
             "required": true,
@@ -2928,7 +2928,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/negotiation/{bq-reference-id}/requisition": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/negotiation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2941,21 +2941,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Negotiation Instance Reference",
             "required": true,
@@ -3029,7 +3029,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/negotiation/{bq-reference-id}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/negotiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3042,21 +3042,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Negotiation Instance Reference",
             "required": true,
@@ -3293,7 +3293,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/restructuring/{bq-reference-id}/update": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/restructuring/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3306,21 +3306,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -3423,7 +3423,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/restructuring/{bq-reference-id}/exchange": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/restructuring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3436,21 +3436,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -3521,7 +3521,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/restructuring/{bq-reference-id}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/restructuring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3534,21 +3534,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -3772,7 +3772,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -3784,7 +3784,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
@@ -3846,7 +3846,7 @@
         }
       }
     },
-    "/account-recovery/{sd-reference-id}/account-recovery-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/account-recovery/{sdReferenceId}/account-recovery-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3858,14 +3858,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Account Recovery Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "AccountRecoveryProcedure Instance Reference",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/configuration": {
+    "/corporate-loan/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLoan Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/feedback": {
+    "/corporate-loan/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLoan Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}": {
+    "/corporate-loan/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorporateLoan Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/initiation": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
@@ -879,7 +879,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -892,14 +892,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1309,7 +1309,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1322,14 +1322,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1396,7 +1396,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1409,14 +1409,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1663,7 +1663,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1676,21 +1676,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1898,7 +1898,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1911,21 +1911,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2102,7 +2102,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2115,21 +2115,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2352,7 +2352,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/disbursement/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/disbursement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2365,21 +2365,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Disbursement Instance Reference",
             "required": true,
@@ -2538,7 +2538,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/maintenance/{bq-reference-id}/requisition": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/maintenance/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2551,21 +2551,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -3043,7 +3043,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/maintenance/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/maintenance/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3056,21 +3056,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Maintenance Instance Reference",
             "required": true,
@@ -3356,7 +3356,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/update": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3369,21 +3369,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -3919,7 +3919,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/execution": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3932,21 +3932,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4095,7 +4095,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/requisition": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4108,21 +4108,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4271,7 +4271,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/withdrawal/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/withdrawal/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4284,21 +4284,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Withdrawal Instance Reference",
             "required": true,
@@ -4501,7 +4501,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/update": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4514,21 +4514,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4702,7 +4702,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/execution": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4715,21 +4715,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4845,7 +4845,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/requisition": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -4858,21 +4858,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -4988,7 +4988,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/repayment/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/repayment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5001,21 +5001,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -5197,7 +5197,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/initiation": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/restructuring/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5210,14 +5210,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -5498,7 +5498,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/update": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5511,21 +5511,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -5967,7 +5967,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/exchange": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -5980,21 +5980,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6065,7 +6065,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/requisition": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -6078,21 +6078,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6190,7 +6190,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/restructuring/{bq-reference-id}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/restructuring/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6203,21 +6203,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Restructuring Instance Reference",
             "required": true,
@@ -6490,7 +6490,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -6502,7 +6502,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
@@ -6566,7 +6566,7 @@
         }
       }
     },
-    "/corporate-loan/{sd-reference-id}/corporate-loan-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/corporate-loan/{sdReferenceId}/corporate-loan-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6578,21 +6578,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Corporate Loan Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Corporate Loan Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Restructuring",
             "required": true,

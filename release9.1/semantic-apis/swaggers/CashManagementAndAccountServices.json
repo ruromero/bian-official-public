@@ -162,7 +162,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/configuration": {
+    "/cash-management-and-account-services/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCashManagementAndAccountServices Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/feedback": {
+    "/cash-management-and-account-services/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCashManagementAndAccountServices Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}": {
+    "/cash-management-and-account-services/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCashManagementAndAccountServices Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
@@ -826,7 +826,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -839,14 +839,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1124,7 +1124,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1137,14 +1137,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1211,7 +1211,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1224,14 +1224,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1412,7 +1412,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1425,21 +1425,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1581,7 +1581,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/servicefees/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/servicefees/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1594,14 +1594,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1765,7 +1765,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1778,21 +1778,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -1969,7 +1969,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1982,21 +1982,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2147,7 +2147,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountlien/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountlien/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2160,14 +2160,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -2394,7 +2394,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2407,21 +2407,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2571,7 +2571,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/exchange": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2584,21 +2584,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2669,7 +2669,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountlien/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountlien/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2682,21 +2682,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountLien Instance Reference",
             "required": true,
@@ -2827,7 +2827,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountsweep/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountsweep/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2840,14 +2840,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3026,7 +3026,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3039,21 +3039,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3219,7 +3219,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/execution": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3232,21 +3232,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3342,7 +3342,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/accountsweep/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/accountsweep/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3355,21 +3355,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AccountSweep Instance Reference",
             "required": true,
@@ -3504,7 +3504,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3517,14 +3517,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -3677,7 +3677,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3690,21 +3690,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -3908,7 +3908,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/execution": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -3921,21 +3921,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -4089,7 +4089,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/depositsandwithdrawals/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/depositsandwithdrawals/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4102,21 +4102,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "DepositsAndWithdrawals Instance Reference",
             "required": true,
@@ -4270,7 +4270,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/payments/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/payments/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4283,14 +4283,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -4501,7 +4501,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4514,21 +4514,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4786,7 +4786,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/exchange": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -4799,21 +4799,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -4884,7 +4884,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/execution": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -4897,21 +4897,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5065,7 +5065,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/payments/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/payments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5078,21 +5078,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Payments Instance Reference",
             "required": true,
@@ -5279,7 +5279,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/issueddevice/initiation": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/issueddevice/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -5292,14 +5292,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -5521,7 +5521,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/update": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -5534,21 +5534,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5684,7 +5684,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/requisition": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -5697,21 +5697,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5845,7 +5845,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/issueddevice/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/issueddevice/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -5858,21 +5858,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "IssuedDevice Instance Reference",
             "required": true,
@@ -5992,7 +5992,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/positivepay/{bq-reference-id}/execution": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/positivepay/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -6005,21 +6005,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PositivePay Instance Reference",
             "required": true,
@@ -6121,7 +6121,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/positivepay/{bq-reference-id}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/positivepay/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6134,21 +6134,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PositivePay Instance Reference",
             "required": true,
@@ -6252,7 +6252,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -6264,7 +6264,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
@@ -6328,7 +6328,7 @@
         }
       }
     },
-    "/cash-management-and-account-services/{sd-reference-id}/cash-management-and-account-services-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/cash-management-and-account-services/{sdReferenceId}/cash-management-and-account-services-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -6340,21 +6340,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Cash Management And Account Services Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- IssuedDevice",
             "required": true,

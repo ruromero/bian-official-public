@@ -168,7 +168,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/configuration": {
+    "/special-pricing-conditions/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSpecialPricingConditions Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/feedback": {
+    "/special-pricing-conditions/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSpecialPricingConditions Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}": {
+    "/special-pricing-conditions/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSpecialPricingConditions Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/initiation": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
@@ -760,7 +760,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/update": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -773,14 +773,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -896,7 +896,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/control": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -909,14 +909,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1036,7 +1036,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/exchange": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1049,14 +1049,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1176,7 +1176,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/execution": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1189,14 +1189,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1323,7 +1323,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/requisition": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1336,14 +1336,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1470,7 +1470,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1483,14 +1483,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1594,7 +1594,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/pricingterms/initiation": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/pricingterms/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1607,14 +1607,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
@@ -1737,7 +1737,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/pricingterms/{bq-reference-id}/update": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/pricingterms/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1750,21 +1750,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PricingTerms Instance Reference",
             "required": true,
@@ -1892,7 +1892,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/pricingterms/{bq-reference-id}/": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/pricingterms/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1905,21 +1905,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PricingTerms Instance Reference",
             "required": true,
@@ -2037,7 +2037,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -2049,7 +2049,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
@@ -2107,7 +2107,7 @@
         }
       }
     },
-    "/special-pricing-conditions/{sd-reference-id}/special-pricing-conditions-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/special-pricing-conditions/{sdReferenceId}/special-pricing-conditions-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2119,21 +2119,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Special Pricing Conditions Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PricingTerms",
             "required": true,

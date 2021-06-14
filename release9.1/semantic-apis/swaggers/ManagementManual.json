@@ -168,7 +168,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/configuration": {
+    "/management-manual/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDManagementManual Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/feedback": {
+    "/management-manual/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDManagementManual Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}": {
+    "/management-manual/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDManagementManual Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
@@ -765,7 +765,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -778,14 +778,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -906,7 +906,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/control": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -919,14 +919,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/exchange": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1196,7 +1196,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1209,14 +1209,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1348,7 +1348,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/requisition": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1361,14 +1361,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1500,7 +1500,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1513,14 +1513,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1629,7 +1629,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/companymissionandpolicies/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/companymissionandpolicies/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1642,14 +1642,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -1780,7 +1780,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/companymissionandpolicies/{bq-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/companymissionandpolicies/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1793,21 +1793,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CompanyMissionandPolicies Instance Reference",
             "required": true,
@@ -1943,7 +1943,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/companymissionandpolicies/{bq-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/companymissionandpolicies/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1956,21 +1956,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CompanyMissionandPolicies Instance Reference",
             "required": true,
@@ -2117,7 +2117,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/companymissionandpolicies/{bq-reference-id}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/companymissionandpolicies/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2130,21 +2130,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CompanyMissionandPolicies Instance Reference",
             "required": true,
@@ -2266,7 +2266,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/legalandregulatoryobligationsandguidelines/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/legalandregulatoryobligationsandguidelines/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2279,14 +2279,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -2417,7 +2417,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/legalandregulatoryobligationsandguidelines/{bq-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/legalandregulatoryobligationsandguidelines/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2430,21 +2430,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalandRegulatoryObligationsandGuidelines Instance Reference",
             "required": true,
@@ -2580,7 +2580,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/legalandregulatoryobligationsandguidelines/{bq-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/legalandregulatoryobligationsandguidelines/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2593,21 +2593,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalandRegulatoryObligationsandGuidelines Instance Reference",
             "required": true,
@@ -2754,7 +2754,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/legalandregulatoryobligationsandguidelines/{bq-reference-id}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/legalandregulatoryobligationsandguidelines/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2767,21 +2767,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LegalandRegulatoryObligationsandGuidelines Instance Reference",
             "required": true,
@@ -2903,7 +2903,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/operationalandproductionproceduresandguidelines/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/operationalandproductionproceduresandguidelines/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2916,14 +2916,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -3054,7 +3054,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/operationalandproductionproceduresandguidelines/{bq-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/operationalandproductionproceduresandguidelines/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3067,21 +3067,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationalandProductionProceduresandGuidelines Instance Reference",
             "required": true,
@@ -3217,7 +3217,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/operationalandproductionproceduresandguidelines/{bq-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/operationalandproductionproceduresandguidelines/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3230,21 +3230,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationalandProductionProceduresandGuidelines Instance Reference",
             "required": true,
@@ -3391,7 +3391,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/operationalandproductionproceduresandguidelines/{bq-reference-id}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/operationalandproductionproceduresandguidelines/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3404,21 +3404,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationalandProductionProceduresandGuidelines Instance Reference",
             "required": true,
@@ -3540,7 +3540,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/employmentrelatedproceduresandguidelines/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/employmentrelatedproceduresandguidelines/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -3553,14 +3553,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -3691,7 +3691,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/employmentrelatedproceduresandguidelines/{bq-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/employmentrelatedproceduresandguidelines/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3704,21 +3704,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EmploymentRelatedProceduresandGuidelines Instance Reference",
             "required": true,
@@ -3854,7 +3854,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/employmentrelatedproceduresandguidelines/{bq-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/employmentrelatedproceduresandguidelines/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3867,21 +3867,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EmploymentRelatedProceduresandGuidelines Instance Reference",
             "required": true,
@@ -4028,7 +4028,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/employmentrelatedproceduresandguidelines/{bq-reference-id}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/employmentrelatedproceduresandguidelines/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4041,21 +4041,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EmploymentRelatedProceduresandGuidelines Instance Reference",
             "required": true,
@@ -4177,7 +4177,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/staffmanagementproceduresandguidelines/initiation": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/staffmanagementproceduresandguidelines/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -4190,14 +4190,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
@@ -4328,7 +4328,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/staffmanagementproceduresandguidelines/{bq-reference-id}/update": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/staffmanagementproceduresandguidelines/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -4341,21 +4341,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffManagementProceduresandGuidelines Instance Reference",
             "required": true,
@@ -4491,7 +4491,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/staffmanagementproceduresandguidelines/{bq-reference-id}/capture": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/staffmanagementproceduresandguidelines/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -4504,21 +4504,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffManagementProceduresandGuidelines Instance Reference",
             "required": true,
@@ -4665,7 +4665,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/staffmanagementproceduresandguidelines/{bq-reference-id}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/staffmanagementproceduresandguidelines/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4678,21 +4678,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "StaffManagementProceduresandGuidelines Instance Reference",
             "required": true,
@@ -4814,7 +4814,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification": {
+    "/management-manual/{sdReferenceId}/management-manual-specification": {
       "get": {
         "tags": [
           "retrieve"
@@ -4826,7 +4826,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
@@ -4889,7 +4889,7 @@
         }
       }
     },
-    "/management-manual/{sd-reference-id}/management-manual-specification/{cr-reference-id}/{behavior-qualifier}/": {
+    "/management-manual/{sdReferenceId}/management-manual-specification/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -4901,21 +4901,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Management Manual Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Management Manual Specification Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- CompanyMissionandPolicies",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/configuration": {
+    "/fraud-diagnosis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudDiagnosis Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/feedback": {
+    "/fraud-diagnosis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudDiagnosis Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}": {
+    "/fraud-diagnosis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFraudDiagnosis Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/evaluation": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
@@ -729,7 +729,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/update": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -742,14 +742,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
@@ -869,7 +869,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/execution": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -882,14 +882,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
@@ -1007,7 +1007,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/requisition": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1020,14 +1020,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
@@ -1145,7 +1145,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1158,14 +1158,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
@@ -1275,7 +1275,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/customerbehavior/{bq-reference-id}/": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/customerbehavior/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1288,21 +1288,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CustomerBehavior Instance Reference",
             "required": true,
@@ -1434,7 +1434,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/economicmodel/{bq-reference-id}/": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/economicmodel/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1447,21 +1447,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EconomicModel Instance Reference",
             "required": true,
@@ -1593,7 +1593,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/analystreview/{bq-reference-id}/requisition": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/analystreview/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1606,21 +1606,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AnalystReview Instance Reference",
             "required": true,
@@ -1801,7 +1801,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/analystreview/{bq-reference-id}/": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/analystreview/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1814,21 +1814,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "AnalystReview Instance Reference",
             "required": true,
@@ -1998,7 +1998,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2010,7 +2010,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
@@ -2070,7 +2070,7 @@
         }
       }
     },
-    "/fraud-diagnosis/{sd-reference-id}/fraud-diagnosis-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/fraud-diagnosis/{sdReferenceId}/fraud-diagnosis-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2082,21 +2082,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Fraud Diagnosis Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- AnalystReview",
             "required": true,

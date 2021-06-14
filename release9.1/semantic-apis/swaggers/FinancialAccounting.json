@@ -162,7 +162,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/configuration": {
+    "/financial-accounting/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialAccounting Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/feedback": {
+    "/financial-accounting/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialAccounting Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}": {
+    "/financial-accounting/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialAccounting Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/initiation": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
@@ -720,7 +720,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/update": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -733,14 +733,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
@@ -866,7 +866,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/control": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -879,14 +879,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
@@ -953,7 +953,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -966,14 +966,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
@@ -1078,7 +1078,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/ledgerposting/{bq-reference-id}/update": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/ledgerposting/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1091,21 +1091,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LedgerPosting Instance Reference",
             "required": true,
@@ -1213,7 +1213,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/ledgerposting/{bq-reference-id}/capture": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/ledgerposting/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1226,21 +1226,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LedgerPosting Instance Reference",
             "required": true,
@@ -1340,7 +1340,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/ledgerposting/{bq-reference-id}/": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/ledgerposting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1353,21 +1353,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "LedgerPosting Instance Reference",
             "required": true,
@@ -1473,7 +1473,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -1485,7 +1485,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
@@ -1543,7 +1543,7 @@
         }
       }
     },
-    "/financial-accounting/{sd-reference-id}/financial-booking-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/financial-accounting/{sdReferenceId}/financial-booking-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1555,21 +1555,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Accounting Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Booking Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- LedgerPosting",
             "required": true,

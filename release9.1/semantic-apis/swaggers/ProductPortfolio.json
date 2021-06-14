@@ -162,7 +162,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/configuration": {
+    "/product-portfolio/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductPortfolio Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/feedback": {
+    "/product-portfolio/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductPortfolio Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}": {
+    "/product-portfolio/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDProductPortfolio Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/evaluation": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
@@ -768,7 +768,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/update": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -781,14 +781,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
@@ -944,7 +944,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/requisition": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -957,14 +957,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
@@ -1121,7 +1121,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1134,14 +1134,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
@@ -1261,7 +1261,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/evaluation": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -1274,14 +1274,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
@@ -1474,7 +1474,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/update": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1487,21 +1487,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1643,7 +1643,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/exchange": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1656,21 +1656,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1741,7 +1741,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/execution": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1754,21 +1754,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -1920,7 +1920,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/requisition": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1933,21 +1933,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -2099,7 +2099,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/performanceanalysis/{bq-reference-id}/": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/performanceanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2112,21 +2112,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "PerformanceAnalysis Instance Reference",
             "required": true,
@@ -2249,7 +2249,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2261,7 +2261,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
@@ -2319,7 +2319,7 @@
         }
       }
     },
-    "/product-portfolio/{sd-reference-id}/product-portfolio-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/product-portfolio/{sdReferenceId}/product-portfolio-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2331,21 +2331,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Product Portfolio Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Product Portfolio Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- PerformanceAnalysis",
             "required": true,

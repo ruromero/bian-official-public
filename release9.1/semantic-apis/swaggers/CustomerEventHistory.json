@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/configuration": {
+    "/customer-event-history/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerEventHistory Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/feedback": {
+    "/customer-event-history/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerEventHistory Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}": {
+    "/customer-event-history/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerEventHistory Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/initiation": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
@@ -694,7 +694,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -707,14 +707,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
@@ -778,7 +778,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/control": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -791,14 +791,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
@@ -865,7 +865,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -878,14 +878,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
@@ -968,7 +968,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/relationship/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/relationship/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -981,21 +981,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Relationship Instance Reference",
             "required": true,
@@ -1111,7 +1111,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/relationship/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/relationship/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1124,21 +1124,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Relationship Instance Reference",
             "required": true,
@@ -1238,7 +1238,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/relationship/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/relationship/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1251,21 +1251,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Relationship Instance Reference",
             "required": true,
@@ -1384,7 +1384,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/sales/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/sales/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1397,21 +1397,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sales Instance Reference",
             "required": true,
@@ -1547,7 +1547,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/sales/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/sales/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1560,21 +1560,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sales Instance Reference",
             "required": true,
@@ -1684,7 +1684,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/sales/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/sales/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1697,21 +1697,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Sales Instance Reference",
             "required": true,
@@ -1840,7 +1840,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/servicing/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/servicing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1853,21 +1853,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2017,7 +2017,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/servicing/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/servicing/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2030,21 +2030,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2161,7 +2161,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/servicing/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/servicing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2174,21 +2174,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Servicing Instance Reference",
             "required": true,
@@ -2324,7 +2324,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/productprocessing/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/productprocessing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2337,21 +2337,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductProcessing Instance Reference",
             "required": true,
@@ -2485,7 +2485,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/productprocessing/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/productprocessing/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2498,21 +2498,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductProcessing Instance Reference",
             "required": true,
@@ -2621,7 +2621,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/productprocessing/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/productprocessing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2634,21 +2634,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ProductProcessing Instance Reference",
             "required": true,
@@ -2776,7 +2776,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/fraud/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/fraud/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2789,21 +2789,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fraud Instance Reference",
             "required": true,
@@ -2929,7 +2929,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/fraud/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/fraud/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2942,21 +2942,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fraud Instance Reference",
             "required": true,
@@ -3061,7 +3061,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/fraud/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/fraud/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3074,21 +3074,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Fraud Instance Reference",
             "required": true,
@@ -3212,7 +3212,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/life/{bq-reference-id}/update": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/life/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -3225,21 +3225,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Life Instance Reference",
             "required": true,
@@ -3357,7 +3357,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/life/{bq-reference-id}/capture": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/life/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -3370,21 +3370,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Life Instance Reference",
             "required": true,
@@ -3485,7 +3485,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/life/{bq-reference-id}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/life/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3498,21 +3498,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Life Instance Reference",
             "required": true,
@@ -3632,7 +3632,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log": {
       "get": {
         "tags": [
           "retrieve"
@@ -3644,7 +3644,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
@@ -3707,7 +3707,7 @@
         }
       }
     },
-    "/customer-event-history/{sd-reference-id}/customer-event-log/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-event-history/{sdReferenceId}/customer-event-log/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3719,21 +3719,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Event History Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Event Log Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Life",
             "required": true,

@@ -162,7 +162,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/configuration": {
+    "/market-order-execution/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketOrderExecution Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/feedback": {
+    "/market-order-execution/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketOrderExecution Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}": {
+    "/market-order-execution/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDMarketOrderExecution Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/initiation": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
@@ -803,7 +803,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/update": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -816,14 +816,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
@@ -1015,7 +1015,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/requisition": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1028,14 +1028,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
@@ -1227,7 +1227,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1240,14 +1240,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
@@ -1385,7 +1385,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/quote/initiation": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/quote/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1398,14 +1398,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
@@ -1610,7 +1610,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/quote/{bq-reference-id}/": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/quote/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1623,21 +1623,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Quote Instance Reference",
             "required": true,
@@ -1801,7 +1801,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/initiation": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1814,14 +1814,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
@@ -2028,7 +2028,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/{bq-reference-id}/update": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2041,21 +2041,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2119,7 +2119,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/{bq-reference-id}/exchange": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2132,21 +2132,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2217,7 +2217,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/{bq-reference-id}/execution": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2230,21 +2230,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2318,7 +2318,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/{bq-reference-id}/requisition": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2331,21 +2331,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2419,7 +2419,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/tradeinitiation/{bq-reference-id}/": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/tradeinitiation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2432,21 +2432,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TradeInitiation Instance Reference",
             "required": true,
@@ -2611,7 +2611,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/position/{bq-reference-id}/control": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/position/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -2624,21 +2624,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Position Instance Reference",
             "required": true,
@@ -2709,7 +2709,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/position/{bq-reference-id}/exchange": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/position/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2722,21 +2722,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Position Instance Reference",
             "required": true,
@@ -2807,7 +2807,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/position/{bq-reference-id}/requisition": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/position/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2820,21 +2820,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Position Instance Reference",
             "required": true,
@@ -2985,7 +2985,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/position/{bq-reference-id}/": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/position/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2998,21 +2998,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Position Instance Reference",
             "required": true,
@@ -3148,7 +3148,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction": {
       "get": {
         "tags": [
           "retrieve"
@@ -3160,7 +3160,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
@@ -3220,7 +3220,7 @@
         }
       }
     },
-    "/market-order-execution/{sd-reference-id}/market-trade-transaction/{cr-reference-id}/{behavior-qualifier}/": {
+    "/market-order-execution/{sdReferenceId}/market-trade-transaction/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3232,21 +3232,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Market Order Execution Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Market Trade Transaction Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Position",
             "required": true,

@@ -168,7 +168,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/configuration": {
+    "/case-root-cause-analysis/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCaseRootCauseAnalysis Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/feedback": {
+    "/case-root-cause-analysis/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCaseRootCauseAnalysis Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}": {
+    "/case-root-cause-analysis/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCaseRootCauseAnalysis Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/initiation": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
@@ -757,7 +757,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/update": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -770,14 +770,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -890,7 +890,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/execution": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -903,14 +903,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -1034,7 +1034,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/requisition": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1047,14 +1047,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -1178,7 +1178,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1191,14 +1191,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -1303,7 +1303,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/creditandfraudrelatedissueanalysis/initiation": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/creditandfraudrelatedissueanalysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1316,14 +1316,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -1454,7 +1454,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/creditandfraudrelatedissueanalysis/{bq-reference-id}/update": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/creditandfraudrelatedissueanalysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1467,21 +1467,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditandFraudRelatedIssueAnalysis Instance Reference",
             "required": true,
@@ -1617,7 +1617,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/creditandfraudrelatedissueanalysis/{bq-reference-id}/execution": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/creditandfraudrelatedissueanalysis/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1630,21 +1630,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditandFraudRelatedIssueAnalysis Instance Reference",
             "required": true,
@@ -1791,7 +1791,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/creditandfraudrelatedissueanalysis/{bq-reference-id}/requisition": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/creditandfraudrelatedissueanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1804,21 +1804,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditandFraudRelatedIssueAnalysis Instance Reference",
             "required": true,
@@ -1965,7 +1965,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/creditandfraudrelatedissueanalysis/{bq-reference-id}/": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/creditandfraudrelatedissueanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1978,21 +1978,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "CreditandFraudRelatedIssueAnalysis Instance Reference",
             "required": true,
@@ -2114,7 +2114,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/operationsandservicingissueanalysis/initiation": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/operationsandservicingissueanalysis/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -2127,14 +2127,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
@@ -2257,7 +2257,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/operationsandservicingissueanalysis/{bq-reference-id}/update": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/operationsandservicingissueanalysis/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2270,21 +2270,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationsandServicingIssueAnalysis Instance Reference",
             "required": true,
@@ -2412,7 +2412,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/operationsandservicingissueanalysis/{bq-reference-id}/execution": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/operationsandservicingissueanalysis/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2425,21 +2425,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationsandServicingIssueAnalysis Instance Reference",
             "required": true,
@@ -2578,7 +2578,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/operationsandservicingissueanalysis/{bq-reference-id}/requisition": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/operationsandservicingissueanalysis/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2591,21 +2591,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationsandServicingIssueAnalysis Instance Reference",
             "required": true,
@@ -2744,7 +2744,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/operationsandservicingissueanalysis/{bq-reference-id}/": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/operationsandservicingissueanalysis/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2757,21 +2757,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OperationsandServicingIssueAnalysis Instance Reference",
             "required": true,
@@ -2889,7 +2889,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis": {
       "get": {
         "tags": [
           "retrieve"
@@ -2901,7 +2901,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
@@ -2961,7 +2961,7 @@
         }
       }
     },
-    "/case-root-cause-analysis/{sd-reference-id}/customer-case-root-cause-analysis/{cr-reference-id}/{behavior-qualifier}/": {
+    "/case-root-cause-analysis/{sdReferenceId}/customer-case-root-cause-analysis/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2973,21 +2973,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Case Root Cause Analysis Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Customer Case Root Cause Analysis Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- OperationsandServicingIssueAnalysis",
             "required": true,

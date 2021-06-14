@@ -162,7 +162,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/configuration": {
+    "/correspondent-bank/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBank Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/feedback": {
+    "/correspondent-bank/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBank Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}": {
+    "/correspondent-bank/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCorrespondentBank Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/initiation": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
@@ -742,7 +742,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -755,14 +755,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -883,7 +883,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -896,14 +896,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -970,7 +970,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -983,14 +983,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1151,7 +1151,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/inboundpayments/{bq-reference-id}/update": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/inboundpayments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1164,21 +1164,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InboundPayments Instance Reference",
             "required": true,
@@ -1384,7 +1384,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/inboundpayments/{bq-reference-id}/execution": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/inboundpayments/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1397,21 +1397,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InboundPayments Instance Reference",
             "required": true,
@@ -1556,7 +1556,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/inboundpayments/{bq-reference-id}/": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/inboundpayments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1569,21 +1569,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InboundPayments Instance Reference",
             "required": true,
@@ -1769,7 +1769,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/outboundpayments/{bq-reference-id}/update": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/outboundpayments/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1782,21 +1782,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundPayments Instance Reference",
             "required": true,
@@ -2002,7 +2002,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/outboundpayments/{bq-reference-id}/execution": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/outboundpayments/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2015,21 +2015,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundPayments Instance Reference",
             "required": true,
@@ -2174,7 +2174,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/outboundpayments/{bq-reference-id}/": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/outboundpayments/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2187,21 +2187,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "OutboundPayments Instance Reference",
             "required": true,
@@ -2387,7 +2387,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/update": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/clearingandsettlement/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2400,21 +2400,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -2538,7 +2538,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/exchange": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/clearingandsettlement/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2551,21 +2551,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -2636,7 +2636,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/requisition": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/clearingandsettlement/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2649,21 +2649,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -2749,7 +2749,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/clearingandsettlement/{bq-reference-id}/": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/clearingandsettlement/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2762,21 +2762,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ClearingandSettlement Instance Reference",
             "required": true,
@@ -2903,7 +2903,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/reconciliations/{bq-reference-id}/update": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/reconciliations/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2916,21 +2916,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliations Instance Reference",
             "required": true,
@@ -3028,7 +3028,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/reconciliations/{bq-reference-id}/exchange": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/reconciliations/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3041,21 +3041,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliations Instance Reference",
             "required": true,
@@ -3126,7 +3126,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/reconciliations/{bq-reference-id}/requisition": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/reconciliations/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3139,21 +3139,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliations Instance Reference",
             "required": true,
@@ -3244,7 +3244,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/reconciliations/{bq-reference-id}/": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/reconciliations/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3257,21 +3257,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Reconciliations Instance Reference",
             "required": true,
@@ -3403,7 +3403,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3415,7 +3415,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
@@ -3476,7 +3476,7 @@
         }
       }
     },
-    "/correspondent-bank/{sd-reference-id}/correspondent-bank-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/correspondent-bank/{sdReferenceId}/correspondent-bank-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3488,21 +3488,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Correspondent Bank Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Correspondent Bank Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Reconciliations",
             "required": true,

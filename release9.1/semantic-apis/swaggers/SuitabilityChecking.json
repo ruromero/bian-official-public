@@ -162,7 +162,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/configuration": {
+    "/suitability-checking/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSuitabilityChecking Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/feedback": {
+    "/suitability-checking/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSuitabilityChecking Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}": {
+    "/suitability-checking/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDSuitabilityChecking Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/evaluation": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/evaluation": {
       "post": {
         "tags": [
           "evaluate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
@@ -819,7 +819,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}/update": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -832,14 +832,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
@@ -1073,7 +1073,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}/exchange": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1086,14 +1086,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
@@ -1160,7 +1160,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}/requisition": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1173,14 +1173,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
@@ -1410,7 +1410,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}/grant": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}/grant": {
       "put": {
         "tags": [
           "grant"
@@ -1423,14 +1423,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
@@ -1510,7 +1510,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1523,14 +1523,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
@@ -1689,7 +1689,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment": {
       "get": {
         "tags": [
           "retrieve"
@@ -1701,7 +1701,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
@@ -1757,7 +1757,7 @@
         }
       }
     },
-    "/suitability-checking/{sd-reference-id}/suitability-assessment/{cr-reference-id}/{behavior-qualifier}/": {
+    "/suitability-checking/{sdReferenceId}/suitability-assessment/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1769,21 +1769,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Suitability Checking Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Suitability Assessment Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

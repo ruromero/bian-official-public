@@ -162,7 +162,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/configuration": {
+    "/customer-profile/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProfile Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/feedback": {
+    "/customer-profile/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProfile Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}": {
+    "/customer-profile/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCustomerProfile Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/initiation": {
+    "/customer-profile/{sdReferenceId}/party-state/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
@@ -703,7 +703,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/update": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -716,14 +716,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
@@ -787,7 +787,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/control": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -800,14 +800,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
@@ -874,7 +874,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/execution": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -887,14 +887,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
@@ -968,7 +968,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/requisition": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -981,14 +981,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
@@ -1062,7 +1062,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1075,14 +1075,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
@@ -1165,7 +1165,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/status/{bq-reference-id}/update": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/status/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1178,21 +1178,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Status Instance Reference",
             "required": true,
@@ -1298,7 +1298,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/status/{bq-reference-id}/capture": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/status/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1311,21 +1311,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Status Instance Reference",
             "required": true,
@@ -1429,7 +1429,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/status/{bq-reference-id}/": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/status/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1442,21 +1442,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Status Instance Reference",
             "required": true,
@@ -1561,7 +1561,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/rating/{bq-reference-id}/update": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/rating/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1574,21 +1574,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rating Instance Reference",
             "required": true,
@@ -1694,7 +1694,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/rating/{bq-reference-id}/capture": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/rating/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1707,21 +1707,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rating Instance Reference",
             "required": true,
@@ -1825,7 +1825,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/rating/{bq-reference-id}/": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/rating/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1838,21 +1838,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rating Instance Reference",
             "required": true,
@@ -1957,7 +1957,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/alert/{bq-reference-id}/update": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/alert/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1970,21 +1970,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alert Instance Reference",
             "required": true,
@@ -2090,7 +2090,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/alert/{bq-reference-id}/exchange": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/alert/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2103,21 +2103,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alert Instance Reference",
             "required": true,
@@ -2188,7 +2188,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/alert/{bq-reference-id}/capture": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/alert/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2201,21 +2201,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alert Instance Reference",
             "required": true,
@@ -2319,7 +2319,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/alert/{bq-reference-id}/": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/alert/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2332,21 +2332,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Alert Instance Reference",
             "required": true,
@@ -2451,7 +2451,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state": {
+    "/customer-profile/{sdReferenceId}/party-state": {
       "get": {
         "tags": [
           "retrieve"
@@ -2463,7 +2463,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
@@ -2523,7 +2523,7 @@
         }
       }
     },
-    "/customer-profile/{sd-reference-id}/party-state/{cr-reference-id}/{behavior-qualifier}/": {
+    "/customer-profile/{sdReferenceId}/party-state/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2535,21 +2535,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Customer Profile Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Party State Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Alert",
             "required": true,

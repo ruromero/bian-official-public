@@ -162,7 +162,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/configuration": {
+    "/financial-market-research/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketResearch Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/feedback": {
+    "/financial-market-research/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketResearch Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}": {
+    "/financial-market-research/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDFinancialMarketResearch Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/registration": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/registration": {
       "post": {
         "tags": [
           "register"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
@@ -752,7 +752,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/{cr-reference-id}/update": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -765,14 +765,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Research Directory Entry Instance Reference",
             "required": true,
@@ -886,7 +886,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/{cr-reference-id}/execution": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/{crReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -899,14 +899,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Research Directory Entry Instance Reference",
             "required": true,
@@ -1034,7 +1034,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/{cr-reference-id}/requisition": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -1047,14 +1047,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Research Directory Entry Instance Reference",
             "required": true,
@@ -1182,7 +1182,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/{cr-reference-id}": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1195,14 +1195,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Research Directory Entry Instance Reference",
             "required": true,
@@ -1323,7 +1323,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry": {
       "get": {
         "tags": [
           "retrieve"
@@ -1335,7 +1335,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
@@ -1391,7 +1391,7 @@
         }
       }
     },
-    "/financial-market-research/{sd-reference-id}/financial-market-research-directory-entry/{cr-reference-id}/{behavior-qualifier}/": {
+    "/financial-market-research/{sdReferenceId}/financial-market-research-directory-entry/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1403,21 +1403,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Financial Market Research Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Financial Market Research Directory Entry Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex-",
             "required": true,

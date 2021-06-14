@@ -168,7 +168,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/configuration": {
+    "/branch-currency-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -181,7 +181,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyManagement Servicing Session Reference",
             "required": true,
@@ -351,7 +351,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/feedback": {
+    "/branch-currency-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -364,7 +364,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyManagement Servicing Session Reference",
             "required": true,
@@ -457,7 +457,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}": {
+    "/branch-currency-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -470,7 +470,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDBranchCurrencyManagement Servicing Session Reference",
             "required": true,
@@ -632,7 +632,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/initiation": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -645,7 +645,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
@@ -802,7 +802,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/update": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -815,14 +815,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -980,7 +980,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/control": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -993,14 +993,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -1162,7 +1162,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/exchange": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1175,14 +1175,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -1344,7 +1344,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/capture": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -1357,14 +1357,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -1533,7 +1533,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1546,14 +1546,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -1698,7 +1698,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/initiation": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1711,14 +1711,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
@@ -1833,7 +1833,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/{bq-reference-id}/update": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1846,21 +1846,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryAllocation Instance Reference",
             "required": true,
@@ -1980,7 +1980,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/{bq-reference-id}/control": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/{bqReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1993,21 +1993,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryAllocation Instance Reference",
             "required": true,
@@ -2135,7 +2135,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/{bq-reference-id}/exchange": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2148,21 +2148,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryAllocation Instance Reference",
             "required": true,
@@ -2290,7 +2290,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/{bq-reference-id}/capture": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/{bqReferenceId}/capture": {
       "put": {
         "tags": [
           "capture"
@@ -2303,21 +2303,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryAllocation Instance Reference",
             "required": true,
@@ -2448,7 +2448,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/inventoryallocation/{bq-reference-id}/": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/inventoryallocation/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2461,21 +2461,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "InventoryAllocation Instance Reference",
             "required": true,
@@ -2589,7 +2589,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation": {
       "get": {
         "tags": [
           "retrieve"
@@ -2601,7 +2601,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
@@ -2659,7 +2659,7 @@
         }
       }
     },
-    "/branch-currency-management/{sd-reference-id}/branch-cash-allocation/{cr-reference-id}/{behavior-qualifier}/": {
+    "/branch-currency-management/{sdReferenceId}/branch-cash-allocation/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2671,21 +2671,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Branch Currency Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Branch Cash Allocation Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- InventoryAllocation",
             "required": true,

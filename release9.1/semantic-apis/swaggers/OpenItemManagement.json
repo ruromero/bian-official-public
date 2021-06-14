@@ -162,7 +162,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/configuration": {
+    "/open-item-management/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDOpenItemManagement Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/feedback": {
+    "/open-item-management/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDOpenItemManagement Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}": {
+    "/open-item-management/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDOpenItemManagement Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/initiation": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
@@ -728,7 +728,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/update": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -741,14 +741,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
@@ -890,7 +890,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/control": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -903,14 +903,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
@@ -977,7 +977,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/requisition": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -990,14 +990,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
@@ -1149,7 +1149,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1162,14 +1162,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
@@ -1282,7 +1282,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/tracking/{bq-reference-id}/": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/tracking/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1295,21 +1295,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Tracking Instance Reference",
             "required": true,
@@ -1423,7 +1423,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/repayment/initiation": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/repayment/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1436,14 +1436,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
@@ -1541,7 +1541,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/repayment/{bq-reference-id}/update": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/repayment/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -1554,21 +1554,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -1632,7 +1632,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/repayment/{bq-reference-id}/exchange": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/repayment/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -1645,21 +1645,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -1730,7 +1730,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/repayment/{bq-reference-id}/execution": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/repayment/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1743,21 +1743,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -1831,7 +1831,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/repayment/{bq-reference-id}/": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/repayment/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1844,21 +1844,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Repayment Instance Reference",
             "required": true,
@@ -1972,7 +1972,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure": {
       "get": {
         "tags": [
           "retrieve"
@@ -1984,7 +1984,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
@@ -2043,7 +2043,7 @@
         }
       }
     },
-    "/open-item-management/{sd-reference-id}/open-item-procedure/{cr-reference-id}/{behavior-qualifier}/": {
+    "/open-item-management/{sdReferenceId}/open-item-procedure/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2055,21 +2055,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Open Item Management Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Open Item Procedure Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Repayment",
             "required": true,

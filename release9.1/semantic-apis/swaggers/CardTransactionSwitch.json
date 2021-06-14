@@ -162,7 +162,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/configuration": {
+    "/card-transaction-switch/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTransactionSwitch Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/feedback": {
+    "/card-transaction-switch/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTransactionSwitch Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}": {
+    "/card-transaction-switch/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDCardTransactionSwitch Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/initiation": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
@@ -739,7 +739,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/update": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -752,14 +752,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -877,7 +877,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/control": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -890,14 +890,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -964,7 +964,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/exchange": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -977,14 +977,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -1051,7 +1051,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1064,14 +1064,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -1172,7 +1172,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/transactioncapture/initiation": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/transactioncapture/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1185,14 +1185,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -1469,7 +1469,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/transactioncapture/{bq-reference-id}/": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/transactioncapture/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1482,21 +1482,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionCapture Instance Reference",
             "required": true,
@@ -1689,7 +1689,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/transactionrouting/initiation": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/transactionrouting/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -1702,14 +1702,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
@@ -1996,7 +1996,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/transactionrouting/{bq-reference-id}/": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/transactionrouting/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2009,21 +2009,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "TransactionRouting Instance Reference",
             "required": true,
@@ -2221,7 +2221,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session": {
       "get": {
         "tags": [
           "retrieve"
@@ -2233,7 +2233,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
@@ -2292,7 +2292,7 @@
         }
       }
     },
-    "/card-transaction-switch/{sd-reference-id}/card-transaction-switch-operating-session/{cr-reference-id}/{behavior-qualifier}/": {
+    "/card-transaction-switch/{sdReferenceId}/card-transaction-switch-operating-session/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2304,21 +2304,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Card Transaction Switch Operating Session Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- TransactionRouting",
             "required": true,

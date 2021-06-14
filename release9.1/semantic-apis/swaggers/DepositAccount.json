@@ -162,7 +162,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/configuration": {
+    "/deposit-account/{sdReferenceId}/configuration": {
       "put": {
         "tags": [
           "configure"
@@ -175,7 +175,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDepositAccount Servicing Session Reference",
             "required": true,
@@ -337,7 +337,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/feedback": {
+    "/deposit-account/{sdReferenceId}/feedback": {
       "put": {
         "tags": [
           "feedback"
@@ -350,7 +350,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDepositAccount Servicing Session Reference",
             "required": true,
@@ -441,7 +441,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}": {
+    "/deposit-account/{sdReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -454,7 +454,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "SDDepositAccount Servicing Session Reference",
             "required": true,
@@ -609,7 +609,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/initiation": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/initiation": {
       "post": {
         "tags": [
           "initiate"
@@ -622,7 +622,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
@@ -820,7 +820,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/update": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -833,14 +833,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1148,7 +1148,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/control": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/control": {
       "put": {
         "tags": [
           "control"
@@ -1161,14 +1161,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1235,7 +1235,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}": {
       "get": {
         "tags": [
           "retrieve"
@@ -1248,14 +1248,14 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
@@ -1451,7 +1451,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/interest/{bq-reference-id}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/interest/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1464,21 +1464,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Interest Instance Reference",
             "required": true,
@@ -1679,7 +1679,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/execution": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -1692,21 +1692,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -1855,7 +1855,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/servicefees/{bq-reference-id}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/servicefees/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -1868,21 +1868,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "ServiceFees Instance Reference",
             "required": true,
@@ -2033,7 +2033,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/deposit/{bq-reference-id}/update": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/deposit/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2046,21 +2046,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposit Instance Reference",
             "required": true,
@@ -2192,7 +2192,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/deposit/{bq-reference-id}/execution": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/deposit/{bqReferenceId}/execution": {
       "put": {
         "tags": [
           "execute"
@@ -2205,21 +2205,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposit Instance Reference",
             "required": true,
@@ -2336,7 +2336,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/deposit/{bq-reference-id}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/deposit/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -2349,21 +2349,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Deposit Instance Reference",
             "required": true,
@@ -2481,7 +2481,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/earlymaturing/{bq-reference-id}/update": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/earlymaturing/{bqReferenceId}/update": {
       "put": {
         "tags": [
           "update"
@@ -2494,21 +2494,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EarlyMaturing Instance Reference",
             "required": true,
@@ -2708,7 +2708,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/earlymaturing/{bq-reference-id}/exchange": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/earlymaturing/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -2721,21 +2721,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EarlyMaturing Instance Reference",
             "required": true,
@@ -2806,7 +2806,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/earlymaturing/{bq-reference-id}/requisition": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/earlymaturing/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -2819,21 +2819,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EarlyMaturing Instance Reference",
             "required": true,
@@ -3043,7 +3043,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/earlymaturing/{bq-reference-id}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/earlymaturing/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3056,21 +3056,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "EarlyMaturing Instance Reference",
             "required": true,
@@ -3222,7 +3222,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/rollover/{bq-reference-id}/exchange": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/rollover/{bqReferenceId}/exchange": {
       "put": {
         "tags": [
           "exchange"
@@ -3235,21 +3235,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rollover Instance Reference",
             "required": true,
@@ -3320,7 +3320,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/rollover/{bq-reference-id}/requisition": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/rollover/{bqReferenceId}/requisition": {
       "put": {
         "tags": [
           "request"
@@ -3333,21 +3333,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rollover Instance Reference",
             "required": true,
@@ -3485,7 +3485,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/rollover/{bq-reference-id}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/rollover/{bqReferenceId}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3498,21 +3498,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "bq-reference-id",
+            "name": "bqReferenceId",
             "in": "path",
             "description": "Rollover Instance Reference",
             "required": true,
@@ -3628,7 +3628,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement": {
       "get": {
         "tags": [
           "retrieve"
@@ -3640,7 +3640,7 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
@@ -3702,7 +3702,7 @@
         }
       }
     },
-    "/deposit-account/{sd-reference-id}/deposit-account-fulfillment-arrangement/{cr-reference-id}/{behavior-qualifier}/": {
+    "/deposit-account/{sdReferenceId}/deposit-account-fulfillment-arrangement/{crReferenceId}/{behaviorQualifier}/": {
       "get": {
         "tags": [
           "retrieve"
@@ -3714,21 +3714,21 @@
         ],
         "parameters": [
           {
-            "name": "sd-reference-id",
+            "name": "sdReferenceId",
             "in": "path",
             "description": "Deposit Account Servicing Session Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "cr-reference-id",
+            "name": "crReferenceId",
             "in": "path",
             "description": "Deposit Account Fulfillment Arrangement Instance Reference",
             "required": true,
             "type": "string"
           },
           {
-            "name": "behavior-qualifier",
+            "name": "behaviorQualifier",
             "in": "path",
             "description": "Behavior Qualifier Name. ex- Rollover",
             "required": true,
