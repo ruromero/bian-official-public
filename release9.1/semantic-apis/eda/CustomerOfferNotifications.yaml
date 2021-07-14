@@ -1,0 +1,75 @@
+asyncapi: 2.1.0
+info:
+  title: CustomerOfferEvents
+  version: 1.0.0
+  description: "State change notifications for CustomerOffer Service Domain"
+  license:
+    name: Apache 2.0
+    url: 'https://www.apache.org/licenses/LICENSE-2.0'
+servers:
+  development:
+    url: 'coreless-kafka-kafka-bootstrap-mercury.bian-coreless-df320be24f0424156040b8c0440947c1-0000.us-south.containers.appdomain.cloud:443'
+    protocol: kafka
+    description: Coreless Kafka broker
+defaultContentType: application/json
+channels:
+  'bian.customeroffer.initiated':
+    description: BIAN CustomerOffer Notifications
+    publish:
+      summary: >-
+        Publish notifications about Initiated CustomerOffer related.
+      operationId: customerOfferInitiatedEvent
+      message:
+        $ref: '#/components/messages/customerOfferInitiatedEvent'
+  'bian.customeroffer.completed':
+    description: BIAN Completed CustomerOffer Notifications
+    publish:
+      summary: >-
+        Publish notifications about Completed CustomerOffer.
+      operationId: customerOfferCompletedEvent
+      message:
+        $ref: '#/components/messages/customerOfferCompletedEvent'
+components:
+  messages:
+    customerOfferInitiatedEvent:
+      name: customerOfferInitiatedEvent
+      title: Customer Offer Initiated Notification Event
+      summary: CustomerOffer Initiated Notification Event
+      contentType: application/json
+      payload:
+        $ref: '#/components/schemas/customerOfferEventPayload'
+    customerOfferCompletedEvent:
+      name: customerOfferCompletedEvent
+      title: Customer Offer Completed Notification Event
+      summary: CustomerOffer Completed Notification Event
+      contentType: application/json
+      payload:
+        $ref: '#/components/schemas/customerOfferEventPayload'
+  schemas:
+    customerOfferEventPayload:
+      type: object
+      properties:
+        offerReference:
+          type: object
+          properties:
+            id:
+              type: integer
+              description: CustomerOffer reference Id
+            status:
+              type: string
+              description: CustomerOffer reference status
+              enum:
+                - Active
+                - Completed
+                - Successful
+                - Abandoned
+        customerReference:
+          type: object
+          properties:
+            id:
+              type: integer
+            name:
+              type: string
+        productReference:
+          type: string
+          description: Product code
